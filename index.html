@@ -12,13 +12,14 @@
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1324;--card:#131f38;--ink:#eaf1ff;--mut:#9db0d3;--blue:#7aa2ff;--onblue:#0b1324;--teal:#3ed3c4;--tealbg:rgba(62,211,196,.16);--sun:#ffc374;--sunbg:rgba(255,195,116,.18);--suntx:#ffc374;--line:#233252;--soft:#1a2a4b}}
 :root[data-theme="dark"]{--bg:#0b1324;--card:#131f38;--ink:#eaf1ff;--mut:#9db0d3;--blue:#7aa2ff;--onblue:#0b1324;--teal:#3ed3c4;--tealbg:rgba(62,211,196,.16);--sun:#ffc374;--sunbg:rgba(255,195,116,.18);--suntx:#ffc374;--line:#233252;--soft:#1a2a4b}
 *,*::before,*::after{box-sizing:inherit}
+html{font-size:92%}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 'Nunito',system-ui,-apple-system,'Segoe UI',sans-serif}
+body{margin:0;background:var(--bg);color:var(--ink);font:1rem/1.6 'Nunito',system-ui,-apple-system,'Segoe UI',sans-serif}
 .wrap{max-width:1040px;margin:0 auto;padding:0 18px}
 a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
 header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
 .bar{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;padding:12px 0 6px}
-.logo{font-weight:800;font-size:1.2rem;display:flex;gap:8px;align-items:center;margin-right:auto}
+.logo{font-weight:800;font-size:1.6rem;display:flex;gap:8px;align-items:center;margin-right:auto}
 .search{flex:1 1 240px;min-width:0}
 .search input{width:100%;padding:10px 16px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);font:inherit}
 .lang{display:flex;gap:6px}
@@ -29,7 +30,7 @@ nav{display:flex;gap:6px;overflow-x:auto;padding:4px 0 10px;scrollbar-width:none
 nav a{white-space:nowrap;padding:6px 16px;border-radius:999px;color:var(--mut);text-decoration:none;font-weight:700}
 nav a.on{background:var(--blue);color:var(--onblue)}
 .hero{display:grid;grid-template-columns:1.3fr 1fr;gap:28px;align-items:center;padding:40px 0 10px}
-h1{font-size:clamp(2rem,5.4vw,3.1rem);line-height:1.12;margin:0 0 14px;font-weight:800;max-width:17ch}
+h1{font-size:clamp(1.8rem,5vw,2.8rem);line-height:1.12;margin:0 0 14px;font-weight:800;max-width:17ch}
 .lead{color:var(--mut);font-size:1.1rem;max-width:50ch;margin:0 0 22px}
 .btn{display:inline-block;padding:12px 24px;border-radius:16px;font-weight:800;text-decoration:none;margin:0 8px 8px 0;border:0;font:inherit;font-weight:800;cursor:pointer}
 .btn.p{background:var(--blue);color:var(--onblue)}
@@ -88,6 +89,8 @@ ul.news small{display:block;color:var(--mut)}
 .st{display:inline-block;font-size:.8rem;font-weight:800;padding:2px 12px;border-radius:999px}
 .st.live{background:var(--tealbg);color:var(--teal)}.st.prog{background:var(--sunbg);color:var(--suntx)}.st.plan{background:var(--soft);color:var(--mut)}
 .card.tool{display:flex;flex-direction:column;gap:6px;cursor:default}.tool .btn{margin:auto 0 0;align-self:flex-start}
+.menu{display:none;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:12px;padding:6px 14px;font:inherit;font-weight:800;cursor:pointer}
+@media (max-width:760px){html{font-size:78%}.menu{display:inline-flex}.search{flex:1 1 100%}nav{display:none;flex-direction:column;overflow:visible;padding:4px 0 10px}nav.open{display:flex}nav a{padding:10px 16px}}
 footer{margin-top:50px;border-top:1px solid var(--line);padding:24px 0 30px;color:var(--mut);font-size:.92rem}
 footer p{margin:0 0 6px;max-width:70ch}
 @media (max-width:760px){.hero{grid-template-columns:1fr;padding-top:26px}.scene{padding-top:50px}}
@@ -97,9 +100,10 @@ footer p{margin:0 0 6px;max-width:70ch}
 <header><div class="wrap">
 <div class="bar">
 <div class="logo"><span aria-hidden="true">🧭</span> Compliance Simplified</div>
+<button class="menu" aria-expanded="false" aria-controls="nav">☰ Menu</button>
 <div class="search"><input type="search" placeholder="Search guides, red flags and tools" aria-label="Search"></div>
 </div>
-<nav><a class="on" href="#" data-v="home">Home</a><a href="#" data-v="learn">Learn</a><a href="#news">News</a><a href="#tools">Tools</a><a href="#regulators">Regulators</a><a href="#about">About</a></nav>
+<nav id="nav"><a class="on" href="#" data-v="home">Home</a><a href="#" data-v="learn">Learn</a><a href="#news">News</a><a href="#tools">Tools</a><a href="#regulators">Regulators</a><a href="#about">About</a></nav>
 </div></header>
 
 <main class="wrap" id="v-home">
@@ -118,10 +122,10 @@ footer p{margin:0 0 6px;max-width:70ch}
 <section id="learn">
 <h2>Featured guides</h2>
 <div class="grid">
-<article class="card"><span class="tag b">Beginner</span><h3>What is KYC?</h3><p>How banks confirm who their customer really is, in plain words.</p><div class="rev"><b>✓</b> Reviewed by Taha</div></article>
-<article class="card"><span class="tag b">Beginner</span><h3>What is AML, and how does it connect to KYC?</h3><p>How criminals hide money, and how banks stop them.</p><div class="rev"><b>✓</b> Reviewed by Taha</div></article>
-<article class="card"><span class="tag p">Pro</span><h3>CDD vs EDD: when to go deeper</h3><p>The standard check for everyone and the deeper check for higher risk.</p><div class="rev"><b>✓</b> Reviewed by Taha</div></article>
-<article class="card"><span class="tag p">Pro</span><h3>UBO: how to identify the real owner</h3><p>Trace through the layers until you reach an actual person.</p><div class="rev"><b>✓</b> Reviewed by Taha</div></article>
+<article class="card"><span class="tag b">Beginner</span><h3>What is KYC?</h3><p>How banks confirm who their customer really is, in plain words.</p></article>
+<article class="card"><span class="tag b">Beginner</span><h3>What is AML, and how does it connect to KYC?</h3><p>How criminals hide money, and how banks stop them.</p></article>
+<article class="card"><span class="tag p">Pro</span><h3>CDD vs EDD: when to go deeper</h3><p>The standard check for everyone and the deeper check for higher risk.</p></article>
+<article class="card"><span class="tag p">Pro</span><h3>UBO: how to identify the real owner</h3><p>Trace through the layers until you reach an actual person.</p></article>
 </div>
 </section>
 
@@ -175,7 +179,7 @@ footer p{margin:0 0 6px;max-width:70ch}
 <article id="reader" hidden></article>
 </main>
 <footer id="about"><div class="wrap">
-<p><strong>About.</strong> Built by Taha, 12+ years in AML and KYC.</p>
+<p><strong>About.</strong> Built by Taha, 12+ years experience in Compliance.</p>
 <p>For learning only, not legal advice.</p>
 </div></footer>
 
@@ -279,9 +283,9 @@ var home=document.getElementById('v-home'),learn=document.getElementById('v-lear
 function tg(g){return g.l==='Beginner'?'b':'p'}
 function view(v){home.hidden=v!=='home';learn.hidden=v!=='learn';document.querySelectorAll('nav a[data-v]').forEach(function(a){a.classList.toggle('on',a.dataset.v===v)});window.scrollTo(0,0)}
 function render(){var l=fl.value,t=ft.value;var r=G.filter(function(g){return (l==='All'||g.l===l)&&(t==='All'||g.t===t)});
-list.innerHTML=r.map(function(g){return '<article class="card" data-g="'+g.id+'" tabindex="0" role="button"><span class="tag '+tg(g)+'">'+g.l+'</span><h3>'+g.n+'</h3><p>'+g.s+'</p>'+(g.b?'<div class="rev"><b>\u2713</b> Reviewed by Taha</div>':'')+'</article>'}).join('')||'<p class="note">No guides match these filters. Try another level or topic.</p>'}
+list.innerHTML=r.map(function(g){return '<article class="card" data-g="'+g.id+'" tabindex="0" role="button"><span class="tag '+tg(g)+'">'+g.l+'</span><h3>'+g.n+'</h3><p>'+g.s+'</p>'+'</article>'}).join('')||'<p class="note">No guides match these filters. Try another level or topic.</p>'}
 function open(id){var g=G.find(function(x){return x.id==id});if(!g)return;view('learn');lb.hidden=true;rd.hidden=false;
-rd.innerHTML='<button class="back">Back to all guides</button><h2>'+g.n+'</h2><span class="tag '+tg(g)+'">'+g.l+'</span>'+(g.b?'<p class="rev"><b>\u2713</b> Reviewed by Taha</p>'+g.b:'<p style="margin-top:16px">This guide is being added next.</p>');window.scrollTo(0,0)}
+rd.innerHTML='<button class="back">Back to all guides</button><h2>'+g.n+'</h2><span class="tag '+tg(g)+'">'+g.l+'</span>'+(g.b?g.b:'<p style="margin-top:16px">This guide is being added next.</p>');window.scrollTo(0,0)}
 function close(){rd.hidden=true;lb.hidden=false}
 fl.onchange=ft.onchange=render;render();
 document.addEventListener('click',function(e){var t=e.target,a=t.closest('[data-v]');
@@ -293,6 +297,11 @@ var c=t.closest('[data-g]');if(c){open(c.dataset.g);return}
 var h=t.closest('#v-home article.card');if(h){var q=h.querySelector('h3').textContent;var g=G.find(function(x){return x.n===q});if(g)open(g.id)}});
 document.addEventListener('keydown',function(e){if(e.key==='Enter'&&e.target.dataset&&e.target.dataset.g)open(e.target.dataset.g)});
 })();
+</script>
+<script>
+(function(){var b=document.querySelector('.menu'),n=document.getElementById('nav');
+b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+n.addEventListener('click',function(e){if(e.target.closest('a')){n.classList.remove('open');b.setAttribute('aria-expanded','false')}});})();
 </script>
 </body>
 </html>
