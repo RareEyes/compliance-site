@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Compliance Simplified</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f7ff;--card:#fff;--ink:#12233f;--mut:#566783;--blue:#2f6bff;--onblue:#fff;--teal:#0b8a80;--tealbg:rgba(14,159,147,.14);--sun:#ffb454;--sunbg:rgba(255,180,84,.24);--suntx:#8a5200;--line:#dfe8f7;--soft:#e6efff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1324;--card:#131f38;--ink:#eaf1ff;--mut:#9db0d3;--blue:#7aa2ff;--onblue:#0b1324;--teal:#3ed3c4;--tealbg:rgba(62,211,196,.16);--sun:#ffc374;--sunbg:rgba(255,195,116,.18);--suntx:#ffc374;--line:#233252;--soft:#1a2a4b}}
+:root[data-theme="dark"]{--bg:#0b1324;--card:#131f38;--ink:#eaf1ff;--mut:#9db0d3;--blue:#7aa2ff;--onblue:#0b1324;--teal:#3ed3c4;--tealbg:rgba(62,211,196,.16);--sun:#ffc374;--sunbg:rgba(255,195,116,.18);--suntx:#ffc374;--line:#233252;--soft:#1a2a4b}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 'Nunito',system-ui,-apple-system,'Segoe UI',sans-serif}
+.wrap{max-width:1040px;margin:0 auto;padding:0 18px}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.bar{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;padding:12px 0 6px}
+.logo{font-weight:800;font-size:1.2rem;display:flex;gap:8px;align-items:center;margin-right:auto}
+.search{flex:1 1 240px;min-width:0}
+.search input{width:100%;padding:10px 16px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);font:inherit}
+.lang{display:flex;gap:6px}
+.lang button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:4px 10px;font:inherit;font-size:.85rem}
+.lang button.on{border-color:var(--blue);font-weight:800}
+.lang button:disabled{opacity:.55}
+nav{display:flex;gap:6px;overflow-x:auto;padding:4px 0 10px;scrollbar-width:none}
+nav a{white-space:nowrap;padding:6px 16px;border-radius:999px;color:var(--mut);text-decoration:none;font-weight:700}
+nav a.on{background:var(--blue);color:var(--onblue)}
+.hero{display:grid;grid-template-columns:1.3fr 1fr;gap:28px;align-items:center;padding:40px 0 10px}
+h1{font-size:clamp(2rem,5.4vw,3.1rem);line-height:1.12;margin:0 0 14px;font-weight:800;max-width:17ch}
+.lead{color:var(--mut);font-size:1.1rem;max-width:50ch;margin:0 0 22px}
+.btn{display:inline-block;padding:12px 24px;border-radius:16px;font-weight:800;text-decoration:none;margin:0 8px 8px 0;border:0;font:inherit;font-weight:800;cursor:pointer}
+.btn.p{background:var(--blue);color:var(--onblue)}
+.btn.s{background:var(--soft);color:var(--ink)}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.scene{position:relative;padding-top:56px;display:flex;justify-content:center}
+.bubble{position:absolute;top:0;left:6%;background:var(--sun);color:#3a2500;padding:8px 16px;border-radius:18px 18px 18px 4px;font-weight:800;font-size:.95rem}
+.idcard{background:var(--card);border:2px solid var(--line);border-radius:24px;padding:20px;width:100%;max-width:290px;transform:rotate(3deg);box-shadow:0 18px 36px rgba(47,107,255,.18)}
+.idrow{display:flex;gap:14px;align-items:center}
+.av{width:56px;height:56px;border-radius:50%;background:var(--sun);flex:none}
+.ln{height:10px;border-radius:6px;background:var(--line);margin:7px 0}
+.ln.w{width:80%}.ln.n{width:55%}
+.ok{margin-top:14px;display:inline-block;background:var(--tealbg);color:var(--teal);font-weight:800;padding:5px 14px;border-radius:999px;font-size:.9rem}
+h2{font-size:1.45rem;margin:42px 0 14px;font-weight:800}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}
+.card h3{margin:10px 0 6px;font-size:1.08rem;line-height:1.3}
+.card p{margin:0;color:var(--mut);font-size:.95rem}
+.tag{display:inline-block;font-size:.8rem;font-weight:800;padding:2px 12px;border-radius:999px}
+.tag.b{background:var(--tealbg);color:var(--teal)}
+.tag.p{background:var(--sunbg);color:var(--suntx)}
+.rev{margin-top:12px;color:var(--mut);font-size:.85rem}
+.rev b{color:var(--teal)}
+.band{margin-top:16px;background:var(--soft);border-radius:20px;padding:20px 22px;display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:space-between}
+.band h3{margin:0 0 2px;font-size:1.15rem}
+.band p{margin:0;color:var(--mut)}
+.band .btn{margin:0}
+.auto{display:flex;flex-wrap:wrap;gap:14px 24px;align-items:center;justify-content:space-between}
+.auto h3{margin:8px 0 4px}
+.soon{display:inline-block;background:var(--sunbg);color:var(--suntx);font-weight:800;font-size:.8rem;padding:2px 12px;border-radius:999px}
+.tabs{display:flex;gap:6px;margin-bottom:12px;flex-wrap:wrap}
+.tabs button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:5px 16px;font:inherit;font-weight:700;cursor:pointer}
+.tabs button.on{background:var(--blue);color:var(--onblue);border-color:var(--blue)}
+ul.news{list-style:none;margin:0;padding:0}
+ul.news li{display:flex;gap:14px;align-items:flex-start;padding:14px 0;border-bottom:1px solid var(--line)}
+ul.news li[hidden]{display:none}
+.chip{flex:none;min-width:58px;white-space:nowrap;text-align:center;background:var(--soft);border-radius:10px;padding:2px 8px;font-weight:800;font-size:.85rem}
+ul.news a{color:var(--ink);font-weight:700;text-decoration:none}
+ul.news a:hover{text-decoration:underline}
+ul.news small{display:block;color:var(--mut)}
+.note{color:var(--mut);font-size:.85rem;margin-top:10px}
+.sub{font-weight:800;margin:20px 0 10px;font-size:1.05rem}.names{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}.nm{background:var(--soft);border-radius:10px;padding:2px 10px;font-weight:700;font-size:.85rem}
+[hidden]{display:none!important}
+.filters{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 16px}
+.filters label{display:flex;flex-direction:column;gap:4px;font-weight:700;font-size:.9rem;flex:1 1 180px;max-width:260px}
+.filters select{padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);font:inherit}
+.card[data-g],#v-home article.card{cursor:pointer}
+#reader{max-width:70ch}
+#reader h2{margin:12px 0 4px}
+#reader h4{margin:22px 0 6px;font-size:1.05rem}
+#reader p,#reader li{margin:0 0 10px}
+#reader ul{padding-left:20px;margin:0 0 10px}
+.key{background:var(--soft);border-radius:14px;padding:12px 16px}
+.back{border:0;background:var(--soft);color:var(--ink);border-radius:999px;padding:7px 16px;font:inherit;font-weight:700;cursor:pointer;margin-top:24px}
+@media (max-width:520px){.filters label{max-width:none}}
+.st{display:inline-block;font-size:.8rem;font-weight:800;padding:2px 12px;border-radius:999px}
+.st.live{background:var(--tealbg);color:var(--teal)}.st.prog{background:var(--sunbg);color:var(--suntx)}.st.plan{background:var(--soft);color:var(--mut)}
+.card.tool{display:flex;flex-direction:column;gap:6px;cursor:default}.tool .btn{margin:auto 0 0;align-self:flex-start}
+footer{margin-top:50px;border-top:1px solid var(--line);padding:24px 0 30px;color:var(--mut);font-size:.92rem}
+footer p{margin:0 0 6px;max-width:70ch}
+@media (max-width:760px){.hero{grid-template-columns:1fr;padding-top:26px}.scene{padding-top:50px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<div class="bar">
+<div class="logo"><span aria-hidden="true">🧭</span> Compliance Simplified</div>
+<div class="search"><input type="search" placeholder="Search guides, red flags and tools" aria-label="Search"></div>
+</div>
+<nav><a class="on" href="#" data-v="home">Home</a><a href="#" data-v="learn">Learn</a><a href="#news">News</a><a href="#tools">Tools</a><a href="#regulators">Regulators</a><a href="#about">About</a></nav>
+</div></header>
+
+<main class="wrap" id="v-home">
+<section class="hero">
+<div>
+<h1>Compliance, explained the way a friendly colleague would.</h1>
+<p class="lead">Guides for beginners and professionals, the latest regulator news, and free tools for everyday compliance work.</p>
+<a class="btn p" href="#" data-v="learn">Start here</a><a class="btn s" href="#tools">Explore tools</a>
+</div>
+<div class="scene" aria-hidden="true">
+<div class="bubble">So, who's your new friend?</div>
+<div class="idcard"><div class="idrow"><div class="av"></div><div style="flex:1"><div class="ln w"></div><div class="ln n"></div></div></div><div class="ok">✓ Identity verified</div></div>
+</div>
+</section>
+
+<section id="learn">
+<h2>Featured guides</h2>
+<div class="grid">
+<article class="card"><span class="tag b">Beginner</span><h3>What is KYC?</h3><p>How banks confirm who their customer really is, in plain words.</p><div class="rev"><b>✓</b> Reviewed by Taha</div></article>
+<article class="card"><span class="tag b">Beginner</span><h3>What is AML, and how does it connect to KYC?</h3><p>How criminals hide money, and how banks stop them.</p><div class="rev"><b>✓</b> Reviewed by Taha</div></article>
+<article class="card"><span class="tag p">Pro</span><h3>CDD vs EDD: when to go deeper</h3><p>The standard check for everyone and the deeper check for higher risk.</p><div class="rev"><b>✓</b> Reviewed by Taha</div></article>
+<article class="card"><span class="tag p">Pro</span><h3>UBO: how to identify the real owner</h3><p>Trace through the layers until you reach an actual person.</p><div class="rev"><b>✓</b> Reviewed by Taha</div></article>
+</div>
+</section>
+
+<section id="tools">
+<h2>Tools</h2>
+<p style="margin:-4px 0 12px;color:var(--mut)">Free automations I have built, and the ones coming next. Personal projects, for learning and testing only.</p>
+<div class="tabs" id="ttabs"><button class="on" data-s="All">All</button><button data-s="Live">Live</button><button data-s="In progress">In progress</button><button data-s="Planned">Planned</button></div>
+<div class="grid" id="tgrid">
+<article class="card tool" data-s="Live"><span class="st live">Live</span><h3>Company Search</h3><p>Search UK company records from Companies House, the FCA Register and the Charity Commission, and download the results.</p><a class="btn p" href="#">Open tool</a></article>
+<article class="card tool" data-s="Live"><span class="st live">Live</span><h3>Sanctions Checker</h3><p>Check a name against the UK, US, UN and EU sanctions lists, with spelling variants and a CSV download.</p><a class="btn p" href="#">Open tool</a></article>
+<article class="card tool" data-s="In progress"><span class="st prog">In progress</span><h3>Regulatory Q&A Assistant</h3><p>Ask questions about regulators' rulebooks in simple language, starting with the UAE Central Bank.</p><button class="btn s" disabled>Not live yet</button></article>
+<article class="card tool" data-s="Planned"><span class="st plan">Planned</span><h3>UBO Mapper</h3><p>Map ownership layers to find the real person behind a company.</p><button class="btn s" disabled>Not live yet</button></article>
+<article class="card tool" data-s="Planned"><span class="st plan">Planned</span><h3>Adverse Media Screening</h3><p>Search the news for negative coverage about a customer.</p><button class="btn s" disabled>Not live yet</button></article>
+</div>
+<p class="note">Each Open tool button will link to that tool's own page. The links are added when the site goes online.</p>
+</section>
+
+<section id="news">
+<h2>Latest news</h2>
+<p style="margin:-4px 0 14px;color:var(--mut)">Fines, law changes and other compliance news from regulators and trusted sources worldwide.</p>
+<div class="tabs" id="tabs"><button class="on" data-c="All">All</button><button data-c="USA">USA</button><button data-c="UK">UK</button><button data-c="India">India</button><button data-c="UAE">UAE</button><button data-c="Singapore">Singapore</button><button data-c="Qatar">Qatar</button><button data-c="Saudi Arabia">Saudi Arabia</button></div>
+<div class="filters"><label>Type<select id="ntype"><option>All</option><option>Fines</option><option>Law changes</option><option>Other</option></select></label></div>
+<ul class="news" id="news-list">
+<li data-c="USA" data-k="Fines"><span class="chip">USA</span><div><a href="#">Sample headline: a penalty announced by FinCEN</a><small>Fines from FinCEN, today</small></div></li>
+<li data-c="UK" data-k="Fines"><span class="chip">UK</span><div><a href="#">Sample headline: a fine announced by the FCA</a><small>Fines from FCA, today</small></div></li>
+<li data-c="India" data-k="Law changes"><span class="chip">India</span><div><a href="#">Sample headline: a rule change from the RBI</a><small>Law changes from RBI, today</small></div></li>
+<li data-c="UAE" data-k="Law changes"><span class="chip">UAE</span><div><a href="#">Sample headline: a law update in the UAE</a><small>Law changes from Central Bank of the UAE, today</small></div></li>
+<li data-c="Singapore" data-k="Other"><span class="chip">Singapore</span><div><a href="#">Sample headline: new guidance from MAS</a><small>Other from MAS, today</small></div></li>
+<li data-c="Qatar" data-k="Other"><span class="chip">Qatar</span><div><a href="#">Sample headline: an update from the Qatar Central Bank</a><small>Other from Qatar Central Bank, today</small></div></li>
+<li data-c="Saudi Arabia" data-k="Other"><span class="chip">Saudi Arabia</span><div><a href="#">Sample headline: an update from SAMA</a><small>Other from SAMA, today</small></div></li>
+<li data-c="EU" data-k="Law changes"><span class="chip">EU</span><div><a href="#">Sample headline: a new EU anti-money laundering update</a><small>Law changes from EU, today</small></div></li>
+</ul>
+<p class="note">These are sample headlines. News from anywhere in the world appears under All, and under a country tab when it matches. Once the site is online, the feed refreshes by itself every day.</p>
+</section>
+<section id="regulators">
+<h2>Regulators and watchdogs</h2>
+<p style="margin:-4px 0 4px;color:var(--mut)">Who sets the rules and who enforces them, worldwide and country by country.</p>
+<div class="sub">Global bodies</div>
+<div class="grid"><article class="card"><h3>FATF</h3><p>Sets the global standards against money laundering and terrorist financing.</p></article><article class="card"><h3>Egmont Group</h3><p>A network of financial intelligence units that share information.</p></article><article class="card"><h3>Basel Committee</h3><p>Sets banking supervision standards, including for money laundering risk.</p></article><article class="card"><h3>UNODC</h3><p>The UN office that fights drugs and crime, including money laundering.</p></article></div>
+<div class="sub">By country</div>
+<div class="grid"><article class="card"><h3>USA</h3><div class="names"><span class="nm">FinCEN</span><span class="nm">OFAC</span><span class="nm">SEC</span></div></article><article class="card"><h3>UK</h3><div class="names"><span class="nm">FCA</span><span class="nm">OFSI</span><span class="nm">NCA</span></div></article><article class="card"><h3>India</h3><div class="names"><span class="nm">RBI</span><span class="nm">SEBI</span><span class="nm">FIU-IND</span></div></article><article class="card"><h3>UAE</h3><div class="names"><span class="nm">Central Bank</span><span class="nm">DFSA</span><span class="nm">FSRA</span></div></article><article class="card"><h3>Singapore</h3><div class="names"><span class="nm">MAS</span></div></article><article class="card"><h3>Qatar</h3><div class="names"><span class="nm">QCB</span><span class="nm">QFCRA</span></div></article><article class="card"><h3>Saudi Arabia</h3><div class="names"><span class="nm">SAMA</span><span class="nm">CMA</span></div></article></div>
+<p class="note">Each name will link to its official website with a one-line description.</p>
+</section>
+</main>
+
+<main class="wrap" id="v-learn" hidden>
+<div id="lbrowse"><h2>Guides</h2>
+<p style="margin:-4px 0 14px;color:var(--mut)">Plain-language guides for beginners and professionals.</p>
+<div class="filters"><label>Level<select id="f-level"><option>All</option><option>Beginner</option><option>Pro</option></select></label><label>Topic<select id="f-topic"><option>All</option><option>Basics</option><option>Due diligence</option><option>Sanctions</option><option>Red flags</option></select></label></div>
+<div class="grid" id="glist"></div></div>
+<article id="reader" hidden></article>
+</main>
+<footer id="about"><div class="wrap">
+<p><strong>About.</strong> Built by Taha, 12+ years in AML and KYC.</p>
+<p>For learning only, not legal advice.</p>
+</div></footer>
+
+<script>
+(function(){
+var tabs=document.getElementById('tabs'),ty=document.getElementById('ntype'),items=document.querySelectorAll('#news-list li'),c='All';
+function f(){items.forEach(function(li){li.hidden=!((c==='All'||li.dataset.c===c)&&(ty.value==='All'||li.dataset.k===ty.value))})}
+tabs.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;c=b.dataset.c;tabs.querySelectorAll('button').forEach(function(x){x.classList.toggle('on',x===b)});f()});
+ty.onchange=f;
+var tt=document.getElementById('ttabs'),cards=document.querySelectorAll('#tgrid .tool');
+tt.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;tt.querySelectorAll('button').forEach(function(x){x.classList.toggle('on',x===b)});cards.forEach(function(d){d.hidden=!(b.dataset.s==='All'||d.dataset.s===b.dataset.s)})});
+})();
+</script>
+<script>
+(function(){
+var G=[
+{id:1,n:"What is KYC?",l:"Beginner",t:"Basics",s:"How banks confirm who their customer really is, in plain words.",b:`<p><b>KYC means "Know Your Customer."</b> It is the process a bank or financial company follows to confirm who its customer really is before doing business with them.</p>
+<h4>Why does it exist?</h4><p>Criminals try to hide illegal money by moving it through banks. KYC makes it harder, because the bank knows exactly who it is dealing with.</p>
+<h4>What does the bank check?</h4><ul><li><b>Identity:</b> Is this person real? (passport, national ID)</li><li><b>Address:</b> Where do they live? (utility bill, bank statement)</li><li><b>Purpose:</b> Why do they want the account, and what will they use it for?</li><li><b>Risk:</b> Is this customer low, medium, or high risk?</li></ul>
+<h4>A simple example</h4><p>Sara wants to open a bank account. The bank asks for her ID and address proof, and asks what she does for work. If everything matches, her account opens. If something looks odd, the bank asks more questions.</p>
+<h4>A funnier way to see it</h4><p>Remember when you came home and said, "Mom, I made a new friend!" Suddenly it was a full interview: <i>Who is he? Where does he live? What do his parents do? Why are you hanging out with him?</i> And then the warning: <i>"Stay away from bad company!"</i></p><p>That is KYC. The bank is the parent, the new customer is your new friend, and the questions are there to keep trouble away from the family. Parents just never asked for a utility bill.</p>
+<h4>When does KYC happen?</h4><ul><li>When you first become a customer</li><li>At regular reviews, more often for higher-risk customers</li><li>When something changes or looks unusual, such as a sudden large transaction, a change in ownership, or negative news about the customer</li></ul>
+<h4>Who has to do it?</h4><p>Banks, insurers, investment firms, payment companies, and other regulated businesses.</p>
+<p class="key"><b>Key takeaway.</b> KYC protects the customer, the bank, and the wider financial system. It is the first line of defense against financial crime.</p>`},
+{id:2,n:"What is AML, and how does it connect to KYC?",l:"Beginner",t:"Basics",s:"How criminals hide money, and how banks stop them.",b:`<p><b>AML means "Anti-Money Laundering."</b> It is the set of rules and checks that stop criminals from turning illegal money into money that looks clean.</p>
+<h4>What is money laundering?</h4><p>It means hiding where money really came from. Criminals earn money from crimes like fraud, drug trade, or corruption, and then try to make it look like it came from a normal source.</p>
+<h4>How does it work? Three simple steps</h4><ul><li><b>Put it in:</b> the illegal cash enters the financial system, for example through deposits (Placement).</li><li><b>Mix it up:</b> the money is moved around many times, between accounts and countries, to hide its trail (Layering).</li><li><b>Bring it back clean:</b> the money returns as something that looks legitimate, like a business profit or a property sale (Integration).</li></ul>
+<h4>What does AML look like inside a bank?</h4><ul><li>Checking who the customer is (this is where KYC comes in)</li><li>Watching transactions for unusual activity</li><li>Reporting suspicious activity to the authorities</li><li>Training staff to spot warning signs</li></ul>
+<h4>How are KYC and AML connected?</h4><p>KYC is the front door of AML. It answers "Who is this customer?" AML is the whole security system. It keeps asking "Is this customer behaving normally?" long after the account is open. KYC is one part of AML, and AML cannot work without it.</p>
+<h4>A funnier way to see it</h4><p>Back to the parents. KYC was the interview when your new friend first came home. AML is what happens afterwards. Mom notices you suddenly have a brand-new phone and asks, <i>"Where did this come from?"</i> If your answer is <i>"Found it,"</i> she is already making phone calls.</p><p>Same idea: the bank keeps watching, and when the story does not match the behavior, it asks questions and, if needed, informs the authorities.</p>
+<p class="key"><b>Key takeaway.</b> KYC is knowing who your customer is. AML is making sure their money is clean and their activity makes sense. Together they protect the financial system.</p>`},
+{id:3,n:"Who needs to do KYC, and why?",l:"Beginner",t:"Basics",s:"Which businesses must know their customers, and why.",b:`<p><b>Short answer:</b> any business that handles other people's money, or could be used to hide it, must know its customers. The law requires it.</p>
+<h4>Who has to do it?</h4><ul><li><b>Financial firms:</b> banks, insurance companies, investment and brokerage firms, loan companies</li><li><b>Payment businesses:</b> money transfer services, digital wallets, card companies</li><li><b>Crypto businesses:</b> exchanges and wallet providers</li><li><b>Businesses that deal in high-value items:</b> real estate agents, jewelers, casinos</li><li><b>Professionals:</b> lawyers and accountants, in some cases</li></ul>
+<h4>Why do they have to?</h4><ul><li><b>It is the law.</b> Regulators in almost every country require it.</li><li><b>It stops crime.</b> Criminals look for the easiest door. KYC closes it.</li><li><b>It protects the business.</b> Skipping KYC can lead to heavy fines, loss of license, and a damaged name.</li><li><b>It protects customers.</b> Verified accounts make identity theft and fraud harder.</li></ul>
+<h4>A funnier way to see it</h4><p>Think of the security guard at your apartment building. <i>"Who are you visiting? Which flat? Please sign the register."</i> Even the pizza delivery guy gets questioned. Nobody enjoys it, but everyone feels safer because of it.</p><p>KYC is that guard at the door of the financial world. Nobody walks in without a name on the register.</p>
+<p class="key"><b>Key takeaway.</b> If a business can move or hold money, it is a target for criminals, so it must know who its customers are.</p>`},
+{id:4,n:"Documents used to verify a customer",l:"Beginner",t:"Basics",s:"The proof banks ask for: identity, address and company papers.",b:`<p><b>Short answer:</b> a bank asks for paper or digital proof of three things: who you are, where you live, and (for businesses) what the company is.</p>
+<h4>1. Proof of identity (who are you?)</h4><ul><li>Passport</li><li>National ID card</li><li>Driving license</li></ul><p>The document should be valid, not expired, and show your photo and full name.</p>
+<h4>2. Proof of address (where do you live?)</h4><ul><li>Utility bill (electricity, water, phone)</li><li>Bank statement</li><li>Rental agreement</li></ul><p>Most banks want it to be recent, usually within the last three months.</p>
+<h4>3. For companies (what is this business?)</h4><ul><li>Registration or incorporation certificate</li><li>Company ownership details (who owns it)</li><li>IDs of directors and owners</li><li>Proof of the business address</li></ul>
+<h4>Other things a bank may ask for</h4><ul><li>Proof of income or source of money, for larger or riskier accounts</li><li>A recent photo or a video check, for online account opening</li></ul>
+<h4>What bankers look out for</h4><ul><li>Expired documents</li><li>Blurry or cropped pictures</li><li>Names or dates that do not match across documents</li><li>Signs of editing</li></ul>
+<h4>A funnier way to see it</h4><p>At the airport, no one ever accepts <i>"Trust me, I am the person in the passport."</i> They look at the photo, look at your face, and look at the photo again, just to be sure.</p><p>Banks do the same. Your honest face is lovely, but it is not a document.</p>
+<h4>Good to know</h4><p>Which documents are accepted depends on the country and the bank, so the exact list can differ.</p>
+<p class="key"><b>Key takeaway.</b> Documents are how a bank turns "I say I am Sara" into "we have confirmed Sara is Sara."</p>`},
+{id:5,n:"What are sanctions and PEPs?",l:"Beginner",t:"Sanctions",s:"Who is off limits, and who needs extra care.",b:`<h4>Part 1: Sanctions</h4><p><b>Short answer:</b> sanctions are penalties that governments or international bodies place on countries, companies, or individuals, banning others from doing business with them.</p>
+<h4>Who issues them?</h4><ul><li>The United Nations</li><li>The USA (through OFAC)</li><li>The European Union</li><li>The United Kingdom</li><li>Individual countries, including India and the UAE, which maintain their own lists</li></ul>
+<h4>What do they look like?</h4><ul><li>Assets can be frozen</li><li>Transactions are blocked</li><li>Banks are not allowed to serve the person or entity, etc.</li></ul>
+<h4>What must a bank do?</h4><p>Check every customer, and every payment, against the sanctions lists. This is called <b>sanctions screening</b>. Missing a <b>true match</b> can mean very heavy fines.</p>
+<h4>Part 2: PEPs</h4><p><b>PEP means "Politically Exposed Person."</b> It is someone who holds, or recently held, an important public position. Examples:</p><ul><li>Ministers and members of parliament</li><li>Senior judges and military officers</li><li>Ambassadors</li><li>Heads of state-owned companies</li><li>Their close family members and close associates</li></ul>
+<h4>Is a PEP a bad person?</h4><p>No. Being a PEP is not a crime. But because of their position, the chance of bribery or corruption is higher, so banks look more closely.</p>
+<h4>What does the bank do?</h4><ul><li>Asks where their money and wealth came from</li><li>Gets senior management approval before opening the account</li><li>Monitors the account more closely</li></ul>
+<h4>A funnier way to see it</h4><p>Sanctions are the "banned from entry" photo pinned at the security desk. The guard knows those faces by heart, and nobody gets in.</p><p>A PEP is the VIP guest at a wedding. They get the best seat and a warm welcome, but the organizer quietly keeps an eye on the buffet bill.</p>
+<p class="key"><b>Key takeaway.</b> Sanctions say who a bank must never deal with. PEPs are people a bank may deal with, but only with extra care.</p>`},
+{id:6,n:"CDD vs EDD: when to go deeper",l:"Pro",t:"Due diligence",s:"The standard check for everyone and the deeper check for higher risk.",b:`<p><b>Short answer:</b> CDD is the standard check every customer goes through. EDD is the deeper check for customers who carry higher risk.</p>
+<h4>CDD: Customer Due Diligence</h4><p>The baseline for every customer:</p><ul><li>Identify the customer and verify their identity</li><li>Identify the beneficial owner (the real person behind a company)</li><li>Understand why the customer wants the account and what activity to expect</li><li>Monitor the relationship on an ongoing basis</li></ul>
+<h4>EDD: Enhanced Due Diligence</h4><p>CDD plus extra layers, applied when the risk is higher.</p>
+<h4>What triggers EDD?</h4><ul><li>PEPs and their close family and associates</li><li>Customers linked to high-risk countries (such as those on FATF watch lists)</li><li>Complex or unclear ownership structures</li><li>Cash-heavy or high-risk businesses (for example crypto, gambling, precious metals)</li><li>Negative news about the customer</li><li>Unusual or unexplained transactions</li></ul>
+<h4>What does EDD add?</h4><ul><li><b>Source of funds:</b> where did <i>this</i> money come from?</li><li><b>Source of wealth:</b> how did the customer build their overall wealth?</li><li><b>Senior management approval</b> before onboarding or continuing</li><li>Extra documents, independently verified</li><li><b>Deeper ownership investigation:</b> instead of the general 25% ownership mark, the bank looks further down, to owners holding 10% or more</li><li>Closer monitoring and more frequent reviews</li></ul>
+<h4>Quick note on SDD</h4><p>For very low-risk customers, many regulators allow <b>Simplified Due Diligence (SDD)</b>, a lighter version of CDD. The key is that it is never "no checks", only fewer.</p>
+<h4>The idea behind it all: risk-based approach</h4><p>Banks don't treat everyone the same. They look at the customer, the country, the product, and how the account is opened, then decide how deep to go.</p>
+<h4>A funnier way to see it</h4><p>CDD is a routine doctor's check-up: blood pressure, weight, a few questions. EDD is what happens when something looks off. The doctor orders blood tests and a scan.</p><p>It doesn't mean you are sick. It means the doctor wants to be sure.</p>
+<p class="key"><b>Key takeaway.</b> CDD is for everyone, EDD is for higher risk, and the level of checking should always match the level of risk.</p>`},
+{id:7,n:"UBO: how to identify the real owner",l:"Pro",t:"Due diligence",s:"Trace through the layers until you reach an actual person.",b:`<p><b>Short answer:</b> the UBO (Ultimate Beneficial Owner) is the real person who ultimately owns or controls a company, even when the ownership runs through several other companies.</p>
+<h4>Why does it matter?</h4><p>Companies can hide the people behind them. Without finding the UBO, a bank may be dealing with a criminal or a sanctioned person without knowing it.</p>
+<h4>What is an IBO?</h4><p>IBO means <b>Intermediary Beneficial Owner</b>. These are the companies that hold shares in the main company, sitting between it and the real owners. An IBO is a stepping stone. You never stop at an IBO. You drill through it until you reach the person (the UBO).</p>
+<h4>How to identify a UBO, step by step</h4><ul><li><b>1. Get the ownership chart.</b> Ask the customer for a structure showing who owns the company.</li><li><b>2. Verify it.</b> Check company registries, official documents, and independent sources. Don't rely on the customer's word alone.</li><li><b>3. Trace through the layers.</b> Go through every IBO until you reach actual people, not other companies.</li><li><b>4. Apply the ownership threshold.</b> A common rule is anyone owning more than 25%. This changes with the risk rating and the bank's risk appetite. It can go down to 10%, and in some scenarios as low as 5%.</li><li><b>5. Add up the ownership percentages.</b> Combine direct and indirect shares. <i>Example:</i> Company A is owned 50% by Company B and 50% by Person A. On drilling into Company B, Person A also owns 50% of B. That gives Person A 50% directly plus 25% through B, so Person A ultimately owns <b>75%</b>.</li><li><b>6. If no one meets the threshold,</b> record the senior managing official as a fallback, and document why.</li></ul>
+<h4>Red flags</h4><ul><li>Many layers across several countries</li><li>Nominee shareholders or directors</li><li>Trusts or foundations with unclear beneficiaries</li><li>Circular ownership (A owns B, B owns A)</li><li>The customer cannot or will not say who the owners are</li></ul>
+<h4>A funnier way to see it</h4><p>Remember "pass the parcel" at birthday parties? Layer after layer of wrapping paper, and everyone is trying to reach the prize. Tracing a UBO is exactly that, except the prize is the real person at the center, and the wrapping paper is a chain of companies.</p>
+<p class="key"><b>Key takeaway.</b> A company is just a name on paper. The UBO is the person behind it, and a bank must keep unwrapping until it finds them.</p>`},
+{id:8,n:"Red flags and suspicious activity reporting",l:"Pro",t:"Red flags",s:"Spot the warning signs and know when to report.",b:`<p><b>Short answer:</b> a red flag is a warning sign that something may be wrong. It is not proof of a crime. When red flags add up and can't be explained, the bank reports it to the authorities.</p>
+<h4>Common red flags</h4><p><b>Customer behavior</b></p><ul><li>Avoids or delays giving information or documents</li><li>Gives vague or changing answers about the source of money</li><li>Shows unusual interest in reporting limits</li></ul>
+<p><b>Transaction patterns</b></p><ul><li><b>Structuring:</b> splitting a large amount into smaller deposits to stay under reporting limits</li><li>Money coming in and going out quickly, with little left behind</li><li>Activity that does not fit the customer's profile (a student moving huge sums)</li><li>A dormant account suddenly becoming very active</li><li>Many unrelated people paying into one account</li></ul>
+<p><b>Geography</b></p><ul><li>Payments to or from high-risk countries without a clear business reason</li><li>Unusual or unnecessarily complicated payment routes</li></ul>
+<p><b>Ownership and documents</b></p><ul><li>Shell companies, nominee owners, unclear ownership</li><li>Altered, forged, or inconsistent documents</li></ul>
+<h4>What happens when a red flag appears?</h4><ul><li><b>1. Alert:</b> raised by a monitoring system or by an employee</li><li><b>2. Investigation:</b> review the customer profile, history, documents, and the activity</li><li><b>3. Decision:</b> if there is a reasonable explanation, close it with notes. If not, escalate</li><li><b>4. Report:</b> file a suspicious activity report with the country's financial intelligence unit</li></ul>
+<h4>Who receives the report?</h4><ul><li><b>USA:</b> FinCEN (Suspicious Activity Report, SAR)</li><li><b>India:</b> FIU-IND (Suspicious Transaction Report, STR)</li><li><b>UAE:</b> the UAE FIU (STR/SAR)</li><li><b>UK:</b> the National Crime Agency, through its UK Financial Intelligence Unit (SAR)</li><li><b>Singapore:</b> the Suspicious Transaction Reporting Office, STRO (STR)</li><li><b>Qatar:</b> the Qatar Financial Information Unit, QFIU (STR/SAR)</li><li><b>Saudi Arabia:</b> the Saudi Arabia Financial Intelligence Unit, SAFIU (STR/SAR)</li></ul>
+<h4>Important rules</h4><ul><li>You report <b>suspicion</b>, not proof. Investigating the crime is the authorities' job.</li><li><b>No tipping off:</b> never tell the customer a report is being filed. In most countries this is a crime in itself.</li><li>Write down your reasoning clearly, and file on time.</li></ul>
+<h4>A funnier way to see it</h4><p>A red flag is a smoke alarm. Sometimes it is just burnt toast, but you still walk into the kitchen and check before you ignore it. And if there really is a fire, you call the fire brigade. You don't announce it to the person holding the matches.</p>
+<p class="key"><b>Key takeaway.</b> Red flags are questions, not answers. Investigate each one, document the outcome, and report when the suspicion can't be explained away.</p>
+<p><b>Want more?</b> For a fuller list of warning signs, see <a href="#" data-g="10">Red Flags: warning signs by topic</a>.</p>`},
+{id:9,n:"Sanctions screening: handling false matches",l:"Pro",t:"Sanctions",s:"How to decide if an alert is the right person, with evidence.",b:`<p><b>Short answer:</b> screening systems are built to catch every possible match, so they raise many alerts that turn out to be the wrong person. The skill is deciding, with evidence, which alerts are real.</p>
+<h4>Why do false matches happen?</h4><ul><li><b>Common names:</b> many people share the same name</li><li><b>Spelling variations:</b> Mohammed, Muhammad, Mohamad, all the same name written differently</li><li><b>Partial matches:</b> only part of the name is similar</li><li><b>Incomplete data:</b> the customer record or the list entry has missing details</li></ul><p>Systems use "fuzzy matching" on purpose, so slight spelling changes don't let a real match slip through. The price is more noise.</p>
+<h4>How to handle an alert, step by step</h4><ul><li><b>1. Pause.</b> Don't onboard the customer or release the payment until the alert is reviewed.</li><li><b>2. Compare identifiers.</b> Check full name, date of birth, nationality, ID or passport number, address, and occupation or business.</li><li><b>3. Read the full list entry.</b> Look at aliases, other identifiers, and the reason the person was listed.</li><li><b>4. Decide.</b> <i>False match:</i> strong identifiers clearly differ, so close it with a written reason. <i>True match:</i> escalate immediately, block or freeze as the rules require, and report to the authorities. No tipping off. <i>Unsure:</i> get more information, ask for a second review, and escalate. Never guess.</li><li><b>5. Document everything.</b> Record what you compared, what you found, the decision, and who approved it.</li><li><b>6. Keep a record of confirmed false matches</b> so the same alert doesn't keep returning, and review that record regularly because customer details and lists change.</li></ul>
+<h4>Strong vs weak identifiers</h4><ul><li><b>Weak:</b> the name alone</li><li><b>Strong:</b> date of birth, ID or passport number, nationality</li></ul><p>A name match with no strong identifier to confirm or rule it out is not a reason to close the alert. It is a reason to ask for more information.</p>
+<h4>Quick example</h4><p>A customer named Mohammed Ali, born 1985, from India, matches a listed Muhammad Ali Khan, born 1962, from another country. The birth years and nationalities differ, so it is a false match. Close it and write down why.</p>
+<h4>What not to do</h4><ul><li>Close alerts just to clear a backlog</li><li>Decide on the name alone</li><li>Skip the written reason</li></ul>
+<h4>A funnier way to see it</h4><p>Shout "Rahul!" in a crowded railway station and twenty heads turn around. Only one of them is your friend. A screening alert is a turned head. Your job is to check who is actually yours before you act.</p>
+<p class="key"><b>Key takeaway.</b> An alert is not a match. Compare the strong identifiers, decide with evidence, and write down why.</p>`},
+{id:10,n:"Red Flags: warning signs by topic",l:"Pro",t:"Red flags",s:"Warning signs to watch for, grouped by topic.",b:`<p><i>A red flag is a warning sign, not a verdict. It tells you where to look more closely.</i></p>
+<h4>1. Customer behavior</h4><ul><li>Hesitates or refuses to share information or documents</li><li>Details across documents don't match each other</li><li>Pushes the bank to skip or shorten its checks</li><li>Often changes contact details such as phone, email, or address</li><li>Lives or spends far beyond what their known income suggests</li><li>Behaves in a way that doesn't fit their stated job or business</li><li>Won't explain why they are making a payment</li><li>Travels abroad often with no business reason to explain it</li><li>Acts evasive or oddly during onboarding or later reviews</li></ul>
+<h4>2. Transaction patterns</h4><ul><li>Large payments that nobody can explain</li><li>Many small cash deposits or withdrawals (smurfing)</li><li>Splitting amounts to stay under reporting limits (structuring)</li><li>Activity that doesn't match the customer's profile or business</li><li>Money that moves quickly through several accounts or countries</li><li>Payments with no sensible business or legal reason</li><li>A large balance that just sits there with no activity</li><li>Loans or credit repaid far sooner than expected</li><li>Odd wire transfer patterns, such as round amounts or the same amount repeated</li><li>A sudden, unexplained change in how the account is used</li><li>Payment descriptions or references that don't line up</li></ul>
+<h4>3. Source of funds and payment methods</h4><ul><li>Money arrives with no visible source</li><li>Pushing for large amounts of cash with no good reason</li><li>Unusual use of gift cards, crypto, or third-party payment apps</li><li>Heavy use of prepaid cards, digital wallets, or e-money accounts</li><li>Odd refund or chargeback requests</li><li>Activity in products that work like cash, such as prepaid instruments</li><li>Complicated or unusual financial products with no clear need</li></ul>
+<h4>4. Geography and cross-border</h4><ul><li>Dealings with high-risk countries or regions</li><li>Cross-border payments with no real commercial reason</li><li>Foreign accounts held without a clear reason</li><li>Frequent transfers to offshore centers or accounts</li><li>Payments routed through intermediaries in third countries</li><li>Large flows of money to or from high-risk countries</li></ul>
+<h4>5. Ownership, entities and third parties</h4><ul><li>Third parties or nominees used with no clear explanation</li><li>Ownership layered so heavily that the real owner is hidden</li><li>Many accounts or channels used without a clear need</li><li>Dealings with shell companies or inactive businesses</li><li>Payments to or from unrelated parties, or parties in high-risk locations</li><li>Accounts held under several different names or entities</li><li>Running several businesses that have no visible link</li></ul>
+<h4>6. High-risk industries, products and channels</h4><ul><li>Work in sectors such as cash-heavy businesses, virtual assets, or gambling</li><li>Use of privacy or anonymity tools, such as encrypted channels</li><li>Business done remotely without proper identity checks</li><li>Trade-based laundering: invoices priced too high or too low, or documents that look false</li><li>Unusual insurance activity, such as high-value policies with very short terms</li></ul>
+<h4>7. Reputation and links</h4><ul><li>Connection to a politically exposed person</li><li>Negative news or bad publicity</li><li>Links to sanctioned people or entities</li><li>Ties to criminal networks or organized crime</li><li>Other institutions have repeatedly reported the customer to the authorities</li></ul>
+<p class="key">One flag on its own rarely means crime. Several flags together, with no good explanation, are what call for action.</p>`}
+];
+var home=document.getElementById('v-home'),learn=document.getElementById('v-learn'),lb=document.getElementById('lbrowse'),rd=document.getElementById('reader'),list=document.getElementById('glist'),fl=document.getElementById('f-level'),ft=document.getElementById('f-topic');
+function tg(g){return g.l==='Beginner'?'b':'p'}
+function view(v){home.hidden=v!=='home';learn.hidden=v!=='learn';document.querySelectorAll('nav a[data-v]').forEach(function(a){a.classList.toggle('on',a.dataset.v===v)});window.scrollTo(0,0)}
+function render(){var l=fl.value,t=ft.value;var r=G.filter(function(g){return (l==='All'||g.l===l)&&(t==='All'||g.t===t)});
+list.innerHTML=r.map(function(g){return '<article class="card" data-g="'+g.id+'" tabindex="0" role="button"><span class="tag '+tg(g)+'">'+g.l+'</span><h3>'+g.n+'</h3><p>'+g.s+'</p>'+(g.b?'<div class="rev"><b>\u2713</b> Reviewed by Taha</div>':'')+'</article>'}).join('')||'<p class="note">No guides match these filters. Try another level or topic.</p>'}
+function open(id){var g=G.find(function(x){return x.id==id});if(!g)return;view('learn');lb.hidden=true;rd.hidden=false;
+rd.innerHTML='<button class="back">Back to all guides</button><h2>'+g.n+'</h2><span class="tag '+tg(g)+'">'+g.l+'</span>'+(g.b?'<p class="rev"><b>\u2713</b> Reviewed by Taha</p>'+g.b:'<p style="margin-top:16px">This guide is being added next.</p>');window.scrollTo(0,0)}
+function close(){rd.hidden=true;lb.hidden=false}
+fl.onchange=ft.onchange=render;render();
+document.addEventListener('click',function(e){var t=e.target,a=t.closest('[data-v]');
+if(a){e.preventDefault();view(a.dataset.v);if(a.dataset.v==='learn')close();return}
+var n=t.closest('nav a[href^="#"]');
+if(n&&n.getAttribute('href').length>1){e.preventDefault();view('home');var el=document.querySelector(n.getAttribute('href'));if(el)el.scrollIntoView();return}
+if(t.closest('.back')){close();return}
+var c=t.closest('[data-g]');if(c){open(c.dataset.g);return}
+var h=t.closest('#v-home article.card');if(h){var q=h.querySelector('h3').textContent;var g=G.find(function(x){return x.n===q});if(g)open(g.id)}});
+document.addEventListener('keydown',function(e){if(e.key==='Enter'&&e.target.dataset&&e.target.dataset.g)open(e.target.dataset.g)});
+})();
+</script>
+</body>
+</html>
