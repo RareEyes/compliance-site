@@ -15,7 +15,7 @@
 html{font-size:92%}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 body{margin:0;background:var(--bg);color:var(--ink);font:1rem/1.6 'Nunito',system-ui,-apple-system,'Segoe UI',sans-serif}
-.wrap{max-width:1040px;margin:0 auto;padding:0 18px}
+.wrap{max-width:1360px;margin:0 auto;padding:0 clamp(18px,4vw,56px)}
 a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
 header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
 .bar{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;padding:12px 0 6px}
@@ -78,7 +78,7 @@ ul.news small{display:block;color:var(--mut)}
 .filters label{display:flex;flex-direction:column;gap:4px;font-weight:700;font-size:.9rem;flex:1 1 180px;max-width:260px}
 .filters select{padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);font:inherit}
 .card[data-g],#v-home article.card{cursor:pointer}
-#reader{max-width:70ch}
+#reader{max-width:85ch}
 #reader h2{margin:12px 0 4px}
 #reader h4{margin:22px 0 6px;font-size:1.05rem}
 #reader p,#reader li{margin:0 0 10px}
@@ -103,7 +103,7 @@ footer p{margin:0 0 6px;max-width:70ch}
 <button class="menu" aria-expanded="false" aria-controls="nav">☰ Menu</button>
 <div class="search"><input type="search" placeholder="Search guides, red flags and tools" aria-label="Search"></div>
 </div>
-<nav id="nav"><a class="on" href="#" data-v="home">Home</a><a href="#" data-v="learn">Learn</a><a href="#news">News</a><a href="#tools">Tools</a><a href="#regulators">Regulators</a><a href="#about">About</a></nav>
+<nav id="nav"><a class="on" href="#" data-v="home">Home</a><a href="#" data-v="learn">Learn</a><a href="#" data-v="news">News</a><a href="#" data-v="tools">Tools</a><a href="#" data-v="regulators">Regulators</a></nav>
 </div></header>
 
 <main class="wrap" id="v-home">
@@ -111,7 +111,7 @@ footer p{margin:0 0 6px;max-width:70ch}
 <div>
 <h1>Compliance, explained the way a friendly colleague would.</h1>
 <p class="lead">Guides for beginners and professionals, the latest regulator news, and free tools for everyday compliance work.</p>
-<a class="btn p" href="#" data-v="learn">Start here</a><a class="btn s" href="#tools">Explore tools</a>
+<a class="btn p" href="#" data-v="learn">Start here</a><a class="btn s" href="#" data-v="tools">Explore tools</a>
 </div>
 <div class="scene" aria-hidden="true">
 <div class="bubble">So, who's your new friend?</div>
@@ -129,20 +129,25 @@ footer p{margin:0 0 6px;max-width:70ch}
 </div>
 </section>
 
-<section id="tools">
-<h2>Tools</h2>
-<p style="margin:-4px 0 12px;color:var(--mut)">Free automations I have built, and the ones coming next. Personal projects, for learning and testing only.</p>
-<div class="tabs" id="ttabs"><button class="on" data-s="All">All</button><button data-s="Live">Live</button><button data-s="In progress">In progress</button><button data-s="Planned">Planned</button></div>
-<div class="grid" id="tgrid">
-<article class="card tool" data-s="Live"><span class="st live">Live</span><h3>Company Search</h3><p>Search UK company records from Companies House, the FCA Register and the Charity Commission, and download the results.</p><a class="btn p" href="#">Open tool</a></article>
-<article class="card tool" data-s="Live"><span class="st live">Live</span><h3>Sanctions Checker</h3><p>Check a name against the UK, US, UN and EU sanctions lists, with spelling variants and a CSV download.</p><a class="btn p" href="#">Open tool</a></article>
-<article class="card tool" data-s="In progress"><span class="st prog">In progress</span><h3>Regulatory Q&A Assistant</h3><p>Ask questions about regulators' rulebooks in simple language, starting with the UAE Central Bank.</p><button class="btn s" disabled>Not live yet</button></article>
-<article class="card tool" data-s="Planned"><span class="st plan">Planned</span><h3>UBO Mapper</h3><p>Map ownership layers to find the real person behind a company.</p><button class="btn s" disabled>Not live yet</button></article>
-<article class="card tool" data-s="Planned"><span class="st plan">Planned</span><h3>Adverse Media Screening</h3><p>Search the news for negative coverage about a customer.</p><button class="btn s" disabled>Not live yet</button></article>
-</div>
-<p class="note">Each Open tool button will link to that tool's own page. The links are added when the site goes online.</p>
-</section>
 
+<section>
+<h2>Latest tool</h2>
+<div class="card auto"><div><span class="st live">Live</span><h3>Sanctions Checker</h3><p>Check a name against the UK, US, UN and EU sanctions lists, for free.</p></div><a class="btn p" href="#" data-v="tools">See all tools</a></div>
+</section>
+<section>
+<h2>Latest news</h2>
+<ul class="news" id="home-news"><li><span class="chip">News</span><div><a href="#" data-v="news">Latest headlines appear here once the daily news update has run.</a></div></li></ul>
+<p style="margin:14px 0 0"><a class="btn s" href="#" data-v="news">See all news</a></p>
+</section>
+</main>
+<main class="wrap" id="v-learn" hidden>
+<div id="lbrowse"><h2>Guides</h2>
+<p style="margin:-4px 0 14px;color:var(--mut)">Plain-language guides for beginners and professionals.</p>
+<div class="filters"><label>Level<select id="f-level"><option>All</option><option>Beginner</option><option>Pro</option></select></label><label>Topic<select id="f-topic"><option>All</option><option>Basics</option><option>Due diligence</option><option>Sanctions</option><option>Red flags</option></select></label></div>
+<div class="grid" id="glist"></div></div>
+<article id="reader" hidden></article>
+</main>
+<main class="wrap" id="v-news" hidden>
 <section id="news">
 <h2>Latest news</h2>
 <p style="margin:-4px 0 14px;color:var(--mut)">Fines, law changes and other compliance news from regulators and trusted sources worldwide.</p>
@@ -160,6 +165,23 @@ footer p{margin:0 0 6px;max-width:70ch}
 </ul>
 <p class="note" id="news-note">These are sample headlines. News from anywhere in the world appears under All, and under a country tab when it matches. Once the site is online, the feed refreshes by itself every day.</p>
 </section>
+</main>
+<main class="wrap" id="v-tools" hidden>
+<section id="tools">
+<h2>Tools</h2>
+<p style="margin:-4px 0 12px;color:var(--mut)">Free automations I have built, and the ones coming next. Personal projects, for learning and testing only.</p>
+<div class="tabs" id="ttabs"><button class="on" data-s="All">All</button><button data-s="Live">Live</button><button data-s="In progress">In progress</button><button data-s="Planned">Planned</button></div>
+<div class="grid" id="tgrid">
+<article class="card tool" data-s="Live"><span class="st live">Live</span><h3>Company Search</h3><p>Search UK company records from Companies House, the FCA Register and the Charity Commission, and download the results.</p><a class="btn p" href="#">Open tool</a></article>
+<article class="card tool" data-s="Live"><span class="st live">Live</span><h3>Sanctions Checker</h3><p>Check a name against the UK, US, UN and EU sanctions lists, with spelling variants and a CSV download.</p><a class="btn p" href="#">Open tool</a></article>
+<article class="card tool" data-s="In progress"><span class="st prog">In progress</span><h3>Regulatory Q&A Assistant</h3><p>Ask questions about regulators' rulebooks in simple language, starting with the UAE Central Bank.</p><button class="btn s" disabled>Not live yet</button></article>
+<article class="card tool" data-s="Planned"><span class="st plan">Planned</span><h3>UBO Mapper</h3><p>Map ownership layers to find the real person behind a company.</p><button class="btn s" disabled>Not live yet</button></article>
+<article class="card tool" data-s="Planned"><span class="st plan">Planned</span><h3>Adverse Media Screening</h3><p>Search the news for negative coverage about a customer.</p><button class="btn s" disabled>Not live yet</button></article>
+</div>
+<p class="note">Each Open tool button will link to that tool's own page. The links are added when the site goes online.</p>
+</section>
+</main>
+<main class="wrap" id="v-regulators" hidden>
 <section id="regulators">
 <h2>Regulators and watchdogs</h2>
 <p style="margin:-4px 0 4px;color:var(--mut)">Who sets the rules and who enforces them, worldwide and country by country.</p>
@@ -170,18 +192,7 @@ footer p{margin:0 0 6px;max-width:70ch}
 <p class="note">Each name will link to its official website with a one-line description.</p>
 </section>
 </main>
-
-<main class="wrap" id="v-learn" hidden>
-<div id="lbrowse"><h2>Guides</h2>
-<p style="margin:-4px 0 14px;color:var(--mut)">Plain-language guides for beginners and professionals.</p>
-<div class="filters"><label>Level<select id="f-level"><option>All</option><option>Beginner</option><option>Pro</option></select></label><label>Topic<select id="f-topic"><option>All</option><option>Basics</option><option>Due diligence</option><option>Sanctions</option><option>Red flags</option></select></label></div>
-<div class="grid" id="glist"></div></div>
-<article id="reader" hidden></article>
-</main>
-<footer id="about"><div class="wrap">
-<p><strong>About.</strong> Built by Taha, 12+ years experience in Compliance.</p>
-<p>For learning only, not legal advice.</p>
-</div></footer>
+<footer><div class="wrap"><p>For learning only, not legal advice.</p></div></footer>
 
 <script>
 (function(){
@@ -193,6 +204,7 @@ ty.onchange=f;
 fetch('news.json?v='+Date.now()).then(function(r){return r.ok?r.json():Promise.reject()}).then(function(d){
 var it=(d.items||[]).filter(function(i){return /^https?:/.test(i.link)});if(!it.length)return;
 list.innerHTML=it.map(function(i){return '<li data-c="'+esc(i.country)+'" data-k="'+esc(i.type)+'"><span class="chip">'+esc(i.country)+'</span><div><a href="'+esc(i.link)+'" target="_blank" rel="noopener">'+esc(i.title)+'</a><small>'+esc(i.type)+' from '+esc(i.source)+', '+esc(i.date)+'</small></div></li>'}).join('');
+var hn=document.getElementById('home-news');if(hn)hn.innerHTML=it.slice(0,5).map(function(i){return '<li><span class="chip">'+esc(i.country)+'</span><div><a href="'+esc(i.link)+'" target="_blank" rel="noopener">'+esc(i.title)+'</a><small>'+esc(i.type)+' from '+esc(i.source)+', '+esc(i.date)+'</small></div></li>'}).join('');
 if(note)note.textContent='Updated '+String(d.updated).slice(0,10)+'. Headlines come from public news feeds and refresh by themselves every day. Each one links to its original source.';
 f()}).catch(function(){});
 var tt=document.getElementById('ttabs'),cards=document.querySelectorAll('#tgrid .tool');
@@ -287,7 +299,7 @@ var G=[
 ];
 var home=document.getElementById('v-home'),learn=document.getElementById('v-learn'),lb=document.getElementById('lbrowse'),rd=document.getElementById('reader'),list=document.getElementById('glist'),fl=document.getElementById('f-level'),ft=document.getElementById('f-topic');
 function tg(g){return g.l==='Beginner'?'b':'p'}
-function view(v){home.hidden=v!=='home';learn.hidden=v!=='learn';document.querySelectorAll('nav a[data-v]').forEach(function(a){a.classList.toggle('on',a.dataset.v===v)});window.scrollTo(0,0)}
+function view(v){['home','learn','news','tools','regulators'].forEach(function(n){document.getElementById('v-'+n).hidden=n!==v});document.querySelectorAll('nav a[data-v]').forEach(function(a){a.classList.toggle('on',a.dataset.v===v)});window.scrollTo(0,0)}
 function render(){var l=fl.value,t=ft.value;var r=G.filter(function(g){return (l==='All'||g.l===l)&&(t==='All'||g.t===t)});
 list.innerHTML=r.map(function(g){return '<article class="card" data-g="'+g.id+'" tabindex="0" role="button"><span class="tag '+tg(g)+'">'+g.l+'</span><h3>'+g.n+'</h3><p>'+g.s+'</p>'+'</article>'}).join('')||'<p class="note">No guides match these filters. Try another level or topic.</p>'}
 function open(id){var g=G.find(function(x){return x.id==id});if(!g)return;view('learn');lb.hidden=true;rd.hidden=false;
