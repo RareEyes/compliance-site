@@ -158,7 +158,7 @@ footer p{margin:0 0 6px;max-width:70ch}
 <li data-c="Saudi Arabia" data-k="Other"><span class="chip">Saudi Arabia</span><div><a href="#">Sample headline: an update from SAMA</a><small>Other from SAMA, today</small></div></li>
 <li data-c="EU" data-k="Law changes"><span class="chip">EU</span><div><a href="#">Sample headline: a new EU anti-money laundering update</a><small>Law changes from EU, today</small></div></li>
 </ul>
-<p class="note">These are sample headlines. News from anywhere in the world appears under All, and under a country tab when it matches. Once the site is online, the feed refreshes by itself every day.</p>
+<p class="note" id="news-note">These are sample headlines. News from anywhere in the world appears under All, and under a country tab when it matches. Once the site is online, the feed refreshes by itself every day.</p>
 </section>
 <section id="regulators">
 <h2>Regulators and watchdogs</h2>
@@ -185,10 +185,16 @@ footer p{margin:0 0 6px;max-width:70ch}
 
 <script>
 (function(){
-var tabs=document.getElementById('tabs'),ty=document.getElementById('ntype'),items=document.querySelectorAll('#news-list li'),c='All';
-function f(){items.forEach(function(li){li.hidden=!((c==='All'||li.dataset.c===c)&&(ty.value==='All'||li.dataset.k===ty.value))})}
+var tabs=document.getElementById('tabs'),ty=document.getElementById('ntype'),list=document.getElementById('news-list'),note=document.getElementById('news-note'),c='All';
+function f(){list.querySelectorAll('li').forEach(function(li){li.hidden=!((c==='All'||li.dataset.c===c)&&(ty.value==='All'||li.dataset.k===ty.value))})}
+function esc(x){return String(x).replace(/[&<>"]/g,function(m){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]})}
 tabs.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;c=b.dataset.c;tabs.querySelectorAll('button').forEach(function(x){x.classList.toggle('on',x===b)});f()});
 ty.onchange=f;
+fetch('news.json?v='+Date.now()).then(function(r){return r.ok?r.json():Promise.reject()}).then(function(d){
+var it=(d.items||[]).filter(function(i){return /^https?:/.test(i.link)});if(!it.length)return;
+list.innerHTML=it.map(function(i){return '<li data-c="'+esc(i.country)+'" data-k="'+esc(i.type)+'"><span class="chip">'+esc(i.country)+'</span><div><a href="'+esc(i.link)+'" target="_blank" rel="noopener">'+esc(i.title)+'</a><small>'+esc(i.type)+' from '+esc(i.source)+', '+esc(i.date)+'</small></div></li>'}).join('');
+if(note)note.textContent='Updated '+String(d.updated).slice(0,10)+'. Headlines come from public news feeds and refresh by themselves every day. Each one links to its original source.';
+f()}).catch(function(){});
 var tt=document.getElementById('ttabs'),cards=document.querySelectorAll('#tgrid .tool');
 tt.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;tt.querySelectorAll('button').forEach(function(x){x.classList.toggle('on',x===b)});cards.forEach(function(d){d.hidden=!(b.dataset.s==='All'||d.dataset.s===b.dataset.s)})});
 })();
