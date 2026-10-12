@@ -4,16 +4,20 @@ from email.utils import parsedate_to_datetime
 from datetime import datetime, timezone
 
 TOPIC = '("money laundering" OR AML OR KYC OR sanctions OR "financial crime" OR compliance) (fine OR penalty OR regulation OR law OR rules OR guidance)'
-# tab name, country code, language, edition, extra search word
+GLOBAL1 = '("FATF" OR "Financial Action Task Force" OR "Egmont Group" OR "Basel Committee" OR Wolfsberg) ("money laundering" OR "terrorist financing" OR sanctions OR "grey list" OR guidance OR standards)'
+GLOBAL2 = '("UN Security Council" OR "United Nations" OR UNODC OR OECD) ("sanctions list" OR "money laundering" OR "financial crime" OR "terrorist financing" OR "illicit finance")'
+# tab name, country code, language, edition, extra search word, full search (only for Global)
+# Global comes first, so global-body news is tagged Global instead of a country
 FEEDS = [
-    ("USA", "US", "en-US", "US:en", "USA"),
-    ("UK", "GB", "en-GB", "GB:en", "UK"),
-    ("India", "IN", "en-IN", "IN:en", "India"),
-    ("UAE", "AE", "en", "AE:en", "UAE"),
-    ("Singapore", "SG", "en-SG", "SG:en", "Singapore"),
-    ("Qatar", "QA", "en", "QA:en", "Qatar"),
-    ("Saudi Arabia", "SA", "en", "SA:en", "Saudi Arabia"),
-    ("Global", "US", "en-US", "US:en", ""),
+    ("Global", "US", "en-US", "US:en", "", GLOBAL1),
+    ("Global", "US", "en-US", "US:en", "", GLOBAL2),
+    ("USA", "US", "en-US", "US:en", "USA", None),
+    ("UK", "GB", "en-GB", "GB:en", "UK", None),
+    ("India", "IN", "en-IN", "IN:en", "India", None),
+    ("UAE", "AE", "en", "AE:en", "UAE", None),
+    ("Singapore", "SG", "en-SG", "SG:en", "Singapore", None),
+    ("Qatar", "QA", "en", "QA:en", "Qatar", None),
+    ("Saudi Arabia", "SA", "en", "SA:en", "Saudi Arabia", None),
 ]
 
 def kind(t):
@@ -24,8 +28,9 @@ def kind(t):
         return "Law changes"
     return "Other"
 
-def fetch(tab, gl, hl, ceid, term):
-    q = urllib.parse.quote_plus((TOPIC + " " + term + " when:7d").strip())
+def fetch(tab, gl, hl, ceid, term, full=None):
+    base = full if full else TOPIC + " " + term
+    q = urllib.parse.quote_plus((base + (" when:14d" if full else " when:7d")).strip())
     url = "https://news.google.com/rss/search?q=%s&hl=%s&gl=%s&ceid=%s" % (q, hl, gl, ceid)
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     root = ET.fromstring(urllib.request.urlopen(req, timeout=30).read())
