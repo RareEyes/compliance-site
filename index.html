@@ -128,6 +128,51 @@ a.rl:hover .go{color:#1d4ed8}
 #news-list a{font-size:1.1rem;line-height:1.35;display:block}
 #news-list small{margin-top:8px;font-size:.85rem}
 @media (max-width:760px){#news-list{grid-template-columns:1fr}}
+
+/* colour pass */
+:root{--c1:#2f6bff;--c2:#0b8a80;--c3:#ea580c;--c4:#7c3aed;--c5:#db2777}
+header{border-bottom:4px solid transparent;border-image:linear-gradient(90deg,#2f6bff,#0ea5a0,#f97316,#8b5cf6,#ec4899) 1}
+nav a{transition:background .15s,color .15s}
+nav a:hover{background:var(--soft);color:var(--ink)}
+nav a.on{background:linear-gradient(120deg,#2f6bff,#0b8a80);color:#fff}
+.tabs button{transition:background .15s}
+.tabs button:hover{background:var(--soft)}
+.tabs button.on{background:linear-gradient(120deg,#2f6bff,#0b8a80);color:#fff;border-color:transparent}
+.hero{background:linear-gradient(125deg,#2f6bff 0%,#6d5cf0 55%,#0ea5a0 100%);color:#fff;border-radius:26px;padding:34px 32px;margin-top:18px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;left:-60px;bottom:-80px;width:220px;height:220px;border-radius:50%;background:rgba(255,255,255,.10)}
+.hero>*{position:relative;z-index:1}
+.hero h1{color:#fff}.hero .lead{color:rgba(255,255,255,.93)}
+.hero .btn.p{background:#fff;color:#1d4ed8}.hero .btn.s{background:rgba(255,255,255,.22);color:#fff}
+@media (max-width:760px){.hero{padding:24px 18px}}
+main h2{position:relative;padding-left:16px}
+main h2:before{content:"";position:absolute;left:0;top:.18em;bottom:.18em;width:6px;border-radius:6px;background:linear-gradient(#2f6bff,#0ea5a0)}
+.newsbanner h2{padding-left:0}.newsbanner h2:before{display:none}
+.newsbanner p{margin:0 0 10px}
+.nb-learn{background:linear-gradient(120deg,#8b5cf6,#2f6bff)}
+.nb-tools{background:linear-gradient(120deg,#f97316,#ec4899)}
+.nb-reg{background:linear-gradient(120deg,#0ea5a0,#2f6bff)}
+.grid>.card{--ac:#2f6bff;border-top:5px solid var(--ac);transition:transform .15s,box-shadow .15s,background .15s}
+.grid>.card:nth-child(5n+2){--ac:#0b8a80}.grid>.card:nth-child(5n+3){--ac:#ea580c}.grid>.card:nth-child(5n+4){--ac:#7c3aed}.grid>.card:nth-child(5n+5){--ac:#db2777}
+.grid>.card:not(.locked):hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(10,30,70,.14);background:color-mix(in srgb,var(--ac) 10%,var(--card))}
+.card.tool.locked .lk{background:var(--ac);color:#fff}
+.card.auto{background:linear-gradient(120deg,var(--tealbg),var(--sunbg));border-top:5px solid var(--teal)}
+.sub{color:var(--blue)}
+.tgroup .sub{display:inline-block;color:#fff;padding:3px 18px;border-radius:999px;margin-top:14px}
+.tgroup[data-s="Live"] .sub{background:#0b8a80}.tgroup[data-s="Coming soon"] .sub{background:#ea580c}.tgroup[data-s="Planned"] .sub{background:#7c3aed}
+.tgroup[data-s="Live"] .grid.fill{grid-template-columns:repeat(auto-fill,minmax(min(100%,285px),285px));justify-content:start}
+@media (max-width:760px){.tgroup[data-s="Live"] .grid.fill{grid-template-columns:1fr}}
+.cbox{--ac:#2f6bff;border-color:var(--ac);background:color-mix(in srgb,var(--ac) 9%,var(--bg))}
+.cbox:nth-of-type(7n+2){--ac:#0b8a80}.cbox:nth-of-type(7n+3){--ac:#ea580c}.cbox:nth-of-type(7n+4){--ac:#7c3aed}.cbox:nth-of-type(7n+5){--ac:#db2777}.cbox:nth-of-type(7n+6){--ac:#16a34a}.cbox:nth-of-type(7n+7){--ac:#0284c7}
+.cbox>h3{display:inline-block;background:var(--ac);color:#fff;padding:4px 20px;border-radius:999px;font-size:1.1rem}
+.cbox .card.rl{border-left:6px solid var(--ac)}
+[data-r="Global bodies"] .card.rl{border-left:6px solid #f59e0b}
+#home-news li{--ac:#2f6bff;border:1px solid var(--line);border-left:6px solid var(--ac);border-radius:14px;background:var(--card);padding:12px 16px;margin-bottom:10px;align-items:center}
+#home-news li[data-c="UK"]{--ac:#8b5cf6}#home-news li[data-c="India"]{--ac:#f97316}#home-news li[data-c="UAE"]{--ac:#10b981}#home-news li[data-c="Singapore"]{--ac:#ef4444}#home-news li[data-c="Qatar"]{--ac:#a21caf}#home-news li[data-c="Saudi Arabia"]{--ac:#16a34a}#home-news li[data-c="EU"]{--ac:#0ea5e9}#home-news li[data-c="Global"]{--ac:#f59e0b}
+#home-news .chip{background:var(--ac);color:#fff;border-radius:999px;padding:3px 14px}
+#reader h4{color:var(--blue)}
+.key{background:var(--tealbg);border-left:5px solid var(--teal)}
+footer{border-top:4px solid transparent;border-image:linear-gradient(90deg,#2f6bff,#0ea5a0,#f97316,#8b5cf6,#ec4899) 1}
+.newsbanner{margin-top:18px}
 </style>
 </head>
 <body>
@@ -175,15 +220,14 @@ a.rl:hover .go{color:#1d4ed8}
 </section>
 </main>
 <main class="wrap" id="v-learn" hidden>
-<div id="lbrowse"><h2>Guides</h2>
-<p style="margin:-4px 0 14px;color:var(--mut)">Plain-language guides on everything compliance.</p>
+<div id="lbrowse"><div class="newsbanner nb-learn"><h2>Guides</h2><p>Plain-language guides on everything compliance.</p><span class="livepill">✦ Free to read</span></div>
 <div class="grid" id="glist"></div></div>
 <article id="reader" hidden></article>
 </main>
 <main class="wrap" id="v-news" hidden>
 <section id="news">
 <div class="newsbanner"><h2>Latest news</h2><p>Fines, law changes and other compliance news from regulators and trusted sources worldwide.</p><span class="livepill">● Updated daily</span></div>
-<div class="tabs" id="tabs"><button class="on" data-c="All">All</button><button data-c="USA">USA</button><button data-c="UK">UK</button><button data-c="India">India</button><button data-c="UAE">UAE</button><button data-c="Singapore">Singapore</button><button data-c="Qatar">Qatar</button><button data-c="Saudi Arabia">KSA</button><button data-c="Global">Global</button></div>
+<div class="tabs" id="tabs"><button class="on" data-c="All">All</button><button data-c="Global">Global</button><button data-c="USA">USA</button><button data-c="UK">UK</button><button data-c="India">India</button><button data-c="UAE">UAE</button><button data-c="Singapore">Singapore</button><button data-c="Qatar">Qatar</button><button data-c="Saudi Arabia">KSA</button></div>
 <div class="filters"><label>Type<select id="ntype"><option>All</option><option>Fines</option><option>Law changes</option><option>Other</option></select></label></div>
 <ul class="news" id="news-list">
 <li data-c="USA" data-k="Fines"><span class="chip">USA</span><div><a href="#">Sample headline: a penalty announced by FinCEN</a><small>Fines from FinCEN, today</small></div></li>
@@ -201,11 +245,10 @@ a.rl:hover .go{color:#1d4ed8}
 </main>
 <main class="wrap" id="v-tools" hidden>
 <section id="tools">
-<h2>Tools</h2>
-<p style="margin:-4px 0 12px;color:var(--mut)">Free automations I have built, and the ones coming next. Personal projects, for learning and testing only.</p>
+<div class="newsbanner nb-tools"><h2>Tools</h2><p>Free automations I have built, and the ones coming next. Personal projects, for learning and testing only.</p><span class="livepill">✦ Free to use</span></div>
 <div class="tabs" id="ttabs"><button class="on" data-s="All">All</button><button data-s="Live">Live</button><button data-s="Coming soon">Coming soon</button><button data-s="Planned">Planned</button></div>
 <div id="tgrid">
-<div class="tgroup" data-s="Live"><div class="sub">Live</div><div class="grid fill"><article class="card tool" data-s="Live"><span class="st live">Live</span><h3>Company Search</h3><p>Search UK company records from Companies House, the FCA Register and the Charity Commission, and download the results.</p><a class="btn p" href="#">Open tool</a></article><article class="card tool" data-s="Live"><span class="st live">Live</span><h3>Sanctions Checker</h3><p>Check a name against the UK, US, UN and EU sanctions lists, with spelling variants and a CSV download.</p><a class="btn p" href="#">Open tool</a></article></div></div>
+<div class="tgroup" data-s="Live"><div class="sub">Live</div><div class="grid fill"><article class="card tool" data-s="Live"><span class="st live">Live</span><h3>Company Search</h3><p>Search UK company records from Companies House, the FCA Register and the Charity Commission, and download the results.</p><a class="btn p" href="https://script.google.com/macros/s/AKfycbyCwizAnjDR-8bgKtiWC6T5BO2rgwoK_RmQX4CkNyh2vM5BR2C2aAJRZ8q4Co9-ZV42/exec" target="_blank" rel="noopener">Open tool</a></article><article class="card tool" data-s="Live"><span class="st live">Live</span><h3>Sanctions Checker</h3><p>Check a name against the UK, US, UN and EU sanctions lists, with spelling variants and a CSV download.</p><a class="btn p" href="https://script.google.com/macros/s/AKfycbxK6Teq8QV3u4YjI5FtwP7HbDAl_5T3R_VLFobF6Y4oTrlqoyMawjruX-j4QJVat8A/exec" target="_blank" rel="noopener">Open tool</a></article></div></div>
 <div class="tgroup" data-s="Coming soon"><div class="sub">Coming soon</div><div class="grid fill"><article class="card tool locked" data-s="Coming soon" aria-label="Coming soon"><div class="lk">RE</div><div class="bl"></div><div class="bl s"></div><div class="bl"></div></article></div></div>
 <div class="tgroup" data-s="Planned"><div class="sub">Planned</div><div class="grid fill"><article class="card tool locked" data-s="Planned" aria-label="Coming soon"><div class="lk">UB</div><div class="bl"></div><div class="bl s"></div><div class="bl"></div></article><article class="card tool locked" data-s="Planned" aria-label="Coming soon"><div class="lk">AD</div><div class="bl"></div><div class="bl s"></div><div class="bl"></div></article></div></div>
 </div>
@@ -213,8 +256,7 @@ a.rl:hover .go{color:#1d4ed8}
 </main>
 <main class="wrap" id="v-regulators" hidden>
 <section id="regulators">
-<h2>Regulators and watchdogs</h2>
-<p style="margin:-4px 0 4px;color:var(--mut)">Who sets the rules and who enforces them, worldwide and country by country.</p>
+<div class="newsbanner nb-reg"><h2>Regulators and watchdogs</h2><p>Who sets the rules and who enforces them, worldwide and country by country.</p><span class="livepill">✦ Links to official websites</span></div>
 <div class="filters"><label>Country or region<select id="f-reg"><option>All</option><option>Global bodies</option><option>USA</option><option>UK</option><option>India</option><option>UAE</option><option>Singapore</option><option>Qatar</option><option>KSA</option><option>China</option><option>Japan</option><option>Germany</option><option>France</option><option>Canada</option><option>Australia</option><option>Brazil</option></select></label></div>
 <div data-r="Global bodies"><div class="sub">Global bodies</div>
 <div class="stack"><a class="card rl" href="https://www.fatf-gafi.org" target="_blank" rel="noopener"><h3>FATF – Financial Action Task Force</h3><p>Sets the global standards against money laundering and terrorist financing, and checks how well each country follows them.</p><span class="go">Visit website ↗</span></a><a class="card rl" href="https://egmontgroup.org" target="_blank" rel="noopener"><h3>Egmont Group – Egmont Group of Financial Intelligence Units</h3><p>A worldwide network of national financial intelligence units that share information to fight money laundering and terrorist financing.</p><span class="go">Visit website ↗</span></a><a class="card rl" href="https://www.bis.org/bcbs/" target="_blank" rel="noopener"><h3>Basel Committee – Basel Committee on Banking Supervision</h3><p>Sets global standards for how banks are supervised, including how they manage money laundering risk.</p><span class="go">Visit website ↗</span></a><a class="card rl" href="https://www.unodc.org" target="_blank" rel="noopener"><h3>UNODC – United Nations Office on Drugs and Crime</h3><p>The UN office that fights drugs, organised crime, corruption and money laundering, and helps countries build their own defences.</p><span class="go">Visit website ↗</span></a><a class="card rl" href="https://www.oecd.org" target="_blank" rel="noopener"><h3>OECD – Organisation for Economic Co-operation and Development</h3><p>An international organisation of mostly developed countries. It sets standards on tax transparency, anti-bribery and corporate governance, which support the fight against financial crime.</p><span class="go">Visit website ↗</span></a><a class="card rl" href="https://main.un.org/securitycouncil/" target="_blank" rel="noopener"><h3>UNSC – United Nations Security Council</h3><p>The UN body that can impose sanctions every member country must follow, and that keeps the UN sanctions lists, including those on terrorism.</p><span class="go">Visit website ↗</span></a><a class="card rl" href="https://wolfsberg-group.org" target="_blank" rel="noopener"><h3>Wolfsberg – Wolfsberg Group</h3><p>An association of large global banks. It is not a regulator, but publishes widely used industry guidance on KYC, anti-money laundering and sanctions.</p><span class="go">Visit website ↗</span></a></div></div>
@@ -247,7 +289,7 @@ ty.onchange=f;
 fetch('news.json?v='+Date.now()).then(function(r){return r.ok?r.json():Promise.reject()}).then(function(d){
 var it=(d.items||[]).filter(function(i){return /^https?:/.test(i.link)});if(!it.length)return;
 list.innerHTML=it.map(function(i){return '<li data-c="'+esc(i.country)+'" data-k="'+esc(i.type)+'"><span class="chip">'+esc(i.country==='Saudi Arabia'?'KSA':i.country)+'</span><div><a href="'+esc(i.link)+'" target="_blank" rel="noopener">'+esc(i.title)+'</a><small>'+esc(i.type)+' from '+esc(i.source)+', '+esc(i.date)+'</small></div></li>'}).join('');
-var hn=document.getElementById('home-news');if(hn)hn.innerHTML=it.slice(0,5).map(function(i){return '<li><span class="chip">'+esc(i.country==='Saudi Arabia'?'KSA':i.country)+'</span><div><a href="'+esc(i.link)+'" target="_blank" rel="noopener">'+esc(i.title)+'</a><small>'+esc(i.type)+' from '+esc(i.source)+', '+esc(i.date)+'</small></div></li>'}).join('');
+var hn=document.getElementById('home-news');if(hn)hn.innerHTML=it.slice(0,5).map(function(i){return '<li data-c="'+esc(i.country)+'"><span class="chip">'+esc(i.country==='Saudi Arabia'?'KSA':i.country)+'</span><div><a href="'+esc(i.link)+'" target="_blank" rel="noopener">'+esc(i.title)+'</a><small>'+esc(i.type)+' from '+esc(i.source)+', '+esc(i.date)+'</small></div></li>'}).join('');
 if(note)note.textContent='Updated '+String(d.updated).slice(0,10)+'. Headlines come from public news feeds and refresh by themselves every day. Each one links to its original source.';
 f()}).catch(function(){});
 var tt=document.getElementById('ttabs'),cards=document.querySelectorAll('#tgrid .tgroup');
