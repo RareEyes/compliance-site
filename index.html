@@ -416,50 +416,457 @@ var G=[
 <p>And the VIP guest? They can enjoy the wedding like everyone else, but if they suddenly order 500 plates of biryani and claim it is for two people, the organizer might reasonably ask a few questions!</p>
 <p>The lesson is simple: sanctions screening determines whether legal restrictions apply, while PEP checks help banks understand and manage additional financial crime risks.</p>
 <p class="key"><b>Key takeaway.</b> Sanctions can prohibit or restrict dealings with designated individuals, companies, or countries. PEPs are people a bank may deal with, but only after applying the additional checks required by the applicable rules. Sanctions screening focuses on legal restrictions; PEP screening focuses on identifying and managing higher-risk relationships.</p>`},
-{id:6,n:"CDD vs EDD: when to go deeper",l:"Pro",t:"Due diligence",s:"The standard check for everyone and the deeper check for higher risk.",b:`<p><b>Short answer:</b> CDD is the standard check every customer goes through. EDD is the deeper check for customers who carry higher risk.</p>
-<h4>CDD: Customer Due Diligence</h4><p>The baseline for every customer:</p><ul><li>Identify the customer and verify their identity</li><li>Identify the beneficial owner (the real person behind a company)</li><li>Understand why the customer wants the account and what activity to expect</li><li>Monitor the relationship on an ongoing basis</li></ul>
-<h4>EDD: Enhanced Due Diligence</h4><p>CDD plus extra layers, applied when the risk is higher.</p>
-<h4>What triggers EDD?</h4><ul><li>PEPs and their close family and associates</li><li>Customers linked to high-risk countries (such as those on FATF watch lists)</li><li>Complex or unclear ownership structures</li><li>Cash-heavy or high-risk businesses (for example crypto, gambling, precious metals)</li><li>Negative news about the customer</li><li>Unusual or unexplained transactions</li></ul>
-<h4>What does EDD add?</h4><ul><li><b>Source of funds:</b> where did <i>this</i> money come from?</li><li><b>Source of wealth:</b> how did the customer build their overall wealth?</li><li><b>Senior management approval</b> before onboarding or continuing</li><li>Extra documents, independently verified</li><li><b>Deeper ownership investigation:</b> instead of the general 25% ownership mark, the bank looks further down, to owners holding 10% or more</li><li>Closer monitoring and more frequent reviews</li></ul>
-<h4>Quick note on SDD</h4><p>For very low-risk customers, many regulators allow <b>Simplified Due Diligence (SDD)</b>, a lighter version of CDD. The key is that it is never "no checks", only fewer.</p>
-<h4>The idea behind it all: risk-based approach</h4><p>Banks don't treat everyone the same. They look at the customer, the country, the product, and how the account is opened, then decide how deep to go.</p>
-<h4>A funnier way to see it</h4><p>CDD is a routine doctor's check-up: blood pressure, weight, a few questions. EDD is what happens when something looks off. The doctor orders blood tests and a scan.</p><p>It doesn't mean you are sick. It means the doctor wants to be sure.</p>
-<p class="key"><b>Key takeaway.</b> CDD is for everyone, EDD is for higher risk, and the level of checking should always match the level of risk.</p>`},
-{id:7,n:"UBO: how to identify the real owner",l:"Pro",t:"Due diligence",s:"Trace through the layers until you reach an actual person.",b:`<p><b>Short answer:</b> the UBO (Ultimate Beneficial Owner) is the real person who ultimately owns or controls a company, even when the ownership runs through several other companies.</p>
-<h4>Why does it matter?</h4><p>Companies can hide the people behind them. Without finding the UBO, a bank may be dealing with a criminal or a sanctioned person without knowing it.</p>
-<h4>What is an IBO?</h4><p>IBO means <b>Intermediary Beneficial Owner</b>. These are the companies that hold shares in the main company, sitting between it and the real owners. An IBO is a stepping stone. You never stop at an IBO. You drill through it until you reach the person (the UBO).</p>
-<h4>How to identify a UBO, step by step</h4><ul><li><b>1. Get the ownership chart.</b> Ask the customer for a structure showing who owns the company.</li><li><b>2. Verify it.</b> Check company registries, official documents, and independent sources. Don't rely on the customer's word alone.</li><li><b>3. Trace through the layers.</b> Go through every IBO until you reach actual people, not other companies.</li><li><b>4. Apply the ownership threshold.</b> A common rule is anyone owning more than 25%. This changes with the risk rating and the bank's risk appetite. It can go down to 10%, and in some scenarios as low as 5%.</li><li><b>5. Add up the ownership percentages.</b> Combine direct and indirect shares. <i>Example:</i> Company A is owned 50% by Company B and 50% by Person A. On drilling into Company B, Person A also owns 50% of B. That gives Person A 50% directly plus 25% through B, so Person A ultimately owns <b>75%</b>.</li><li><b>6. If no one meets the threshold,</b> record the senior managing official as a fallback, and document why.</li></ul>
-<h4>Red flags</h4><ul><li>Many layers across several countries</li><li>Nominee shareholders or directors</li><li>Trusts or foundations with unclear beneficiaries</li><li>Circular ownership (A owns B, B owns A)</li><li>The customer cannot or will not say who the owners are</li></ul>
-<h4>A funnier way to see it</h4><p>Remember "pass the parcel" at birthday parties? Layer after layer of wrapping paper, and everyone is trying to reach the prize. Tracing a UBO is exactly that, except the prize is the real person at the center, and the wrapping paper is a chain of companies.</p>
-<p class="key"><b>Key takeaway.</b> A company is just a name on paper. The UBO is the person behind it, and a bank must keep unwrapping until it finds them.</p>`},
-{id:8,n:"Red flags and suspicious activity reporting",l:"Pro",t:"Red flags",s:"Spot the warning signs and know when to report.",b:`<p><b>Short answer:</b> a red flag is a warning sign that something may be wrong. It is not proof of a crime. When red flags add up and can't be explained, the bank reports it to the authorities.</p>
-<h4>Common red flags</h4><p><b>Customer behavior</b></p><ul><li>Avoids or delays giving information or documents</li><li>Gives vague or changing answers about the source of money</li><li>Shows unusual interest in reporting limits</li></ul>
-<p><b>Transaction patterns</b></p><ul><li><b>Structuring:</b> splitting a large amount into smaller deposits to stay under reporting limits</li><li>Money coming in and going out quickly, with little left behind</li><li>Activity that does not fit the customer's profile (a student moving huge sums)</li><li>A dormant account suddenly becoming very active</li><li>Many unrelated people paying into one account</li></ul>
-<p><b>Geography</b></p><ul><li>Payments to or from high-risk countries without a clear business reason</li><li>Unusual or unnecessarily complicated payment routes</li></ul>
-<p><b>Ownership and documents</b></p><ul><li>Shell companies, nominee owners, unclear ownership</li><li>Altered, forged, or inconsistent documents</li></ul>
-<h4>What happens when a red flag appears?</h4><ul><li><b>1. Alert:</b> raised by a monitoring system or by an employee</li><li><b>2. Investigation:</b> review the customer profile, history, documents, and the activity</li><li><b>3. Decision:</b> if there is a reasonable explanation, close it with notes. If not, escalate</li><li><b>4. Report:</b> file a suspicious activity report with the country's financial intelligence unit</li></ul>
-<h4>Who receives the report?</h4><ul><li><b>USA:</b> FinCEN (Suspicious Activity Report, SAR)</li><li><b>India:</b> FIU-IND (Suspicious Transaction Report, STR)</li><li><b>UAE:</b> the UAE FIU (STR/SAR)</li><li><b>UK:</b> the National Crime Agency, through its UK Financial Intelligence Unit (SAR)</li><li><b>Singapore:</b> the Suspicious Transaction Reporting Office, STRO (STR)</li><li><b>Qatar:</b> the Qatar Financial Information Unit, QFIU (STR/SAR)</li><li><b>KSA:</b> the KSA Financial Intelligence Unit, SAFIU (STR/SAR)</li></ul>
-<h4>Important rules</h4><ul><li>You report <b>suspicion</b>, not proof. Investigating the crime is the authorities' job.</li><li><b>No tipping off:</b> never tell the customer a report is being filed. In most countries this is a crime in itself.</li><li>Write down your reasoning clearly, and file on time.</li></ul>
-<h4>A funnier way to see it</h4><p>A red flag is a smoke alarm. Sometimes it is just burnt toast, but you still walk into the kitchen and check before you ignore it. And if there really is a fire, you call the fire brigade. You don't announce it to the person holding the matches.</p>
-<p class="key"><b>Key takeaway.</b> Red flags are questions, not answers. Investigate each one, document the outcome, and report when the suspicion can't be explained away.</p>
+{id:6,n:"CDD vs EDD: when to go deeper",l:"Pro",t:"Due diligence",s:"The standard check for everyone and the deeper check for higher risk.",b:`<p><b>Short answer:</b> CDD is the standard check every customer goes through. EDD is the deeper check for customers who carry higher risk. Both are part of KYC and AML processes, helping financial institutions understand who their customers are, what they do, and whether their activities present potential financial crime risks.</p>
+<p>The main difference is the depth of the investigation. A low-risk customer may need only standard verification and routine monitoring, while a higher-risk customer may require additional documents, independent checks, senior management approval, and closer monitoring.</p>
+<h4>CDD: Customer Due Diligence</h4><p>CDD is the baseline for establishing and maintaining a customer relationship. It helps the bank understand the customer and assess the risks associated with providing financial services.</p>
+<ul>
+<li><b>Identify the customer and verify their identity:</b> Collect and verify information using reliable documents, electronic verification, or other approved methods.</li>
+<li><b>Identify the beneficial owner:</b> Determine the real person who ultimately owns or controls a company, rather than stopping at the company's registered name.</li>
+<li><b>Understand the purpose of the relationship:</b> Establish why the customer wants the account, what services they need, and what type of transactions they are likely to conduct.</li>
+<li><b>Understand the customer's risk profile:</b> Consider factors such as occupation, business activity, geographical connections, ownership structure, and other relevant risk indicators.</li>
+<li><b>Monitor the relationship on an ongoing basis:</b> Review customer activity and information to check whether transactions remain consistent with what the bank knows about the customer.</li>
+</ul>
+<p>For example, if Sara opens a salary account, the bank verifies her identity, understands her employment and expected salary payments, and establishes an appropriate customer risk profile. Her account activity is then monitored in line with the bank's policies and applicable requirements.</p>
+<h4>EDD: Enhanced Due Diligence</h4>
+<p>EDD means applying additional checks when a customer, business relationship, or transaction presents a higher level of financial crime risk.</p>
+<p>EDD builds on CDD rather than replacing it. The bank still verifies the customer's identity and understands the purpose of the relationship, but it investigates certain aspects in greater depth to obtain a clearer picture of the risks.</p>
+<p>For example, if a customer owns several companies across different countries and the source of their wealth is unclear, the bank may need to investigate the ownership structure, verify supporting documents, and understand how the wealth was accumulated before deciding whether to establish or continue the relationship.</p>
+<h4>What triggers EDD?</h4>
+<p>EDD may be required when a customer or relationship presents higher risks. Common risk indicators include:</p>
+<ul>
+<li><b>PEPs and their close family and associates:</b> Politically Exposed Persons may have access to public funds or influence, creating additional exposure to bribery and corruption risks. Applicable rules may require enhanced measures for these relationships.</li>
+<li><b>Customers linked to high-risk countries:</b> Connections to jurisdictions identified by FATF or other relevant authorities as presenting significant AML/CFT risks may require enhanced checks. The exact measures depend on the jurisdiction and applicable requirements.</li>
+<li><b>Complex or unclear ownership structures:</b> Multiple layers of companies, trusts, nominees, or overseas entities can make it difficult to identify the people who ultimately own or control a business.</li>
+<li><b>Cash-heavy or higher-risk businesses:</b> Certain activities, such as some cryptocurrency services, gambling businesses, and precious metals trading, may present increased financial crime risks depending on their operations and controls.</li>
+<li><b>Negative news about the customer:</b> Credible adverse media involving allegations or evidence of fraud, corruption, money laundering, or other relevant criminal activity may require further investigation.</li>
+<li><b>Unusual or unexplained transactions:</b> Transactions that do not fit the customer's known financial profile or stated business activities may trigger additional checks.</li>
+<li><b>Unclear source of funds or wealth:</b> If the bank cannot reasonably understand where particular funds came from or how the customer accumulated their wealth, it may need to obtain further evidence.</li>
+</ul>
+<p>These indicators do not automatically prove wrongdoing. The bank must assess the circumstances, determine the actual level of risk, and apply the appropriate measures under its policies and the applicable law.</p>
+<h4>What does EDD add?</h4>
+<ul>
+<li><b>Source of funds:</b> Where did <i>this</i> money come from? The bank may request bank statements, invoices, sale agreements, salary records, or other evidence to establish the origin of the funds involved in a particular transaction or relationship.</li>
+<li><b>Source of wealth:</b> How did the customer build their overall wealth? The bank may examine income, business ownership, investments, inheritance, or other legitimate sources that explain the customer's accumulated wealth.</li>
+<li><b>Senior management approval:</b> Certain higher-risk relationships, including those involving PEPs where required by law, may need approval from senior management before onboarding or continuing the relationship.</li>
+<li><b>Extra documents, independently verified:</b> The bank may request additional evidence and verify it through reliable independent sources rather than relying solely on information supplied by the customer.</li>
+<li><b>Deeper ownership investigation:</b> Instead of stopping once an ownership threshold is met, the bank investigates the ownership and control structure sufficiently to identify the relevant beneficial owners. A 25% ownership threshold is commonly used in some frameworks, but it is not universal. A 10% threshold may be applied under particular rules or internal risk policies; it is not a universal EDD requirement.</li>
+<li><b>Closer monitoring and more frequent reviews:</b> Higher-risk customers may be subject to more frequent reviews, closer scrutiny of transactions, and additional checks when relevant information changes.</li>
+</ul>
+<p>In some cases, the bank may decide that the risks cannot be adequately managed. Depending on the circumstances and applicable law, it may decline the relationship, restrict certain activities, or discontinue an existing relationship.</p>
+<h4>Quick note on SDD</h4>
+<p>For very low-risk customers, many regulatory frameworks allow <b>Simplified Due Diligence (SDD)</b>, a lighter approach to certain CDD measures where permitted by law.</p>
+<p>SDD does not mean skipping identity verification or ignoring suspicious activity. It means applying proportionate measures when the assessed risk is genuinely low and simplified treatment is allowed.</p>
+<p>For example, a straightforward customer relationship with a clear purpose, transparent ownership, and low-risk characteristics may qualify for simplified measures under the applicable framework. If new information raises the risk, the bank must reassess the relationship and apply stronger checks where necessary.</p>
+<h4>The idea behind it all: risk-based approach</h4>
+<p>Banks don't treat everyone the same. They look at the customer, the country, the product, and how the account is opened, then decide how deep to go.</p>
+<p>This is known as the <b>Risk-Based Approach (RBA)</b>. It allows financial institutions to focus their resources on relationships and activities that present greater financial crime risks.</p>
+<ul>
+<li><b>Low risk:</b> Standard due diligence, with simplified measures where permitted by the applicable rules.</li>
+<li><b>Medium risk:</b> Standard CDD and monitoring appropriate to the customer's circumstances.</li>
+<li><b>High risk:</b> Enhanced due diligence, additional verification, and closer monitoring as required.</li>
+</ul>
+<p>Risk classifications are not universal. Each institution must apply its own risk assessment methodology in accordance with applicable laws and regulatory guidance. A customer's classification may also change when new information becomes available.</p>
+<h4>CDD vs EDD: Practical Comparison</h4>
+<p>Here is a practical comparison showing how Customer Due Diligence (CDD) and Enhanced Due Diligence (EDD) differ in everyday banking situations.</p>
+<table>
+<thead>
+<tr>
+<th>Area</th>
+<th>CDD (Standard Checks)</th>
+<th>EDD (Enhanced Checks)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><b>Customer type</b></td>
+<td>A salaried employee opening a personal savings account.</td>
+<td>A politically exposed person (PEP) opening a private banking account.</td>
+</tr>
+<tr>
+<td><b>Identity verification</b></td>
+<td>Verify identity using accepted documents or approved electronic methods.</td>
+<td>Complete standard verification and perform additional checks where risk requires them.</td>
+</tr>
+<tr>
+<td><b>Source of funds</b></td>
+<td>Understand expected income and funding based on the customer's profile.</td>
+<td>Obtain and verify additional evidence explaining the origin of relevant funds.</td>
+</tr>
+<tr>
+<td><b>Source of wealth</b></td>
+<td>Assess information as appropriate to the customer's risk profile.</td>
+<td>Investigate how the customer accumulated their overall wealth when required.</td>
+</tr>
+<tr>
+<td><b>Beneficial ownership</b></td>
+<td>Identify and verify the relevant beneficial owners under applicable rules.</td>
+<td>Investigate complex ownership and control structures more deeply.</td>
+</tr>
+<tr>
+<td><b>Documents</b></td>
+<td>Standard identity, address, and account-purpose documents.</td>
+<td>Additional supporting documents and independent verification, as appropriate.</td>
+</tr>
+<tr>
+<td><b>Approval</b></td>
+<td>Follow the bank's standard onboarding approval process.</td>
+<td>Obtain senior management approval when required by applicable rules or policy.</td>
+</tr>
+<tr>
+<td><b>Transaction monitoring</b></td>
+<td>Monitor activity according to the customer's risk profile.</td>
+<td>Apply enhanced monitoring measures appropriate to the higher risk.</td>
+</tr>
+<tr>
+<td><b>Review frequency</b></td>
+<td>Periodic reviews based on the customer's risk rating and applicable requirements.</td>
+<td>More frequent reviews may be necessary because of the higher risk.</td>
+</tr>
+<tr>
+<td><b>Example outcome</b></td>
+<td>Account opened after required checks are completed satisfactorily.</td>
+<td>Account opened after enhanced checks and required approvals, or declined if risks cannot be adequately managed.</td>
+</tr>
+</tbody>
+</table>
+<p><b>Remember:</b> EDD is not automatically required just because a customer is wealthy or conducts large transactions. The bank must assess the actual risk and apply the measures required by the applicable regulatory framework.</p>
+<h4>A funnier way to see it</h4>
+<p>CDD is a routine doctor's check-up: blood pressure, weight, a few questions. EDD is what happens when something looks off. The doctor orders blood tests and a scan.</p>
+<p>It doesn't mean you are sick. It means the doctor wants to be sure.</p>
+<p>Now imagine two patients visit the doctor. The first has a routine check-up and everything looks normal. The second mentions unexplained symptoms and has a medical history that needs further investigation. The doctor does not treat both patients identically; the second patient needs additional tests.</p>
+<p>That is how the risk-based approach works in banking. Every customer receives the required baseline checks, but customers presenting higher risks may need a deeper investigation.</p>
+<p>And just because the doctor orders a scan doesn't mean you should start writing your farewell speech! It simply means more information is needed before reaching a conclusion.</p>
+<p>Similarly, EDD is a way to understand and manage risk, not an accusation that a customer has committed a crime.</p>
+<p class="key"><b>Key takeaway.</b> CDD is the standard customer due diligence process, EDD adds deeper checks for higher-risk relationships, and SDD allows simplified measures for eligible low-risk situations where the rules permit it. The level of checking should always match the level of risk.</p>`},
+{id:7,n:"UBO: how to identify the real owner",l:"Pro",t:"Due diligence",s:"Trace through the layers until you reach an actual person.",b:`<p><b>Short answer:</b> The UBO (Ultimate Beneficial Owner) is the real person who ultimately owns or controls a company, even when the ownership runs through several other companies. In simple terms, the UBO is the actual human being behind the business, not just the company whose name appears on the registration documents.</p>
+<p>Identifying the UBO is an important part of KYC and Customer Due Diligence (CDD). It helps banks understand who benefits from a business, who exercises control over it, and whether the people behind it present financial crime risks.</p>
+<h4>Why does it matter?</h4>
+<p>Companies can hide the people behind them. Without finding the UBO, a bank may be dealing with a criminal or a sanctioned person without knowing it.</p>
+<p>For example, imagine a company opening a bank account is registered under another company, which is owned by a third company in a different country. The bank cannot simply stop at the first company and assume it understands who owns the business.</p>
+<p>It must trace the ownership structure and identify the natural persons who ultimately own or control the customer, following the applicable legal requirements.</p>
+<p>UBO identification helps banks:</p>
+<ul>
+<li><b>Prevent money laundering:</b> Identify individuals who may be using companies to hide criminal proceeds.</li>
+<li><b>Identify sanctions risks:</b> Determine whether a business is owned or controlled by a sanctioned person, where applicable rules require this assessment.</li>
+<li><b>Detect hidden ownership:</b> Understand arrangements involving multiple companies, nominees, trusts, or other intermediaries.</li>
+<li><b>Meet regulatory requirements:</b> Maintain accurate ownership information and perform appropriate due diligence.</li>
+</ul>
+<h4>What is an IBO?</h4>
+<p>IBO means <b>Intermediary Beneficial Owner</b>. In this context, it refers to an intermediate company in the ownership chain that holds shares in the main company, sitting between it and the ultimate individual owners.</p>
+<p>An IBO is a stepping stone. You never stop at an IBO when the objective is to identify the UBO. You drill through the ownership chain until you identify the relevant natural persons who ultimately own or control the business.</p>
+<p><b>Example:</b> Company A is owned by Company B, and Company B is owned by an individual called Sara. If Sara ultimately owns or controls Company A through Company B, she may be Company A's UBO, depending on the ownership percentages and applicable control rules.</p>
+<p>Here, Company B is the intermediary company, while Sara is the person behind the structure.</p>
+<h4>How to identify a UBO, step by step</h4>
+<ul>
+<li><b>1. Get the ownership chart.</b> Ask the customer for a structure showing who owns the company, including direct shareholders, intermediate companies, and ultimate owners. For complicated structures, request the ownership percentages at each level.</li>
+<li><b>2. Verify it.</b> Check company registries, official documents, shareholder registers, incorporation records, and reliable independent sources. Don't rely on the customer's word alone. Where information conflicts, investigate the differences and obtain clarification.</li>
+<li><b>3. Trace through the layers.</b> Go through every IBO until you identify the relevant individuals rather than stopping at other companies. If a company is owned by another company, obtain the second company's ownership details and continue tracing the chain.</li>
+<li><b>4. Apply the ownership threshold.</b> A common rule in some frameworks is an ownership interest of more than 25%, but the applicable threshold varies by jurisdiction and legal framework. Some rules or internal risk policies may use lower thresholds, such as 10%, to identify additional owners for further review. A 5% threshold may also be relevant in specific circumstances or policies, but it is not a universal UBO requirement. Ownership is not the only test: a person may qualify through other forms of control.</li>
+<li><b>5. Add up the ownership percentages.</b> Calculate direct and indirect ownership to establish each person's ultimate economic interest. For an indirect ownership chain, multiply the ownership percentages at each level, then combine the relevant interests held through separate paths where appropriate.</li>
+<li><b>6. Identify control beyond shareholding.</b> Check whether someone exercises control through voting rights, appointment powers, contractual arrangements, or other means, even if their shareholding falls below the applicable threshold.</li>
+<li><b>7. If no one meets the applicable ownership or control criteria,</b> follow the relevant legal framework. Where permitted, a senior managing official may be identified as a fallback, with the reasons documented. This should not replace reasonable efforts to identify the actual owners and controllers.</li>
+</ul>
+<h4>Practical example: How indirect ownership works</h4>
+<p>Suppose Company A has two owners:</p>
+<ul>
+<li>Company B owns 50% of Company A.</li>
+<li>Person A directly owns the remaining 50% of Company A.</li>
+</ul>
+<p>Now, when the bank investigates Company B, it discovers that Person A owns 50% of Company B.</p>
+<p>The calculation is:</p>
+<ul>
+<li><b>Direct ownership:</b> Person A owns 50% of Company A.</li>
+<li><b>Indirect ownership:</b> Person A owns 50% of Company B, which owns 50% of Company A. Therefore, 50% × 50% = 25% indirect ownership.</li>
+<li><b>Total economic ownership:</b> 50% + 25% = <b>75%</b>.</li>
+</ul>
+<p>Person A therefore has a 75% ultimate economic interest in Company A through these ownership paths. The bank must also consider the applicable legal threshold and any other forms of control when determining UBO status.</p>
+<h4>Red flags</h4>
+<ul>
+<li><b>Many layers across several countries:</b> Complicated structures may make it harder to establish the real owners and verify information.</li>
+<li><b>Nominee shareholders or directors:</b> The registered person may act on behalf of another individual who actually owns or controls the business.</li>
+<li><b>Trusts or foundations with unclear beneficiaries:</b> The bank may need to understand the relevant settlors, trustees, beneficiaries, protectors, or other persons exercising control, depending on the structure and applicable rules.</li>
+<li><b>Circular ownership:</b> Company A owns Company B, while Company B owns Company A. This can complicate ownership calculations and requires careful investigation.</li>
+<li><b>The customer cannot or will not say who the owners are:</b> Missing information, inconsistent explanations, or refusal to cooperate may indicate elevated risk.</li>
+<li><b>Ownership information does not match official records:</b> Differences between declarations and reliable independent sources require clarification.</li>
+<li><b>Frequent unexplained ownership changes:</b> Repeated transfers of shares or sudden changes in control may require additional scrutiny.</li>
+</ul>
+<p>A red flag does not automatically mean that the company is involved in financial crime. It means the bank needs to investigate the circumstances and determine whether the risk can be adequately understood and managed.</p>
+<h4>A funnier way to see it</h4>
+<p>Remember "pass the parcel" at birthday parties? Layer after layer of wrapping paper, and everyone is trying to reach the prize. Tracing a UBO is exactly that, except the prize is the real person at the center, and the wrapping paper is a chain of companies.</p>
+<p>Now imagine every time you remove a layer, you find another box saying, "The real owner is inside the next box!" After five boxes, you are still holding another company registration certificate.</p>
+<p>The bank cannot simply give up and say, "Well, I found a company, so that's good enough." It must continue investigating until it identifies the relevant individuals or establishes the appropriate outcome under the applicable rules.</p>
+<p>And if someone keeps adding more boxes but refuses to reveal what is inside, the compliance team will probably have a few more questions!</p>
+<h4>Good to know</h4>
+<p>UBO definitions, ownership thresholds, and fallback rules differ across countries. Banks must follow the applicable local laws and regulatory guidance rather than relying on one universal percentage.</p>
+<p class="key"><b>Key takeaway.</b> A company is just a name on paper. The UBO is the person behind it, and a bank must keep unwrapping the ownership structure until it identifies the relevant people who ultimately own or control the business.</p><h4>UBO Ownership Structure: Simple Diagram</h4>
+<p>Imagine Person A owns Company B, and Company B owns Company C. Company C is the company opening a bank account.</p>
+<div style="max-width:600px;margin:20px auto;padding:20px;border:1px solid #ddd;border-radius:12px;text-align:center;font-family:Arial,sans-serif;">
+  <div style="display:inline-block;padding:14px 24px;border:2px solid #2563eb;border-radius:10px;background:#eff6ff;color:#1e3a8a;">
+    <b>Person A</b><br>
+    <small>Ultimate Beneficial Owner (UBO)</small>
+  </div>
+  <div style="font-size:26px;margin:8px 0;color:#666;">↓</div>
+  <div style="display:inline-block;padding:14px 24px;border:2px solid #d97706;border-radius:10px;background:#fff7ed;color:#9a3412;">
+    <b>Company B</b><br>
+    <small>Intermediary Company (IBO)</small>
+  </div>
+  <div style="font-size:26px;margin:8px 0;color:#666;">↓</div>
+  <div style="display:inline-block;padding:14px 24px;border:2px solid #16a34a;border-radius:10px;background:#f0fdf4;color:#166534;">
+    <b>Company C</b><br>
+    <small>Customer opening the bank account</small>
+  </div>
+  <p style="margin:16px 0 0;font-size:14px;color:#555;"><b>Ownership flow:</b> Person A → Company B → Company C</p>
+</div>
+<p><b>How to read this diagram:</b></p>
+<ul>
+<li><b>Person A:</b> The real person at the top of the ownership chain.</li>
+<li><b>Company B:</b> The intermediary company through which ownership passes.</li>
+<li><b>Company C:</b> The bank's customer whose ownership structure must be investigated.</li>
+</ul>
+<p><b>Important:</b> This diagram illustrates the ownership chain, not specific ownership percentages. The bank must verify the actual shareholding at each level, calculate indirect ownership where appropriate, and consider other forms of control to identify the UBO.</p>`},
+{id:8,n:"Red flags and suspicious activity reporting",l:"Pro",t:"Red flags",s:"Spot the warning signs and know when to report.",b:`<p><b>Short answer:</b> A red flag is a warning sign that something may be wrong. It is not proof of a crime. When red flags add up and can't be reasonably explained, the bank investigates further and, where required, reports its suspicion to the relevant authorities.</p>
+<p>In AML (Anti-Money Laundering), red flags help banks identify transactions, customers, or business relationships that may involve money laundering, fraud, corruption, terrorist financing, or other financial crimes. These warning signs may be identified by automated monitoring systems, customer due diligence checks, screening tools, or employees.</p>
+<p>A single red flag does not automatically mean that a customer is involved in criminal activity. The bank must consider the customer's circumstances, the transaction details, and any available explanations before deciding what action is appropriate.</p>
+<h4>Common red flags</h4>
+<p><b>Customer behavior</b></p>
+<ul>
+<li><b>Avoids or delays giving information or documents:</b> A customer repeatedly refuses to provide required information or gives excuses when asked to verify their identity, business activities, or ownership.</li>
+<li><b>Gives vague or changing answers about the source of money:</b> The customer provides inconsistent explanations about where funds came from or cannot reasonably support the explanation with evidence.</li>
+<li><b>Shows unusual interest in reporting limits:</b> A customer repeatedly asks about transaction reporting thresholds or appears concerned about whether particular transactions will be reported.</li>
+<li><b>Provides information that does not match independent records:</b> The customer's declared occupation, business details, or ownership information conflicts with reliable external sources.</li>
+<li><b>Uses another person to conduct transactions without a clear reason:</b> Someone repeatedly operates an account or moves funds on behalf of another person without a reasonable explanation.</li>
+</ul>
+<p><b>Transaction patterns</b></p>
+<ul>
+<li><b>Structuring:</b> Splitting a large amount into smaller deposits or transactions to avoid reporting requirements or detection. This may also be called smurfing when multiple people or accounts are involved.</li>
+<li><b>Money coming in and going out quickly:</b> Funds are received and transferred elsewhere shortly afterwards, with little apparent business purpose or money left behind.</li>
+<li><b>Activity that does not fit the customer's profile:</b> For example, a student moving huge sums through a personal account without a clear explanation.</li>
+<li><b>A dormant account suddenly becoming very active:</b> An account that has seen little activity begins processing frequent or unusually large transactions.</li>
+<li><b>Many unrelated people paying into one account:</b> The account receives payments from numerous unrelated individuals, followed by transfers to other accounts without an obvious legitimate purpose.</li>
+<li><b>Unusual international transfers:</b> Frequent cross-border payments occur between parties with no clear business or personal connection.</li>
+<li><b>Repeated round-number transactions:</b> Large, repetitive payments of similar amounts may warrant investigation when they do not fit the customer's known activity.</li>
+<li><b>Transactions inconsistent with declared income:</b> A customer with a modest declared income suddenly handles significant sums that cannot be reasonably explained.</li>
+</ul>
+<p><b>Geography</b></p>
+<ul>
+<li><b>Payments to or from high-risk countries without a clear business reason:</b> Transactions involve jurisdictions identified as presenting elevated financial crime risks, without an apparent commercial or personal justification.</li>
+<li><b>Unusual or unnecessarily complicated payment routes:</b> Money passes through several countries or intermediaries without a clear reason for the route taken.</li>
+<li><b>Connections to sanctioned jurisdictions or parties:</b> Transactions involve locations or counterparties subject to relevant restrictions, requiring sanctions screening and assessment under applicable laws.</li>
+<li><b>Unexpected changes in geographic activity:</b> A customer who normally operates locally suddenly starts making frequent transfers to countries unrelated to their known business activities.</li>
+</ul>
+<p><b>Ownership and documents</b></p>
+<ul>
+<li><b>Shell companies or unclear ownership:</b> The company has multiple layers of ownership, unexplained intermediaries, or no clear business purpose, making it difficult to identify the ultimate beneficial owner (UBO).</li>
+<li><b>Nominee owners or directors:</b> Registered owners appear to act on behalf of unidentified individuals who may exercise actual control.</li>
+<li><b>Altered, forged, or inconsistent documents:</b> Documents contain suspicious changes, conflicting details, or signs of tampering.</li>
+<li><b>Unexplained ownership changes:</b> Shares or control are transferred repeatedly without a clear commercial reason.</li>
+<li><b>Unusual business structures:</b> A company has a complex structure or operates across multiple jurisdictions without a convincing business explanation.</li>
+</ul>
+<h4>What happens when a red flag appears?</h4>
+<ul>
+<li><b>1. Alert:</b> An alert is raised by a transaction monitoring system, sanctions screening tool, KYC review, or employee who notices unusual activity.</li>
+<li><b>2. Investigation:</b> The analyst reviews the customer profile, transaction history, supporting documents, expected activity, and relevant information to understand what happened.</li>
+<li><b>3. Decision:</b> If a reasonable explanation is supported by the evidence, the alert may be closed with clear documentation. If concerns remain, the case is escalated to the appropriate AML or compliance team.</li>
+<li><b>4. Reporting:</b> If the applicable reporting threshold is met, the institution submits a suspicious transaction or activity report to the relevant Financial Intelligence Unit (FIU) or competent authority.</li>
+<li><b>5. Follow-up:</b> The bank may continue monitoring the relationship, request additional information where appropriate, or take other measures required by law and internal procedures.</li>
+</ul>
+<p>The investigation must be evidence-based. Analysts should not close an alert simply because a customer provides an explanation; they must assess whether that explanation is reasonable and consistent with the available information.</p>
+<h4>Who receives the report?</h4>
+<p>Financial institutions report suspicious activity to the designated authority in their jurisdiction. The reporting authority and report name vary by country.</p>
+<ul>
+<li><b>USA:</b> FinCEN (Financial Crimes Enforcement Network). Banks and other covered institutions may file a Suspicious Activity Report (SAR).</li>
+<li><b>India:</b> FIU-IND (Financial Intelligence Unit–India). Relevant reporting entities submit Suspicious Transaction Reports (STRs) as required.</li>
+<li><b>UAE:</b> The UAE Financial Intelligence Unit (UAE FIU). Reporting entities submit applicable reports through the prescribed reporting channels, including STRs and SARs where relevant.</li>
+<li><b>UK:</b> The National Crime Agency (NCA), through the UK Financial Intelligence Unit. Suspicious Activity Reports (SARs) are submitted under the applicable reporting framework.</li>
+<li><b>Singapore:</b> The Suspicious Transaction Reporting Office (STRO), which receives Suspicious Transaction Reports (STRs).</li>
+<li><b>Qatar:</b> The Qatar Financial Information Unit (QFIU), which receives relevant suspicious transaction reports under Qatar's AML/CFT framework.</li>
+<li><b>Saudi Arabia (KSA):</b> The Saudi Arabia Financial Intelligence Unit (SAFIU), which receives suspicious transaction reports under the applicable framework.</li>
+</ul>
+<p>The exact report type, filing deadlines, and reporting obligations depend on the country's laws and the type of reporting institution. A bank must follow its applicable local requirements rather than assume that every country uses the same process.</p>
+<h4>Important rules</h4>
+<ul>
+<li><b>You report suspicion, not proof.</b> A bank does not need to prove that a crime occurred before submitting a report when the applicable reporting threshold is met. Investigating the suspected crime is the responsibility of the competent authorities.</li>
+<li><b>No tipping off.</b> Never improperly inform a customer that a suspicious activity report has been filed or that a related investigation is underway. Tipping-off restrictions vary by jurisdiction, and prohibited disclosures can carry serious penalties.</li>
+<li><b>Write down your reasoning clearly.</b> Record the relevant facts, transactions, documents reviewed, explanation provided, and rationale for closing or escalating the case.</li>
+<li><b>File on time.</b> Follow the reporting deadlines and internal escalation procedures required by the applicable legal framework.</li>
+<li><b>Protect confidentiality.</b> Suspicious activity reports and related information must be handled according to applicable confidentiality, recordkeeping, and data protection requirements.</li>
+</ul>
+<h4>A funnier way to see it</h4>
+<p>A red flag is a smoke alarm. Sometimes it is just burnt toast, but you still walk into the kitchen and check before you ignore it. And if there really is a fire, you call the fire brigade. You don't announce it to the person holding the matches.</p>
+<p>Now imagine the smoke alarm goes off every time someone makes toast. You wouldn't evacuate the entire building every time without checking, but you wouldn't remove the alarm either. You would investigate why it keeps going off and decide whether there is a genuine risk.</p>
+<p>That is similar to AML alert handling. Some alerts turn out to be false positives or legitimate transactions. Others reveal activity that needs further investigation or reporting. The analyst's job is to distinguish between them using evidence, not assumptions.</p>
+<p class="key"><b>Key takeaway.</b> Red flags are questions, not answers. Investigate each one, document the outcome, and report when the applicable suspicion threshold is met. The goal is to identify potential financial crime without automatically treating every unusual customer or transaction as criminal.</p>
 <p><b>Want more?</b> For a fuller list of warning signs, see <a href="#" data-g="10">Red Flags: warning signs by topic</a>.</p>`},
-{id:9,n:"Sanctions screening: handling false matches",l:"Pro",t:"Sanctions",s:"How to decide if an alert is the right person, with evidence.",b:`<p><b>Short answer:</b> screening systems are built to catch every possible match, so they raise many alerts that turn out to be the wrong person. The skill is deciding, with evidence, which alerts are real.</p>
-<h4>Why do false matches happen?</h4><ul><li><b>Common names:</b> many people share the same name</li><li><b>Spelling variations:</b> Mohammed, Muhammad, Mohamad, all the same name written differently</li><li><b>Partial matches:</b> only part of the name is similar</li><li><b>Incomplete data:</b> the customer record or the list entry has missing details</li></ul><p>Systems use "fuzzy matching" on purpose, so slight spelling changes don't let a real match slip through. The price is more noise.</p>
-<h4>How to handle an alert, step by step</h4><ul><li><b>1. Pause.</b> Don't onboard the customer or release the payment until the alert is reviewed.</li><li><b>2. Compare identifiers.</b> Check full name, date of birth, nationality, ID or passport number, address, and occupation or business.</li><li><b>3. Read the full list entry.</b> Look at aliases, other identifiers, and the reason the person was listed.</li><li><b>4. Decide.</b> <i>False match:</i> strong identifiers clearly differ, so close it with a written reason. <i>True match:</i> escalate immediately, block or freeze as the rules require, and report to the authorities. No tipping off. <i>Unsure:</i> get more information, ask for a second review, and escalate. Never guess.</li><li><b>5. Document everything.</b> Record what you compared, what you found, the decision, and who approved it.</li><li><b>6. Keep a record of confirmed false matches</b> so the same alert doesn't keep returning, and review that record regularly because customer details and lists change.</li></ul>
-<h4>Strong vs weak identifiers</h4><ul><li><b>Weak:</b> the name alone</li><li><b>Strong:</b> date of birth, ID or passport number, nationality</li></ul><p>A name match with no strong identifier to confirm or rule it out is not a reason to close the alert. It is a reason to ask for more information.</p>
-<h4>Quick example</h4><p>A customer named Mohammed Ali, born 1985, from India, matches a listed Muhammad Ali Khan, born 1962, from another country. The birth years and nationalities differ, so it is a false match. Close it and write down why.</p>
-<h4>What not to do</h4><ul><li>Close alerts just to clear a backlog</li><li>Decide on the name alone</li><li>Skip the written reason</li></ul>
-<h4>A funnier way to see it</h4><p>Shout "Rahul!" in a crowded railway station and twenty heads turn around. Only one of them is your friend. A screening alert is a turned head. Your job is to check who is actually yours before you act.</p>
-<p class="key"><b>Key takeaway.</b> An alert is not a match. Compare the strong identifiers, decide with evidence, and write down why.</p>`},
+{id:9,n:"Sanctions screening: handling false matches",l:"Pro",t:"Sanctions",s:"How to decide if an alert is the right person, with evidence.",b:`<p><b>Short answer:</b> Screening systems are built to catch potential matches against sanctions lists, PEP databases, and other relevant watchlists, so they raise many alerts that turn out to involve the wrong person. The skill is deciding, with evidence, which alerts are genuine matches and which are false positives.</p>
+<p>In KYC and AML, screening helps financial institutions identify customers, companies, or transactions that may be connected to sanctioned individuals, politically exposed persons (PEPs), or people mentioned in relevant adverse media. However, the information available in a customer record may be incomplete, and different people can have similar names.</p>
+<p>This is why an alert must be investigated before a final decision is made. Closing a genuine match can expose the bank to serious regulatory consequences, while treating every similar name as a genuine match can unnecessarily affect legitimate customers.</p>
+<h4>Why do false matches happen?</h4>
+<ul>
+<li><b>Common names:</b> Many people share the same name. A screening system may identify several people named Mohammed Ali, even though they are completely unrelated.</li>
+<li><b>Spelling variations:</b> Mohammed, Muhammad, and Mohamad may represent different spellings of the same name. Screening systems account for these variations to avoid missing potential matches.</li>
+<li><b>Partial matches:</b> Only part of the customer's name may resemble the name on a sanctions list or another database.</li>
+<li><b>Incomplete data:</b> The customer record or the list entry may be missing details such as date of birth, nationality, address, or identification number.</li>
+<li><b>Different naming conventions:</b> Some cultures use multiple given names, family names, patronymics, or different name orders, which can complicate matching.</li>
+<li><b>Transliteration differences:</b> Names written in Arabic, Chinese, or other scripts may be converted into English in different ways, creating spelling variations.</li>
+<li><b>Outdated information:</b> Customer records and screening databases may contain old names, addresses, or other details that need to be checked.</li>
+</ul>
+<p>Systems use <b>fuzzy matching</b> on purpose, so slight spelling changes don't let a real match slip through. The price is more noise.</p>
+<p>For example, a system may flag two names that differ by only one letter. This improves the chance of identifying a genuine match despite spelling differences, but it also creates additional alerts that analysts must review.</p>
+<h4>How to handle an alert, step by step</h4>
+<ul>
+<li><b>1. Pause.</b> Follow the bank's procedures for managing the alert. If it relates to a potential sanctions match, the relevant transaction or onboarding decision may need to be held while the alert is investigated, where required by law or policy. Do not automatically release a potentially prohibited transaction.</li>
+<li><b>2. Compare identifiers.</b> Check the full name, date of birth, nationality, ID or passport number, address, and occupation or business details where available. Compare several identifiers rather than relying on the name alone.</li>
+<li><b>3. Read the full list entry.</b> Look at aliases, other identifiers, associated entities, dates of birth, addresses, and the reason the person was listed. Check the relevant official source where necessary and confirm that the information is current.</li>
+<li><b>4. Decide.</b> <i>False match:</i> The available evidence establishes that the customer is a different person, so close the alert with a written reason. <i>True match:</i> Escalate immediately and follow the applicable legal requirements, which may include blocking a transaction, freezing assets, and reporting to the authorities. Do not tip off the customer where disclosure is prohibited. <i>Unresolved match:</i> Obtain additional information, request a second review, and escalate according to the bank's procedures. Never guess.</li>
+<li><b>5. Document everything.</b> Record the identifiers compared, the evidence reviewed, the conclusion reached, the rationale for the decision, and any required approvals. The notes should allow another reviewer to understand why the alert was closed or escalated.</li>
+<li><b>6. Maintain records of confirmed false matches.</b> Where the bank's system permits, retain appropriately documented false-positive decisions to reduce unnecessary repeat alerts. Review these records regularly because customer information, list entries, and screening requirements can change. Any suppression or matching-rule changes must follow approved controls.</li>
+</ul>
+<h4>Strong vs weak identifiers</h4>
+<ul>
+<li><b>Weak identifier:</b> The name alone. A name can be shared by thousands of people and is rarely sufficient by itself to establish identity.</li>
+<li><b>Stronger identifiers:</b> Date of birth, passport or national ID number, nationality, and other reliable identity details that help distinguish one person from another.</li>
+<li><b>Additional supporting information:</b> Address, place of birth, occupation, associated companies, and known aliases may help confirm or rule out a potential match.</li>
+</ul>
+<p>The strength of an identifier depends on its reliability and whether the information is available and comparable. A matching date of birth, for example, may support a potential match, but the analyst should consider the complete set of available information.</p>
+<p>A name match with no strong identifier to confirm or rule it out is not a reason to close the alert. It is a reason to ask for more information and continue the investigation.</p>
+<h4>Quick example</h4>
+<p>A customer named Mohammed Ali, born in 1985 and from India, matches a listed Muhammad Ali Khan, born in 1962 and associated with another country.</p>
+<p>The names are similar, but the birth years differ significantly, and the nationality information also differs. The analyst checks the remaining available identifiers and the full list entry, then confirms that the customer is a different person.</p>
+<p>The alert can be closed as a false positive, provided the evidence is sufficient and the decision follows the bank's procedures. The analyst records the reasons for the conclusion.</p>
+<p><b>Important:</b> A difference in nationality alone does not necessarily rule out a match, and missing information does not prove that two people are different. The conclusion must be based on the full evidence available.</p>
+<h4>What not to do</h4>
+<ul>
+<li><b>Close alerts just to clear a backlog:</b> Every alert must receive the level of review required by its risk and screening type.</li>
+<li><b>Decide on the name alone:</b> Similar names do not automatically mean the same person, and different spellings do not automatically mean different people.</li>
+<li><b>Skip the written reason:</b> An undocumented decision makes quality checks, audits, and future investigations difficult.</li>
+<li><b>Ignore unresolved matches:</b> If the available evidence is insufficient, obtain more information or escalate the case.</li>
+<li><b>Apply the same action to every alert:</b> Sanctions, PEP, and adverse media alerts have different implications and may require different investigation steps.</li>
+</ul>
+<h4>A funnier way to see it</h4>
+<p>Shout "Rahul!" in a crowded railway station and twenty heads turn around. Only one of them is your friend. A screening alert is a turned head. Your job is to check who is actually yours before you act.</p>
+<p>Now imagine you decide that the first person who turns around must be your friend. You grab his bag and start walking away. A few minutes later, you discover that your actual friend is standing on the other platform!</p>
+<p>That is why a screening alert cannot be treated as a confirmed match. The analyst must compare the available details before deciding what action to take.</p>
+<p>And if you cannot tell which Rahul is your friend, you do not simply pick one at random. You ask another question!</p>
+<p class="key"><b>Key takeaway.</b> An alert is not a confirmed match. Compare reliable identifiers, investigate the evidence, follow the appropriate escalation procedures, and document why the alert was closed or escalated.</p>`},
 {id:10,n:"Red Flags: warning signs by topic",l:"Pro",t:"Red flags",s:"Warning signs to watch for, grouped by topic.",b:`<p><i>A red flag is a warning sign, not a verdict. It tells you where to look more closely.</i></p>
-<h4>1. Customer behavior</h4><ul><li>Hesitates or refuses to share information or documents</li><li>Details across documents don't match each other</li><li>Pushes the bank to skip or shorten its checks</li><li>Often changes contact details such as phone, email, or address</li><li>Lives or spends far beyond what their known income suggests</li><li>Behaves in a way that doesn't fit their stated job or business</li><li>Won't explain why they are making a payment</li><li>Travels abroad often with no business reason to explain it</li><li>Acts evasive or oddly during onboarding or later reviews</li></ul>
-<h4>2. Transaction patterns</h4><ul><li>Large payments that nobody can explain</li><li>Many small cash deposits or withdrawals (smurfing)</li><li>Splitting amounts to stay under reporting limits (structuring)</li><li>Activity that doesn't match the customer's profile or business</li><li>Money that moves quickly through several accounts or countries</li><li>Payments with no sensible business or legal reason</li><li>A large balance that just sits there with no activity</li><li>Loans or credit repaid far sooner than expected</li><li>Odd wire transfer patterns, such as round amounts or the same amount repeated</li><li>A sudden, unexplained change in how the account is used</li><li>Payment descriptions or references that don't line up</li></ul>
-<h4>3. Source of funds and payment methods</h4><ul><li>Money arrives with no visible source</li><li>Pushing for large amounts of cash with no good reason</li><li>Unusual use of gift cards, crypto, or third-party payment apps</li><li>Heavy use of prepaid cards, digital wallets, or e-money accounts</li><li>Odd refund or chargeback requests</li><li>Activity in products that work like cash, such as prepaid instruments</li><li>Complicated or unusual financial products with no clear need</li></ul>
-<h4>4. Geography and cross-border</h4><ul><li>Dealings with high-risk countries or regions</li><li>Cross-border payments with no real commercial reason</li><li>Foreign accounts held without a clear reason</li><li>Frequent transfers to offshore centers or accounts</li><li>Payments routed through intermediaries in third countries</li><li>Large flows of money to or from high-risk countries</li></ul>
-<h4>5. Ownership, entities and third parties</h4><ul><li>Third parties or nominees used with no clear explanation</li><li>Ownership layered so heavily that the real owner is hidden</li><li>Many accounts or channels used without a clear need</li><li>Dealings with shell companies or inactive businesses</li><li>Payments to or from unrelated parties, or parties in high-risk locations</li><li>Accounts held under several different names or entities</li><li>Running several businesses that have no visible link</li></ul>
-<h4>6. High-risk industries, products and channels</h4><ul><li>Work in sectors such as cash-heavy businesses, virtual assets, or gambling</li><li>Use of privacy or anonymity tools, such as encrypted channels</li><li>Business done remotely without proper identity checks</li><li>Trade-based laundering: invoices priced too high or too low, or documents that look false</li><li>Unusual insurance activity, such as high-value policies with very short terms</li></ul>
-<h4>7. Reputation and links</h4><ul><li>Connection to a politically exposed person</li><li>Negative news or bad publicity</li><li>Links to sanctioned people or entities</li><li>Ties to criminal networks or organized crime</li><li>Other institutions have repeatedly reported the customer to the authorities</li></ul>
-<p class="key">One flag on its own rarely means crime. Several flags together, with no good explanation, are what call for action.</p>`}
+<p>In AML (Anti-Money Laundering), red flags are indicators that a customer, transaction, or business relationship may involve money laundering, fraud, corruption, terrorist financing, or other financial crime. They help compliance teams identify activity that deserves further investigation.</p>
+<p>Red flags can appear during customer onboarding, periodic KYC reviews, transaction monitoring, sanctions screening, or investigations. Some are identified by automated systems, while others are noticed by analysts or relationship managers.</p>
+<p>Remember that a warning sign is not proof of wrongdoing. The analyst must consider the customer's profile, the surrounding circumstances, supporting documents, and any reasonable explanation before deciding what action is necessary.</p>
+<h4>1. Customer behavior</h4>
+<ul>
+<li><b>Hesitates or refuses to share information or documents:</b> The customer repeatedly avoids providing required identity, ownership, or source-of-funds information.</li>
+<li><b>Details across documents don't match each other:</b> Names, dates of birth, addresses, or business details differ without a reasonable explanation.</li>
+<li><b>Pushes the bank to skip or shorten its checks:</b> The customer insists on immediate onboarding or asks employees to bypass mandatory verification procedures.</li>
+<li><b>Often changes contact details:</b> Frequent changes to phone numbers, email addresses, or residential addresses may require clarification when they appear unusual.</li>
+<li><b>Lives or spends far beyond what their known income suggests:</b> The customer's spending or financial activity appears inconsistent with their declared income or known wealth.</li>
+<li><b>Behaves in a way that doesn't fit their stated job or business:</b> The customer's account activity or financial dealings do not reasonably align with their declared occupation or business model.</li>
+<li><b>Won't explain why they are making a payment:</b> The customer cannot provide a reasonable explanation for the purpose or recipient of a significant transaction.</li>
+<li><b>Travels abroad often with no business reason to explain it:</b> Frequent international travel may warrant questions if it is inconsistent with the customer's known circumstances or linked to other risk indicators.</li>
+<li><b>Acts evasive or oddly during onboarding or later reviews:</b> The customer provides contradictory answers, avoids reasonable questions, or repeatedly changes explanations about their activities.</li>
+</ul>
+<h4>2. Transaction patterns</h4>
+<ul>
+<li><b>Large payments that nobody can explain:</b> Significant transactions have no clear economic, personal, or commercial purpose.</li>
+<li><b>Many small cash deposits or withdrawals (smurfing):</b> Multiple transactions may be used to disguise the movement of larger sums or avoid scrutiny.</li>
+<li><b>Splitting amounts to stay under reporting limits (structuring):</b> Transactions appear deliberately divided to avoid applicable reporting or monitoring requirements.</li>
+<li><b>Activity that doesn't match the customer's profile or business:</b> The account receives or sends funds that are inconsistent with the customer's expected transaction patterns.</li>
+<li><b>Money that moves quickly through several accounts or countries:</b> Funds are transferred through multiple accounts or jurisdictions without a clear reason, potentially obscuring their origin.</li>
+<li><b>Payments with no sensible business or legal reason:</b> Transfers appear unrelated to the stated purpose of the account or the parties involved.</li>
+<li><b>A large balance that just sits there with no activity:</b> Substantial funds remain dormant for a long period and are then moved unexpectedly, particularly when the activity has no clear explanation.</li>
+<li><b>Loans or credit repaid far sooner than expected:</b> Early repayment using unexplained funds may warrant investigation, particularly when it does not fit the customer's financial profile.</li>
+<li><b>Odd wire transfer patterns:</b> Repeated round-number transfers, identical amounts, or recurring payments without a clear commercial purpose may be suspicious in context.</li>
+<li><b>A sudden, unexplained change in how the account is used:</b> A previously quiet account begins processing large volumes or different types of transactions.</li>
+<li><b>Payment descriptions or references that don't line up:</b> The stated purpose of a transfer conflicts with invoices, contracts, or the known relationship between the sender and recipient.</li>
+</ul>
+<h4>3. Source of funds and payment methods</h4>
+<ul>
+<li><b>Money arrives with no visible source:</b> The customer cannot adequately explain the origin of incoming funds or provide supporting evidence when required.</li>
+<li><b>Pushing for large amounts of cash with no good reason:</b> Significant cash withdrawals or deposits appear inconsistent with the customer's normal activity.</li>
+<li><b>Unusual use of gift cards, crypto, or third-party payment apps:</b> These methods may require further review when used in unexpected patterns or to obscure the origin or destination of funds.</li>
+<li><b>Heavy use of prepaid cards, digital wallets, or e-money accounts:</b> Multiple instruments or accounts are used in ways that make the movement of funds difficult to understand.</li>
+<li><b>Odd refund or chargeback requests:</b> Repeated refunds, overpayments, or requests to send refunds to different accounts may indicate potential fraud or misuse.</li>
+<li><b>Activity in products that work like cash:</b> Frequent use of prepaid instruments or similar products may warrant scrutiny when the activity is inconsistent with the customer's profile.</li>
+<li><b>Complicated or unusual financial products with no clear need:</b> The customer uses complex financial arrangements that appear unnecessary for their stated objectives.</li>
+</ul>
+<h4>4. Geography and cross-border</h4>
+<ul>
+<li><b>Dealings with high-risk countries or regions:</b> Transactions involve jurisdictions identified as presenting elevated AML/CFT risks, requiring assessment under the applicable framework.</li>
+<li><b>Cross-border payments with no real commercial reason:</b> International transfers have no apparent connection to the customer's business, occupation, or personal circumstances.</li>
+<li><b>Foreign accounts held without a clear reason:</b> The customer uses overseas accounts or financial institutions that do not fit their declared activities.</li>
+<li><b>Frequent transfers to offshore centres or accounts:</b> Repeated transfers through offshore jurisdictions may require additional scrutiny when the purpose or ownership is unclear.</li>
+<li><b>Payments routed through intermediaries in third countries:</b> Transactions pass through unrelated jurisdictions without a reasonable explanation.</li>
+<li><b>Large flows of money to or from high-risk countries:</b> Significant cross-border movements involve locations that present elevated risks, particularly when combined with other warning signs.</li>
+</ul>
+<p>A connection to a high-risk jurisdiction does not automatically mean that a transaction is suspicious or prohibited. The bank must assess the actual circumstances and apply any relevant sanctions and enhanced due diligence requirements.</p>
+<h4>5. Ownership, entities and third parties</h4>
+<ul>
+<li><b>Third parties or nominees used with no clear explanation:</b> Individuals or entities act on behalf of the customer without an understandable commercial or legal reason.</li>
+<li><b>Ownership layered so heavily that the real owner is hidden:</b> Multiple companies, trusts, or other arrangements make it difficult to identify the ultimate beneficial owner (UBO).</li>
+<li><b>Many accounts or channels used without a clear need:</b> The customer moves money through numerous accounts or payment channels without a reasonable business explanation.</li>
+<li><b>Dealings with shell companies or inactive businesses:</b> Transactions involve entities with little apparent business activity or an unclear commercial purpose.</li>
+<li><b>Payments to or from unrelated parties or high-risk locations:</b> The parties involved have no clear connection to the customer's stated business or activities.</li>
+<li><b>Accounts held under several different names or entities:</b> The customer appears to use multiple identities or businesses to conduct related transactions without a reasonable explanation.</li>
+<li><b>Running several businesses that have no visible link:</b> Funds move between businesses with different activities or owners without a clear economic purpose.</li>
+</ul>
+<h4>6. High-risk industries, products and channels</h4>
+<ul>
+<li><b>Work in sectors such as cash-heavy businesses, virtual assets, or gambling:</b> Certain industries may present higher financial crime risks because of their transaction patterns, customer base, or exposure to cash and cross-border activity.</li>
+<li><b>Use of privacy or anonymity tools:</b> Tools or arrangements that obscure identity or transaction information may warrant investigation when they prevent the bank from understanding relevant activity.</li>
+<li><b>Business done remotely without proper identity checks:</b> The customer relationship is established without adequate verification or safeguards against impersonation.</li>
+<li><b>Trade-based laundering:</b> Invoices are priced unusually high or low, quantities do not match the goods shipped, or trade documents appear inconsistent or false.</li>
+<li><b>Unusual insurance activity:</b> High-value policies are purchased and cancelled unusually quickly, or premiums and refunds involve unexplained third-party payments.</li>
+<li><b>Unusual use of professional services:</b> Complex legal, accounting, or corporate arrangements are used without a clear purpose or with unexplained movement of funds.</li>
+</ul>
+<p>Operating in a higher-risk industry is not, by itself, evidence of criminal activity. Banks should assess the actual risks, the customer's controls, and the nature of the transactions rather than relying on industry labels alone.</p>
+<h4>7. Reputation and links</h4>
+<ul>
+<li><b>Connection to a politically exposed person:</b> A relationship with a PEP may require enhanced due diligence, depending on the person's role and the applicable rules.</li>
+<li><b>Negative news or bad publicity:</b> Credible adverse media involving allegations or evidence of financial crime may require further investigation.</li>
+<li><b>Links to sanctioned people or entities:</b> Potential connections to designated parties require sanctions screening and assessment under applicable legal requirements.</li>
+<li><b>Ties to criminal networks or organised crime:</b> Credible information linking the customer to criminal activity may raise concerns that need to be assessed.</li>
+<li><b>Previous suspicious activity reports or regulatory concerns:</b> Relevant information from prior investigations or reports may inform the risk assessment where it is lawfully available. A report alone does not prove wrongdoing.</li>
+<li><b>Inconsistent public information:</b> Credible external information conflicts with the customer's declared occupation, business ownership, or source of wealth.</li>
+</ul>
+<h4>What should an AML analyst do when red flags appear?</h4>
+<ul>
+<li><b>Review the customer's profile:</b> Understand the expected activity, occupation, business model, ownership, and risk rating.</li>
+<li><b>Investigate the activity:</b> Review transactions, supporting documents, counterparties, geographic connections, and relevant screening results.</li>
+<li><b>Ask for clarification where appropriate:</b> Obtain additional information through approved procedures without improperly disclosing a confidential investigation or report.</li>
+<li><b>Document the decision:</b> Record the evidence reviewed, the explanation provided, and the reasons for closing or escalating the case.</li>
+<li><b>Escalate and report when required:</b> Follow internal procedures and applicable legal reporting obligations if suspicion remains.</li>
+</ul>
+<p class="key">One flag on its own rarely means crime. Several flags together, with no reasonable explanation, may warrant deeper investigation and reporting where required. The objective is to assess the evidence fairly, not to assume that every unusual customer or transaction is criminal.</p><h4>Practical Examples of AML Red Flags</h4>
+<h4>1. Customer behavior — Example</h4>
+<p><b>Scenario:</b> A customer declares that they work as a schoolteacher and earns a modest monthly salary. During onboarding, they refuse to explain the source of a large expected deposit and repeatedly ask the bank to open the account without completing the required checks.</p>
+<p><b>Why it is a red flag:</b> The customer's reluctance to provide information and the unexplained expected deposit raise questions about the source of funds and the purpose of the account.</p>
+<p><b>What the analyst should do:</b> Complete the required verification, request appropriate supporting information, assess the customer's risk, and escalate if concerns remain unresolved.</p>
+<h4>2. Transaction patterns — Example</h4>
+<p><b>Scenario:</b> A customer receives several cash deposits just below a reporting threshold at different branches. The money is then transferred to an overseas account shortly after each deposit.</p>
+<p><b>Why it is a red flag:</b> The repeated deposits and rapid transfers may indicate structuring or an attempt to conceal the source and movement of funds.</p>
+<p><b>What the analyst should do:</b> Review the deposits together, examine transaction timing and destinations, compare the activity with the customer's profile, and escalate or report where required.</p>
+<h4>3. Source of funds and payment methods — Example</h4>
+<p><b>Scenario:</b> A customer receives a large payment from an unknown third party, converts some of the funds into virtual assets, and requests a refund to a different account. The customer cannot provide a reasonable explanation for the arrangement.</p>
+<p><b>Why it is a red flag:</b> The unexplained third-party payment, movement through different payment methods, and refund to another account may indicate an attempt to obscure the origin or destination of funds.</p>
+<p><b>What the analyst should do:</b> Establish the source of funds, understand the purpose of the transfers and refund, verify the parties involved, and escalate if the activity cannot be reasonably explained.</p>
+<h4>4. Geography and cross-border — Example</h4>
+<p><b>Scenario:</b> A small domestic trading company suddenly begins receiving large international transfers from unrelated entities in several jurisdictions. The funds are quickly sent to another country, even though the company has no known suppliers or customers there.</p>
+<p><b>Why it is a red flag:</b> The transaction route and geographic connections do not appear consistent with the company's stated business activities.</p>
+<p><b>What the analyst should do:</b> Review invoices, contracts, counterparties, and the commercial purpose of the transfers. Assess the relevant country risks and sanctions requirements, and escalate any unexplained concerns.</p>
+<h4>5. Ownership, entities and third parties — Example</h4>
+<p><b>Scenario:</b> A company applies for a bank account. Its ownership structure passes through four companies registered in different countries. The customer provides incomplete ownership documents and cannot clearly identify the individual who ultimately controls the business.</p>
+<p><b>Why it is a red flag:</b> The complicated ownership structure and missing information make it difficult to establish the ultimate beneficial owner (UBO).</p>
+<p><b>What the analyst should do:</b> Obtain and verify the ownership structure, trace the chain to the relevant natural persons, investigate control arrangements, and escalate if ownership cannot be satisfactorily established.</p>
+<h4>6. High-risk industries, products and channels — Example</h4>
+<p><b>Scenario:</b> A precious-metals trading company reports modest sales but processes substantial payments involving multiple unrelated parties. Several invoices show prices that differ significantly from the stated market value, and the supporting shipping documents contain inconsistencies.</p>
+<p><b>Why it is a red flag:</b> The mismatch between the company's declared business activity, transaction volumes, invoice values, and shipping records may indicate trade-based money laundering or another form of financial crime.</p>
+<p><b>What the analyst should do:</b> Review invoices, contracts, shipping records, counterparties, and the commercial rationale. Seek clarification and escalate the case if the discrepancies remain unexplained.</p>
+<h4>7. Reputation and links — Example</h4>
+<p><b>Scenario:</b> During a periodic KYC review, an analyst finds credible adverse media alleging that a company's director was involved in a bribery investigation. The company also has business relationships with entities linked to the reported activity.</p>
+<p><b>Why it is a red flag:</b> The adverse media and related business connections may indicate exposure to corruption or other financial crime risks.</p>
+<p><b>What the analyst should do:</b> Verify the identity of the individual, assess the reliability and status of the reports, investigate relevant business relationships, and determine whether enhanced due diligence or escalation is necessary.</p>
+<h4>Important reminder</h4>
+<p>These examples illustrate potential warning signs, not proof of criminal activity. A legitimate explanation may exist in every scenario. Analysts must assess the evidence, document their reasoning, and follow applicable reporting requirements when suspicion remains.</p>
+<p class="key"><b>Key takeaway.</b> Recognising a red flag is only the first step. An effective AML analyst connects the warning sign to the customer's profile, investigates the facts, and makes a documented, risk-based decision.</p>`}
 ];
 var home=document.getElementById('v-home'),learn=document.getElementById('v-learn'),lb=document.getElementById('lbrowse'),rd=document.getElementById('reader'),list=document.getElementById('glist');
 function view(v){['home','learn','news','tools','regulators'].forEach(function(n){document.getElementById('v-'+n).hidden=n!==v});document.querySelectorAll('nav a[data-v]').forEach(function(a){a.classList.toggle('on',a.dataset.v===v)});window.scrollTo(0,0)}
