@@ -195,7 +195,7 @@ footer a{font-size:inherit}
 #reader::after{content:"";display:block;clear:both}
 #reader .key{overflow:hidden}
 @media (max-width:760px){
-.logo{font-size:clamp(1.1rem,5.4vw,1.45rem)}
+.logo{font-size:clamp(1.2rem,6.9vw,1.63rem)}
 .logo span{white-space:nowrap}
 .lg{height:38px}
 .cart{width:115px;margin-left:12px}
@@ -210,6 +210,30 @@ h1{font-size:clamp(1.1rem,1.7vw,1.4rem)}
 }
 @media (min-width:1000px){#glist{grid-template-columns:repeat(4,1fr)}}
 @media (min-width:1100px){html{font-size:94%}}
+
+/* ---- round 2 tweaks ---- */
+.nb-tools{background:linear-gradient(120deg,#15803d,#0ea5a0)}
+@media (min-width:761px){
+.hero{padding:8px 28px;margin-top:12px;gap:20px}
+.hero h1{margin:0 0 6px}
+.hero .lead{margin:0 0 10px;font-size:1rem}
+.hero .btn{padding:7px 18px;margin:0 8px 0 0}
+.scene{padding-top:26px}
+.bubble{padding:4px 12px;font-size:.82rem}
+.idcard{padding:8px 12px;max-width:210px}
+.av{width:38px;height:38px}
+.ln{height:8px;margin:5px 0}
+.ok{margin-top:6px;font-size:.78rem;padding:2px 10px}
+#v-home #learn h2{margin:22px 0 8px}
+#v-home #learn .card{padding:12px 14px}
+#v-home #learn .card .art{width:152px;margin:0 auto 8px}
+#v-home #learn .card h3{margin:6px 0 4px;font-size:1rem}
+#v-home #learn .card p{font-size:.88rem;line-height:1.45}
+.newsbanner{padding:9px 20px;margin-top:12px;margin-bottom:12px;border-radius:18px}
+.newsbanner h2{font-size:1.2rem;margin:0 0 2px}
+.newsbanner p{margin:0 0 6px;font-size:.92rem}
+.newsbanner .livepill{padding:1px 12px;font-size:.78rem}
+}
 </style>
 </head>
 <body>
@@ -265,7 +289,7 @@ h1{font-size:clamp(1.1rem,1.7vw,1.4rem)}
 <section id="news">
 <div class="newsbanner"><h2>Latest news</h2><p>Fines, law changes and other compliance news from regulators and trusted sources worldwide.</p><span class="livepill">● Updated daily</span></div>
 <div class="tabs" id="tabs"><button class="on" data-c="All">All</button><button data-c="Global">Global</button><button data-c="USA">USA</button><button data-c="UK">UK</button><button data-c="India">India</button><button data-c="UAE">UAE</button><button data-c="Singapore">Singapore</button><button data-c="Qatar">Qatar</button><button data-c="Saudi Arabia">KSA</button></div>
-<div class="filters"><label>Type<select id="ntype"><option>All</option><option>Fines</option><option>Law changes</option><option>Other</option></select></label></div>
+<div class="filters"><label>Type<select id="ntype"><option>All</option><option>Fines</option><option>Law changes</option><option>Other</option></select></label><label id="nmwrap" hidden>Month<select id="nmonth"><option value="">Latest</option></select></label></div>
 <ul class="news" id="news-list">
 <li data-c="USA" data-k="Fines"><span class="chip">USA</span><div><a href="#">Sample headline: a penalty announced by FinCEN</a><small>Fines from FinCEN, today</small></div></li>
 <li data-c="UK" data-k="Fines"><span class="chip">UK</span><div><a href="#">Sample headline: a fine announced by the FCA</a><small>Fines from FCA, today</small></div></li>
@@ -314,7 +338,7 @@ h1{font-size:clamp(1.1rem,1.7vw,1.4rem)}
 <section class="cbox" data-r="Brazil"><h3>Brazil</h3><div class="stack"><a class="card rl" href="https://www.bcb.gov.br/en" target="_blank" rel="noopener"><h3>BCB – Banco Central do Brasil (Central Bank of Brazil)</h3><p>Supervises banks and payment firms, and enforces financial rules.</p><span class="go">Visit website ↗</span></a><a class="card rl" href="https://www.gov.br/cvm/en" target="_blank" rel="noopener"><h3>CVM – Comissão de Valores Mobiliários (Securities Commission of Brazil)</h3><p>Regulates the Brazilian securities market, including listed companies and investment funds.</p><span class="go">Visit website ↗</span></a><a class="card rl" href="https://www.gov.br/coaf/pt-br" target="_blank" rel="noopener"><h3>COAF – Conselho de Controle de Atividades Financeiras (Council for Financial Activities Control)</h3><p>Brazil's financial intelligence unit. It receives and analyses suspicious transaction reports.</p><span class="go">Visit website ↗</span></a></div></section>
 </section>
 </main>
-<footer><div class="wrap"><p>For learning only, not legal advice.</p><p>For any information or correction, please get in touch with <a href="https://www.linkedin.com/in/mohammed-taha-km-31513873" target="_blank" rel="noopener">www.linkedin.com/in/mohammed-taha-km-31513873</a></p></div></footer>
+<footer><div class="wrap"><p>For learning only, not legal advice. For any information, please get in touch with <a href="https://www.linkedin.com/in/mohammed-taha-km-31513873" target="_blank" rel="noopener">www.linkedin.com/in/mohammed-taha-km-31513873</a></p></div></footer>
 
 <script>
 (function(){
@@ -950,6 +974,25 @@ n.addEventListener('click',function(e){if(e.target.closest('a')){n.classList.rem
 <script>
 (function(){var f=document.getElementById('f-reg');if(!f)return;
 f.addEventListener('change',function(){var v=f.value;document.querySelectorAll('#regulators [data-r]').forEach(function(b){b.hidden=!(v==='All'||b.dataset.r===v)});var h=document.getElementById('bycountry');if(h)h.hidden=v!=='All'})})();
+</script>
+<script>
+(function(){
+var sel=document.getElementById('nmonth'),wrap=document.getElementById('nmwrap'),list=document.getElementById('news-list'),note=document.getElementById('news-note'),tabs=document.getElementById('tabs');
+if(!sel)return;var latest=null,latestNote='';
+function esc(x){return String(x).replace(/[&<>"]/g,function(m){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]})}
+function names(m){var p=m.split('-');return ['January','February','March','April','May','June','July','August','September','October','November','December'][+p[1]-1]+' '+p[0]}
+function refilter(){var b=tabs.querySelector('button.on');if(b)b.click()}
+fetch('news-archive/index.json?v='+Date.now()).then(function(r){return r.ok?r.json():Promise.reject()}).then(function(d){
+(d.months||[]).forEach(function(m){var o=document.createElement('option');o.value=m;o.textContent=names(m);sel.appendChild(o)});
+if(d.months&&d.months.length)wrap.hidden=false}).catch(function(){});
+sel.addEventListener('change',function(){
+if(latest===null){latest=list.innerHTML;latestNote=note.textContent}
+if(!sel.value){list.innerHTML=latest;note.textContent=latestNote;refilter();return}
+fetch('news-archive/'+sel.value+'.json?v='+Date.now()).then(function(r){return r.ok?r.json():Promise.reject()}).then(function(d){
+var it=(d.items||[]).filter(function(i){return /^https?:/.test(i.link)});
+list.innerHTML=it.map(function(i){return '<li data-c="'+esc(i.country)+'" data-k="'+esc(i.type)+'"><span class="chip">'+esc(i.country==='Saudi Arabia'?'KSA':i.country)+'</span><div><a href="'+esc(i.link)+'" target="_blank" rel="noopener">'+esc(i.title)+'</a><small>'+esc(i.type)+' from '+esc(i.source)+', '+esc(i.date)+'</small></div></li>'}).join('')||'<li>No saved news for this month.</li>';
+note.textContent='Saved news for '+names(sel.value)+'. Each headline links to its original source.';refilter()}).catch(function(){note.textContent='Could not load this month. Please try again later.'})});
+})();
 </script>
 </body>
 </html>

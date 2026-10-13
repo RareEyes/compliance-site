@@ -68,5 +68,29 @@ if items:
     with open("news.json", "w", encoding="utf-8") as fh:
         json.dump({"updated": datetime.now(timezone.utc).isoformat(), "items": items[:80]}, fh, ensure_ascii=False, indent=1)
     print("Saved", len(items[:80]), "items")
+    # Monthly archive: never allowed to break the daily update above
+    try:
+        import os
+        os.makedirs("news-archive", exist_ok=True)
+        by_month = {}
+        for i in items:
+            by_month.setdefault(i["date"][:7], []).append(i)
+        for m, new_items in by_month.items():
+            path = "news-archive/%s.json" % m
+            old_items = []
+            if os.path.exists(path):
+                with open(path, encoding="utf-8") as fh:
+                    old_items = json.load(fh).get("items", [])
+            have = set(o["link"] for o in old_items)
+            merged = old_items + [n for n in new_items if n["link"] not in have]
+            merged.sort(key=lambda i: i["date"], reverse=True)
+            with open(path, "w", encoding="utf-8") as fh:
+                json.dump({"month": m, "items": merged}, fh, ensure_ascii=False, indent=1)
+        months = sorted((f[:-5] for f in os.listdir("news-archive") if re.match(r"\d{4}-\d{2}\.json$", f)), reverse=True)
+        with open("news-archive/index.json", "w", encoding="utf-8") as fh:
+            json.dump({"months": months}, fh)
+        print("Archive updated:", months)
+    except Exception as e:
+        print("Archive step failed (daily news is fine):", e)
 else:
     print("No items found, keeping the old file")
