@@ -954,7 +954,7 @@ window.addEventListener('popstate',function(){
 });
 if(/^#\//.test(location.hash))restore(location.hash);else {history.replaceState({complianceShelf:true},'','#/home');history.pushState({complianceShelf:true},'','#/home');}
 document.addEventListener('click',function(e){var t=e.target,a=t.closest('[data-v]');
-if(a){e.preventDefault();view(a.dataset.v);if(a.dataset.v==='learn')close();return}
+if(a){e.preventDefault();if(a.dataset.v==='learn'){rd.hidden=true;lb.hidden=false;curG=0;detailOrigin='learn'}view(a.dataset.v);return}
 var n=t.closest('nav a[href^="#"]');
 if(n&&n.getAttribute('href').length>1){e.preventDefault();view('home');var el=document.querySelector(n.getAttribute('href'));if(el)el.scrollIntoView();return}
 if(t.closest('.back')){close();return}
