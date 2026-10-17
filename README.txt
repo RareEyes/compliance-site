@@ -1,5 +1,14 @@
-Compliance Shelf update package
+Compliance Shelf – topic detail images only
 
-Deploy index.html and the images/ folder together, preserving the folder structure.
-The topic illustrations are matched by concept name and appear on both cards and detail pages.
-The browser back behavior is adjusted so detail pages return to their source list/home, other tabs return to home, and home does not cycle through previously visited concepts.
+Upload/replace index.html and the images folder together in your website repository.
+The eight supplied illustrations are used only inside the matching topic detail pages opened from Learning. Existing outer Learning cards and Home-page images are preserved.
+
+Image files:
+- aml-red-flags.png
+- dnfbp.png
+- trade-based-money-laundering.png
+- nbfi.png
+- transaction-monitoring.png
+- cryptocurrency.png
+- risk-based-approach.png
+- correspondent-banking.png
