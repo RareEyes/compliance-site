@@ -1,14 +1,3 @@
-Compliance Shelf – topic detail images only
+Compliance Shelf — targeted image update
 
-Upload/replace index.html and the images folder together in your website repository.
-The eight supplied illustrations are used only inside the matching topic detail pages opened from Learning. Existing outer Learning cards and Home-page images are preserved.
-
-Image files:
-- aml-red-flags.png
-- dnfbp.png
-- trade-based-money-laundering.png
-- nbfi.png
-- transaction-monitoring.png
-- cryptocurrency.png
-- risk-based-approach.png
-- correspondent-banking.png
+Replace the index.html in your GitHub repository and upload the nine new PNG files in the images/ folder. Keep the existing images/ files in place. Only the nine corresponding topics were updated to use the same image on the learning card and inside the topic. Other topics and content were left unchanged.
