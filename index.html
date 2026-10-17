@@ -268,6 +268,9 @@ h1{font-size:clamp(1.1rem,1.7vw,1.4rem)}
 .art.topic-image { overflow: hidden; border-radius: 16px; background: #eef6ff; }
 .art.topic-image img { display:block; width:100%; height:auto; aspect-ratio: 3 / 2; object-fit:contain; }
 #v-home .card .art.topic-image img { aspect-ratio: 2 / 1; object-fit:cover; }
+.card-topic-image{width:100%;margin:0 0 12px;box-shadow:none!important;}
+.card-topic-image img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block;}
+#v-learn #glist .card-topic-image img{aspect-ratio:16/9;object-fit:cover;}
 
 </style>
 </head>
@@ -304,6 +307,11 @@ h1{font-size:clamp(1.1rem,1.7vw,1.4rem)}
 </div>
 </section>
 
+<section id="home-concepts">
+<h2>Explore compliance concepts</h2>
+<p class="sub">Browse practical AML, KYC and financial-crime topics.</p>
+<div class="grid" id="home-concepts-grid"></div>
+</section>
 
 <section>
 <h2>Latest tool</h2>
@@ -933,13 +941,40 @@ function artOf(id){
   if(TOPIC_IMAGES[id]) return '<div class="art topic-image"><img src="'+TOPIC_IMAGES[id]+'" alt="'+({10:'AML red flags',12:'DNFBP money laundering risks',13:'Trade-based money laundering',14:'Non-bank financial institutions',15:'Transaction monitoring',17:'Cryptocurrency and virtual assets',18:'Risk-based approach',19:'Correspondent banking'}[id]||'AML concept illustration')+'" loading="lazy"></div>';
   return ART[id]?'<div class="art" aria-hidden="true">'+ART[id]+'</div>':'';
 }
+var CARD_IMAGES={
+11:'images/Eight-Stage KYC Lifecycle Workflow(3).png',
+10:'images/AML Red Flags Monitoring Dashboard(3).png',
+19:'images/Correspondent Banking Network Infographic(1).png',
+18:'images/Risk-Based KYC Risk Gauge(3).png',
+17:'images/Crypto Trading and AML Monitoring Ecosystem(3).png',
+16:'images/AML &amp; KYC Typologies Infographic(3).png',
+15:'images/Transaction Monitoring Dashboard Alert(3).png',
+14:'images/NBFI Financial Services Ecosystem(3).png',
+13:'images/Trade Based Money Laundering(1).png',
+12:'images/DNFBP_1.png'
+};
+var CARD_IMAGE_ALT={
+11:'Eight-stage KYC lifecycle',10:'AML red flags monitoring',19:'Correspondent banking network',
+18:'Risk-based KYC risk gauge',17:'Cryptocurrency and AML monitoring',16:'AML and KYC typologies',
+15:'Transaction monitoring alerts',14:'Non-bank financial institutions',13:'Trade-based money laundering',12:'DNFBP AML risks'
+};
+function cardArtOf(id){
+  if(!CARD_IMAGES[id])return '';
+  return '<div class="art topic-image card-topic-image"><img src="'+CARD_IMAGES[id]+'" alt="'+CARD_IMAGE_ALT[id]+'" loading="lazy"></div>';
+}
 function render(){var r=G;
-list.innerHTML=r.map(function(g){return '<article class="card" data-g="'+g.id+'" tabindex="0" role="button">'+artOf(g.id)+'<h3>'+g.n+'</h3><p>'+g.s+'</p>'+'</article>'}).join('')||'<p class="note">No guides match these filters. Try another topic.</p>'}
+list.innerHTML=r.map(function(g){return '<article class="card" data-g="'+g.id+'" tabindex="0" role="button">'+cardArtOf(g.id)+'<h3>'+g.n+'</h3><p>'+g.s+'</p>'+'</article>'}).join('')||'<p class="note">No guides match these filters. Try another topic.</p>'}
 function open(id){var g=G.find(function(x){return x.id==id});if(!g)return;hist=false;view('learn');hist=true;lb.hidden=true;rd.hidden=false;curG=g.id;
 rd.innerHTML='<button class="back">Back to all guides</button><h2>'+g.n+'</h2>'+artOf(g.id)+(g.b?deco(g.id,g.b):'<p style="margin-top:16px">This guide is being added next.</p>');window.scrollTo(0,0);if(hist)hpush()}
 function close(){rd.hidden=true;lb.hidden=false;if(hist)hpush()}
 render();
 document.querySelectorAll('#v-home #learn article.card').forEach(function(c){var q=c.querySelector('h3').textContent;var g=G.find(function(x){return x.n===q});if(g)c.insertAdjacentHTML('afterbegin',artOf(g.id))});
+var homeConceptIds=[11,10,19,18,17,16,15,14,13,12];
+var homeConceptGrid=document.getElementById('home-concepts-grid');
+if(homeConceptGrid)homeConceptGrid.innerHTML=homeConceptIds.map(function(id){
+  var g=G.find(function(x){return x.id===id});
+  return g?'<article class="card" data-g="'+g.id+'" tabindex="0" role="button">'+cardArtOf(g.id)+'<h3>'+g.n+'</h3><p>'+g.s+'</p></article>':'';
+}).join('');
 window.addEventListener('popstate',function(){restore(location.hash)});
 if(/^#\//.test(location.hash))restore(location.hash);else history.replaceState(null,'','#/home');
 document.addEventListener('click',function(e){var t=e.target,a=t.closest('[data-v]');
