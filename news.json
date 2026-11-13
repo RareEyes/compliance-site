@@ -1,13 +1,525 @@
 {
- "updated": "2026-11-12T10:28:08.780250+00:00",
+ "updated": "2026-11-13T10:19:48.362501+00:00",
  "items": [
   {
-   "title": "Megaspeed, Singapore-registered Nvidia cloud customer, cooperating with US export inspections",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUUQ5UXdKU1F3bmdJWUxhbnBYY1lLQmlNc0pvT2NVR0pGTm9IRExLanRrTk1tUXhHRTlSOTUwaGsxSGJ6YjhjOVF0U3AxdE9GVUhYSW93NDJ1d3NXZlQxNWFucjdiWFFoZjhHMGVHYkxoLWRuc3ZEZzBYYU9tOFlQN1RWMW11TE1Uclp4bnBlWEJkVThXNEZ6UlNCaDd0OFFja0l0S1JyZDJUd2ZLdVFGWjZwcHBvamNJaEpndEpuclFXMXVjNFE?oc=5",
+   "title": "GNLU To Host International Conference On Fintech, Fraud, Money Laundering And Regulatory Compliance",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQczkycGpwRzgzallXd1I2cUY5VUI0eElCSlFkNWpocjllbUhydXFwZFY5cy1HMzRTQ2p1UnJrN1lKQWJUUU5td0c2RkhmdmxPT3J4MEUzWkgyUmpZbDctQTF3Mm93RExvOUxtOVMyQ294Um0xX0V4cDZUTjZVaHl0WS1HMk9iVnk0UFl3Y1cxR1ktb3pLazFFU1hqYzBuSFh1R0FNQzlzb1Z3SEFLUm5YMG1heExUTll3RHNpd0dES2JaZHVaQjlFUG5OUEtaVlFpYXfSAdcBQVVfeXFMUEhQRlNHa3pHX00xdThMZldSSlhNc3k0MjFteUFKWGI2QjgwQjFjcURyTHRnTVRTczRRMXpKNC1Hb1JyMFNuR1gzRlJQZ0Y4V2Q0bDVXZ2U2WU9XQnlUQjlWZlNyMG1RYTFnYW5NYWJRZVI4OF9waXFOYnhRbGUyX1F2c0xGa0NseHVfQzhQY0JrbDNsWFNlUl9YaVNXdHRiRHpSRHJTZkFyR2dheklwUnZGN3ZpamMxMkpGbEFUUEZCckVTQWRfSE94QTUwTGxnYXE3QU9JWDg?oc=5",
+   "source": "Live Law",
+   "date": "2026-11-13",
+   "country": "India",
+   "type": "Other"
+  },
+  {
+   "title": "Comment | Is art market regulation too much of a ‘good thing’?",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeF9BYzJkUDVSZ01uSUNKSTVuSTkwSklDMWZVS3RsZkNESmpqUy0zb0lDalFmVks0THZnVFJ2a3BWRF96UXhHY3E2N25nOHBkcVZ4RGxacVZ2X29kUTF0Tk9Oa0FzTHA2ZGNDbGdkVkFxd2xEREFIc1J1em9YNXZKUExDdWRUWm80S2U0V3VkbVRtTWk5NVFEYTNJdGpxZDJmalE?oc=5",
+   "source": "The Art Newspaper",
+   "date": "2026-11-13",
+   "country": "UK",
+   "type": "Law changes"
+  },
+  {
+   "title": "UN Security Council extends sanctions on Yemen’s Houthis",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRnZmM3FQTGZ0cGd3a1VQWU9BQlBkd1lpbC1Sa2xnRmZkdUJaTGY5dmtPYTFkWkpqZmlVNnFJQjVqS0ZsVVl3eDlGak5hVm9BelMwMjhJcFVFR29GOVRQQWZLZGg2TVVSY3BPcXJCUlNaUnZaMk45TmJYTFhtTHZPUEk1QXpKRzBGXzlXSHRnVHZsN0RCd3JOaElOTWoxV2VXME9uemR6cw?oc=5",
+   "source": "Saudi Gazette",
+   "date": "2026-11-13",
+   "country": "Saudi Arabia",
+   "type": "Other"
+  },
+  {
+   "title": "At UN, Pakistan condemns Houthi ‘terrorist’ attacks against Saudi Arabia",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQT1ZxSDN0U1NyUG9rZkR5dzdPRVdSWTZEaWtYZ213MFFpQVdyUThnQVlZTTFvNS1ORUxZR28wRVlzcnRoTnVZOURNYXl6MjdNWEtzOENzWVAwN2V4UWNxak5pdEJ1QTIwT2xOb3RFT1hTOFB3WXNUQlJxTGdFUklnUFlxVWVvM00yVU0tUjNLTlVjSllyZV9xMzNTamU4TkhNV3NoNzdfMHVIblVnM3hV?oc=5",
+   "source": "Arab News PK",
+   "date": "2026-11-13",
+   "country": "Saudi Arabia",
+   "type": "Other"
+  },
+  {
+   "title": "Singapore Charges 5th Person Linked to Nvidia Chip Case, ST Says",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZVV6VXYySmNyb1B3cXRtMU54M0ptUnZEQzNqSjNtWXMyRmFiNzgxeVNnN1FoUGo4ZUNGcEs3aXZjakY4UmFWZ1FfbGJjOGdXRFlmYlI1N21ETndoM043a3J5aW1BN3FibXJaUjdHajBsX3BKZXFFSGtOREVQQTBUOGJxb3F0Uk14dEFucFpoeDZSaXB5MmlXb2V3eVFJaUhYRTg5Ym9naThBc2VwZHBQZVdFeTM?oc=5",
+   "source": "Bloomberg.com",
+   "date": "2026-11-13",
+   "country": "Singapore",
+   "type": "Other"
+  },
+  {
+   "title": "Islamic banks face document reviews under new UAE rules",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORjhqdV81WEdtT1YxaEV3ZV8td2xpSjFMT2xidlNHVUNJRXRaY05BRzJYeUMtdEh0T0NPWEI5c0s2ZzR3SnNQbVlGdGRXWVFvYUVMVUplYlVWTkVnTHMySGRCWVEwSUNIeUFUdElTZVJxNjJzMmcyZkR3dFJsR3hFTkthbkx2aGRCbkY4QlQxZGVIZEVU?oc=5",
+   "source": "FinTech Global",
+   "date": "2026-11-13",
+   "country": "UAE",
+   "type": "Law changes"
+  },
+  {
+   "title": "UN Security Council renews sanctions on Yemen",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQU0xabUNBYTNfYWd0b2U2X094U24xWmJHOUN2NzZiNnNWclVVcUpLdTM2eVdTUXM1OVdkV1hqY0FhRmkwS05sSWktWU5kZnpoMlNlaE52RFdpQlR5eS1TN1RzRDFiMFdUVjdGQWhGY0hFMUFsQTJlUHc4V0tmNjBxOU9R?oc=5",
+   "source": "Middle East Online",
+   "date": "2026-11-13",
+   "country": "Saudi Arabia",
+   "type": "Other"
+  },
+  {
+   "title": "Lack of confidence in labour law and workplace compliance is a rising concern",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQjVNbzJYZFJRTDlYeWJkRUJ2U3NnX0ZpeDhvQ3I5d2xtQUN1cFNiTkhYM2N5MklZX0lnYVhnSGJQWlJpQTVYb2RVR3RtRWh0aUwyTDZUaFFqcVYtb2tMVnpkSEFLRUw4d3dKZHBMaVZTQTM4c3BXakpSMWh0ZlFyYVpVTG1HN1lRZUpyU3dtRW1sRHI5a0piR1BXN2hnWk9IWTJTaXloMEc3UDgyUTM1elVSUk9EajdxX3BqR01NTHVkWlZs?oc=5",
+   "source": "The HR Director",
+   "date": "2026-11-13",
+   "country": "India",
+   "type": "Law changes"
+  },
+  {
+   "title": "REGULATION | FATF Targets Major Crypto Markets in Global Anti-Money Laundering Compliance Review",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE50cndvU3BSbG1JRjYyZjJsZ0R0dmRVdlYwdWdBY25Zd2Q3RGpCNXp3d2J3Um9veUFDZGppaE82UnhiWmxOeWlWQklOUzM4SDZvS1NnN0V0V21SX3VFWFAtQzhiUmhobWZ6c2tZMg?oc=5",
+   "source": "BitKE",
+   "date": "2026-11-13",
+   "country": "Global",
+   "type": "Law changes"
+  },
+  {
+   "title": "Three lawyers launch Forvint Law Partners",
+   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5RcXhqSVZmRE5WV2FReU50UVFRSC0xRmloeC1qVm9SejlpSkdBV0tsWHdNeUJjNTVhWUpOR2hrUUcxSmE2OHVXMnRSdEZyLXZrMmJEbDFUWkhZNkluSXlreHYxTQ?oc=5",
+   "source": "Law.asia",
+   "date": "2026-11-13",
+   "country": "India",
+   "type": "Law changes"
+  },
+  {
+   "title": "UN Tightens Sanctions Against Kabila’s Rebel Movement FRN",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNFJ4VFJELVdMV1hqLUlxcm5tVnE4OVJSNEhDYlUtaHVmQXVFTTE3eU9nTVl1UXVBZzFrTlY3ZkM5c3hzSVJ3YmIwUXFsSWNvX2JMVTdvblJQNVgtUkszczg5NGowMG53am96X3VyQmtLbE9hLWRmaVhTaG9VXzR5eUhKcFdqR1NXbXc?oc=5",
+   "source": "ChimpReports",
+   "date": "2026-11-13",
+   "country": "Global",
+   "type": "Other"
+  },
+  {
+   "title": "Pakistan strongly condemns Houthi attacks on Saudi Arabia, supports UN-led Yemen peace efforts",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOE82TDNoLUlmZTUwZ1dmWjNTUWxqZV9MR2RzVlJXbFV6VjY3WmRGZ2ROc0ZlUE1pclpVR3RUOHBsam5qb3o5UDRObTNlcFBndzZJNnAwLS1lQllSdFFHM21nclJlczQ3dVNVWU0ybTZWckpTSnRseTREbGowVkdrR2Uzb2ZURE82UFZTYXBYUFhJSEpLdkp2TXZXbzNIZmFYSS1ka0ZYQ2pjR1FuTExyRU5DOVZrMGRDd2hKVjZobFgxZDctdFBGVld3?oc=5",
+   "source": "The Express Tribune",
+   "date": "2026-11-13",
+   "country": "Saudi Arabia",
+   "type": "Other"
+  },
+  {
+   "title": "Malaysia checking chip re-export, Singapore-based Megaspeed not yet cleared",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNd0diNGdXYkFITG9EQjhhQUhwUUFZWGsxWE5RQWZXTFppd0xNcUZ6SUlTT0tybEhCVi0xLXFhMXB3ZGdhS2xUaFZ2YzlkZlNnaU5OZWRXUi0xWFRHaEV5cG45VS1KUlB6cVU0OFZXUkE2cHhTakdlMlUwOERNLVhhb3RVOEFBRzF2VHRQa3dpTzhhNDBydHFyaHhFeGdTdnVSLUlPMVVKYjJiM2VlbHdn?oc=5",
    "source": "TNGlobal",
+   "date": "2026-11-13",
+   "country": "Singapore",
+   "type": "Other"
+  },
+  {
+   "title": "RBI consolidates money transfer rules: Check cash limits and KYC norms",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNd0dvNzh6ZEkxanA2bkVmMGdBN202b04xci04Y3pKMFJhcUlSYXhaRlBhNjBoQWtKOEpHSVNNSHJ3cmhIS2phcUNKSW9ZeUNERHF0NjhLY3lDX1FYbUc4dGRSYWFXS0dvYVhoSFIwRGhxYWV2NVkxT1VYaFFGV0R3bU1FTF9LSDQ1elV2cFA0Nlh4WWRxREhsaVg3SWxMUGZtb1pGdEdBaWVRQkNwNk9HUldISTNPRXJvb0p5QnBWS2lvRUtOeDJzNDNvX2k1a0VEbG1HZ2xGalcyY3hRZm1RUU1n0gHnAUFVX3lxTE5ubUdXSmxYMlZvazNBQVJrd1hHaF9xM2lHQ2lGVkdNSXp1Wkcza0JBNkdsWHJBc3BFRFEzQ2FwZm9ORklBZFVGRjV6bGJXV1RLRVliSjJXT0tlWHNNS3lHVUsyeHR1bUJUNE9NZzQxTjRUclpVNHY3UGdWaC1BRUdxcVB3RmFjSWZsalFQVEtkTU5LS0RLYkR3TUt5M2xLaG90R2hQNHM0Z1JWNjYwN0RyMlBHRUZ6aEszWnYzazJSTGYwZGw3NFgzS1pmUHk0VFlyOG9OUWVLd0NJUXZ6NFJ6ZU8zR2doRQ?oc=5",
+   "source": "Business Standard",
+   "date": "2026-11-13",
+   "country": "India",
+   "type": "Law changes"
+  },
+  {
+   "title": "UN Security Council renews Yemen sanctions amid Houthi attacks on Saudi Arabia",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOb3hUTzR4LUFvZXJaNGJFbzNYc1I0RDZNdmhTeldCV3BTWDhrZkg0TkJvQmpuRFFHbE5qMzZfN3RhM0JnMXFjeUowU1N0d2kxX1RqeWhmb2pSQU8yX3Z6R21YNWVrb2Y2M29BcXFuM0xqdVJfYkNlS1YtN2RnVWNsdHoyYzB3a0c3YlVpYk9IejZ1X0dmQThUVmdEU2poS3FYSzJjZWo5YjZoby1UMHBQTDRnSGpNWTZUZWFfX1hRMnBOQVhaeVNKb0M2Y3V6UdIB0wFBVV95cUxQU2ZSdzhCMjN5TTFjNUpLakFjb3RJTWIyMTRwalVkanVKbkc2QWYtQ2dhX2tyYnNXbHBabmk1Q0p5anVuVkN2YzI4WElNcGkxdHcwSWZ1UlRuSS1fTldmcXREVzBVeXBWQy1fZjcwYXJMOFRPUlR1U3QzckxodG5iZzFUcHFTejAySEFmWWtucmcwM1U4MUJTdmg4bUMwcHBxbWZsOUJEeVhLSGE0UUFEVkN4cV9BRks5bzVFWWhrbHZLYTViN24ya0FPOU9fQTBVM3VN?oc=5",
+   "source": "Malay Mail",
+   "date": "2026-11-13",
+   "country": "Saudi Arabia",
+   "type": "Other"
+  },
+  {
+   "title": "Swiss defence groups face compliance risks from mercenary law",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOXo2WlFudzEyTldJY1N0WDFFOGdqdHRCYUJ2bVJ3ZThmRU02SjFLTEpLRk5NdU5KTU0zYzNIcHM5b25GS3diNjctbHRfeUlDQ0ZKRTd1bmNyME1WeWVXUDlRRXdKczc1eHQ4eURwYzVLMEZ5cWZ0ai1FMWhWb0NINzlZTEFQbGxhWEFNYm9MS3NxMjYydTBF?oc=5",
+   "source": "Traders Union",
+   "date": "2026-11-13",
+   "country": "Saudi Arabia",
+   "type": "Law changes"
+  },
+  {
+   "title": "Malaysia denies clearing Megaspeed, checks for illegal chip re-exports",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXVnYS1zUUhKTlVTR0dFQkpBSFl5blFPTWV4TFFFLVNyVkFuZ1J0R0tybi1XUkh2UkhZd2xmb2JDeHFJb3o5OTFJN3ZVejhJd1Q5MC1rS2hVTHA3eXFZeGw1RnQtTkJKUHlPb1FuU3hYQ0lQSW0xS2xkZVdnSDhjZ2pKSDFKQnZuTXVZcjAtbGg1NWZrWWRrU3pEdURUdUVNWWVYZDFzV3RjYmNlOWdIQ3AyUTVTMjkxMGc?oc=5",
+   "source": "The Business Times",
+   "date": "2026-11-13",
+   "country": "Singapore",
+   "type": "Other"
+  },
+  {
+   "title": "UN Security Council unanimously agrees moves to halt Houthi drone and missile production",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUHJGQlFBWTNFSkc4N1llcU9DZXdraWRfWFN3eXQ1eEZnY0FiZUFxX1YyTGo5UlJWUTdfSnJqNUZJTmxsVmRoLVlvOFhsMjZOUUJiWjRqYmlLSTBsT1F2V1l1OXg3emZvQ0JoRU5FUkNWMzc2V1JFOTktUTdhTmg4MHFCSk5oWjVyLUdmRnE0Vm83VEp4Q0ZfellIVjNpNEd1c3lhTlhyclZKN3hEU09Qb3Z4VzlRemdFM1NaWkN5NE1yYTl3ZmVkaVg5VUliZ3B0?oc=5",
+   "source": "アラブニュース",
+   "date": "2026-11-13",
+   "country": "Saudi Arabia",
+   "type": "Other"
+  },
+  {
+   "title": "Pakistan calls for ‘immediate’ end to Houthi attacks on Saudi Arabia as UNSC renews Yemen sanctions",
+   "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5VWWVhRjlMVjR4M2ZBOEZ2MmphcFhXc2YyZGNIUnJXOV9uX1c0Sm8yNjFoS2owVVF0UE5ENy1UMDBpZnZjdTVUOA?oc=5",
+   "source": "Dawn",
+   "date": "2026-11-13",
+   "country": "Saudi Arabia",
+   "type": "Other"
+  },
+  {
+   "title": "UN Security Council renews Yemen sanctions for another year",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWFUweGRNcU1QbnEwalRkLWhVZUdRN0R0bkpnYjZ1YVEwdWt5MXNmTWhzZWhuOGZrSGhRNDFLUVRfcDhfRDdkdkd6T3l0R1R6cEVZWWhDNzNzT1MzZEhjRFp1R1NCWGVrVEFhN3hGZkRSYVZxQjE0cWhYOENLQTQyT2xtVmJDR3BxbnBmX1JmV3h2SjZPNUZ6dExGSFlYemxmeHc?oc=5",
+   "source": "Anadolu Ajansı",
+   "date": "2026-11-13",
+   "country": "Global",
+   "type": "Other"
+  },
+  {
+   "title": "INSIGHT: OTSI Guidance on Services to Specified Ships: What Bunker Suppliers, Traders and Owners Now Need to Check — Ship & Bunker",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQcS02ZzBKQ0dWNmtxTTNVcGRTRV9zcWVLbjlwUFAtNnNhLVhUd2F4MXJ4MmlHMTY1ZnA1QnJHLWhiZ096dEZBWGhDQ3d4Wi0zWUplVWFTRVdlYmtLUEREelJFenVpNHBFTGc0TUR3TnZfMVRDcC0weWFJQ0Q4VlBlX3kyWlFZaWxTeHdZSzhIbFhudEpudFZ4ZjNQbWh4OExPSlVVOW1fRkxoUnpEQk1NTXVaY2tGaDNjQk5wSXNxRlJRMFptYnVkVFVCejV5WnRIVWU2ZlFTdzlYWHJ5UzBmM2FKSWpETVJCM0E?oc=5",
+   "source": "Ship & Bunker",
+   "date": "2026-11-13",
+   "country": "UK",
+   "type": "Law changes"
+  },
+  {
+   "title": "Iran war live: Trump says US does not need Iran deal as Vance told to focus on domestic issues",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
+   "source": "Arabian Business",
+   "date": "2026-11-13",
+   "country": "UAE",
+   "type": "Other"
+  },
+  {
+   "title": "UN Security Council renews sanctions on Yemen’s Houthis",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPU3RkZkxvUmZWdk1QUUxGSHp3UlQzMEt6Tm9UNEtXNHJDakhVUmQ4emoyUGcyS19ZM2JrbjZBSC16U21TbWYtY2VzTVpvYW1XQ1B2Umt2djFHNWhjRXp6V0VVNTJqYU41WEJCMFA2cThSQVZPdmQwd3FlOE80UW1RSlE4RDJHclR2ZDl4T0hTYzBDUVZ6VEFfNjZUQlM2UmPSAbIBQVVfeXFMTU1oNHVrR0J5NWE2YnBpNlFORVJ4aENBUFNfczhnaVJSUC1wODM2WWx6Qm1JVzJTbHJMV3kwTUtjWkdFVVNIa0xIbHROaFVrNUVlb3Jtb3lwajduaVpZck5nVEphUzRyMGotMEdPUUZ2SWhrRzctY3BlanVWSzl0Q0VMVDV1M1NENGgwY3FzU2JnalpOTExmU0ZOX2JfLUg3UmxyUkk2MTJKQ3BjaE0zVDZOZw?oc=5",
+   "source": "Gulf News",
+   "date": "2026-11-13",
+   "country": "Global",
+   "type": "Other"
+  },
+  {
+   "title": "UN Security Council extends Yemen-related sanctions for one year — Al Jazeera",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdzMxUlhlTkhiTjV3YnI2aHZLX2NPRFhLdFhXQURGck9meFZySWJqcXcxaE5SRzJVcmdKdDRmbkh0aU9zZTQtTUVoVjhkRlNncUdLY01tVUZQUm1aNV9ORHZXZF9XSkxYWmVYT0QxWHJhOEtLNjlYQlprMzV2cDl0LU8ybDdkVF9kekVFSlRKcVF5a0ZhZDRybzNEYVZ1eFpocmZz?oc=5",
+   "source": "UA.NEWS",
+   "date": "2026-11-13",
+   "country": "Saudi Arabia",
+   "type": "Other"
+  },
+  {
+   "title": "Illicit gold imports to UAE: compliance and supply-chain risks for project teams",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQX2kzemhHcTgzcC1YbUpvMTV1XzJpNmcwYXRFVGNYc25GS3lCRndkOExSQjNlRkd0cl91MklqazZ5bHhZVnlaMjFDTnFwWkFyMklXZ0hWVkp2OFZqelFpa281Ri1hYTMxQVVSc0o0Z21wcjY4akkyaGxHWGZ3Z0ktYWRobEloR1lXWWNkVGJRai1yS0xBWGNOVy1BN3cwM3FaWDUtbDhENlJtb0dZekU2aGgxOU1MamlycXJabg?oc=5",
+   "source": "Geomechanics.io",
+   "date": "2026-11-13",
+   "country": "UAE",
+   "type": "Other"
+  },
+  {
+   "title": "UN extends sanctions on Yemen’s Houthis until November 2027",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQc2hHTXhlYXhHaXJoOXhyVnFFLTRrOW9ZeVhHdjdqQmFvSFdzWWFrX3l3YzhEQ1ZTQTNCY1ozQkJmNmNDS2FESTNXTUpQVm1PRENYbFB2RWdyQlNCOFU4S19Fc0ZEVDBLdDZLV3NpNjQyS2hXZ1hkdGpMeGlwNlJnLS1WMU92WGRUbDkyekRkNA?oc=5",
+   "source": "Crypto Briefing",
+   "date": "2026-11-12",
+   "country": "Saudi Arabia",
+   "type": "Other"
+  },
+  {
+   "title": "U.S. Biofuel Fight Puts Billions in Farm Demand and Fuel Costs at Risk",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbkowR0kxRnNtTWtOeWVHV0hZR1c4dzRFLWRZdHFPREFTaWNuLWtEbW1LMlJCV0Y0UlpWdHlzVnVXVWRRSEtGV2RYRUtGaFVMY2JGWEhCc2JiSWNiM0FtMm4yVVNRQVNMc1QxcVNZcmVXUjhQelNYcWxfNHlfYU5LanFaeTJqcUV5dkV6MTRR?oc=5",
+   "source": "AgroLatam",
+   "date": "2026-11-12",
+   "country": "USA",
+   "type": "Other"
+  },
+  {
+   "title": "The digital yuan is only part of China’s expanding global payments network",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRmhiVFVodVFMXzZrZTlqZW5hUnc0Qmt2VWRKWnB4WlczNUUzRzVLUmdwTXhCaEFZWEpkSzdBaVVCZDV3NVhsRkZHOS1haTYxdUlVcVgwUWc1cnhxaU02Sm9Bb3JWM2czOU0zUk1yaUR5YW5oTVR5enlMbGZpd0dLQkd6eEVhdUFCbnBqbzRCRnBEY3pSNThnMjUyZHR5MjdzM0hfLVVRd2V3NUM2UmlHMDZDRFpsUjBzOTNHWFJOS3FDWW9Z?oc=5",
+   "source": "Atlantic Council",
+   "date": "2026-11-12",
+   "country": "Saudi Arabia",
+   "type": "Other"
+  },
+  {
+   "title": "What The B-1 Visa Lets A Foreign Truck Driver Legally Do In The United States",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQm01Wi1UQ1EwcTdpclBLQUgweUJPX19oUzRDYkxYUk9Ta3VHWHRTSFN1WksyMF85UFRFUUk1ank1M290QjdpeS1BbW5WNldNTHplYW16LUpuVHZXVFliamtWSG5NS0N1ZjQzSzZNZ2NRUmExOWM4U0xJSk1HUjlnbnFaOUxhSkpmczI2Q1hNamUtU0I2NmRzZFZhN2NkbFFCZXR2a28wREtxa00tMzFVWg?oc=5",
+   "source": "FreightWaves",
+   "date": "2026-11-12",
+   "country": "USA",
+   "type": "Other"
+  },
+  {
+   "title": "Beyond the spy scandal: What the Nvidia-Megaspeed case reveals about export controls",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYUFmdzM4NlpxRlFuME5MNEZPRXFWallYUzZrMVFBWFFlZTlPTU13TFMwSUdha0I4cEFncmctaG9qQ0tMUnhyNTZGeWhvdXNaRmVOa1g5T0ZaSVV0MWxhWlJYY2w3eXpLdDhTTzFOa0h0NUNGQ0tNakZwcVh6Y3NPQlFqeHR4dlVuSzR4MlBUcDVKNkpJVHNZbEJSMFBUNEFkanhSR3BEVmxFeFl1RURoT0k2TU04Z3pnQ2RfSUlZVXNHSVNJUGc?oc=5",
+   "source": "Atlantic Council",
+   "date": "2026-11-12",
+   "country": "Saudi Arabia",
+   "type": "Other"
+  },
+  {
+   "title": "Organic Carbon Analyzers Market Forecast to 2035: Growth Driven by Pharmaceutical and Environmental Demand - News and Statistics",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMlRTNks1Q3BfaThjbFoxZlJ2cmpQakxxWmd6c3VpRUM4RjRTY3VTTjQ2QlRNWlhPYXZvUDBKQmwxQXg1UGZWUWtoOGRXakhjeGhYQUxvSVpXSFhwV04zNkF2TXJIYktmYVlDblF1TnFNX0xocmtObVY3T1VEa2t6TTdFdTFrMWJ0TVVqdE1tSWZaRzUxM25qWWo0TTJaVW91N2Q2c3ltME92elhZQUNiT2tVV042aGNMbWNhSjlXc3VXN01QdmsxY2RyT1U5TEJVbW1mMkdwZ1dzaTYwZ3EwOQ?oc=5",
+   "source": "IndexBox",
+   "date": "2026-11-12",
+   "country": "USA",
+   "type": "Other"
+  },
+  {
+   "title": "Texas Values tracks schools’ compliance with Ten Commandments law",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUlExM2Q0ajJVVHVzQXYwREphLWxKY2d3dU9UT19FeXJvd2EwT0lDNlhWTXdwUjRTRHplUGxpV2FyWUczeDNOZXYxRmdZbUR2MXFpMi1WU0VlV1lZUU9BbWlGa2pDX2RQbHNRTlBpWUhKWWNoQjFLYlYzbU1VM2dYSUM5X3M2SlhTTk5MdDJnRC1ZaGIzcGduZzdDWmJKQQ?oc=5",
+   "source": "Baptist News Global",
+   "date": "2026-11-12",
+   "country": "USA",
+   "type": "Law changes"
+  },
+  {
+   "title": "UAE Promotes Global Vision for Peace and Human Dignity in Prague",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWE1kSmZpRHB2cGVjdHhJTXotbFRlZE9kWGJpcEp1Q0FIajN6YkRValZKZHZTeFlWM01XY2stWnVIaWVLVndoVldNZ2VEaTlacTExV0NlUXd1ZC1MSzFDMUdYZ0owOEV3Mlo2SUdiV0VoY2hXX19vRDNYdzZaQ2Z1c3lNb01HWTRtdHVkazdZSkRpQmdQUEdhRkVoRjZJZEgzX3QzcVVObS16cVhlVlZ2ZUsxYnQ?oc=5",
+   "source": "Global Arab Network",
+   "date": "2026-11-12",
+   "country": "UAE",
+   "type": "Other"
+  },
+  {
+   "title": "Autumn Budget 2026 review",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB6Q2daN1M2ai1WZmd0eWRBMGtPNHc5TnN4MW9CVUlSU0RMbTI3MHFwaGVWbVBscVNCMmo1YzdqOWFKY3hCRDNYbXV6cHNQN05LMlVsQQ?oc=5",
+   "source": "Mishcon de Reya LLP",
+   "date": "2026-11-12",
+   "country": "UK",
+   "type": "Other"
+  },
+  {
+   "title": "New UK Sanctions Target Major Russian Oil Producers",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbksyY3NERVlFbkVPSTljR3RReE1keWNNbTEwbWhhMEQ2VW9TV0Vzc21KbEtuUjB5MjJWVlZnU3o0MzZmWm5qU2Z6YXR3M2RZNUtZNF9sb1duSjNQQ1JBcU02MHNnbmVhQWs4Yk90ZFBOaGpTbkJCazZWVmhIQW9MSlVWWDZXQXluSUtFQ3NvZE51TXlJaEHSAVZBVV95cUxPd2U5U0V5Z0htSVJIUnN0STB3S0trU1I3eVhTTjhDUnZ5NGVydllBWXpwRDlHZnB4aWlkd2pPSFpXTWdUQjVWbjhpNUlCZ2pIbFh0NXpzQQ?oc=5",
+   "source": "Law360",
+   "date": "2026-11-12",
+   "country": "UK",
+   "type": "Other"
+  },
+  {
+   "title": "India flags UNCLOS compliance as China, ASEAN push South China Sea pact",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdDhrVVNCZFZCLVRpTDkyZE9nNWhLd3VTWW4tcGRBaG0yYmFaME9jWWZiV3VKazdYZktLVkJOWWtLdUpNM2FvemZwX3RmY0puaW9OWXhNeTVnbG80VHo1QlhvdjFPTC1zaFpfS2d2SF9PVTZzbGpVN2JqTG5jQXp5cEFKTVpTN3dzcVZlRzFsT1BwWVRoQkxyYm9HemZCMngwa3ZzVzFjZV9iaVpESjNnNzM3bzZ2a01XS3fSAbwBQVVfeXFMTUI3VjU2NDhybWpYVzVjYXQ5RVJXNWNTYURMM1hQMXZPS3ZtY200Z2cwT04ybnRmdkdNX3F6UjNlUzNSUDFiUlVGZ0hTRlVtdVAxU0NaYmlDS1hmQ2hPdERmZkdqUUJXenloR1pEMzVCck45d0s5SElFRENkTE5RV3NwSkVyUktiYTBuT242cGFVQ1hRWllOOERvYjFFTl9HY09JYllwTnluWUtlSEc0UWp1Q0Rqc1ZUbDNVT24?oc=5",
+   "source": "Rediff",
+   "date": "2026-11-12",
+   "country": "India",
+   "type": "Other"
+  },
+  {
+   "title": "UK Government Confirms Plans for Mandatory Human Rights Due Diligence – Key Implications for PE Sponsors",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUURKTzR5S0hTVEgtelZYVnI4VEMyV3hkVGowVHZkOTBvQm5EZHdsZEtVOWM3NFQ1QTdWWFdEMkxlenIyX3MzSmh5SjczMHRGM1RMU3BwUFRKeHZidlE4alhIdnlmUk91d2k1SURpTDRsTHRnSnRHZ1VLd09aczl4bw?oc=5",
+   "source": "JD Supra",
+   "date": "2026-11-12",
+   "country": "UK",
+   "type": "Other"
+  },
+  {
+   "title": "UK sanctions nine vessels in latest barrage",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVzdqd2VwaDNhZUlQeUdab3hHSlFqcmloeGtlUl9CT29WTk1CNFBJUXc5XzJLS3pKZ1BySUl6V3RDVlV4WGUzUnl1MnJ4Q2VLU0xIcjFlcTlfbDZxbU5Uay1aclN6UGpNYkxVVDNPTzBNOEtJWkxRWVBib2VQaTA2OFZ0c1VTN0k?oc=5",
+   "source": "Lloyd's List",
+   "date": "2026-11-12",
+   "country": "UK",
+   "type": "Other"
+  },
+  {
+   "title": "Tighter regulation not enough to stop importing illicit gold to UAE: report",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWFBGTk95MEhobVI5NWpTal9fZllfWndJajdQTXJGanZVVndVcnVoZm9KX2dqQVlHZDlwbGtDTlk4RTJqSDNMMDVKRHBnYi1JNW9lNHkwRlB4UjV3RVVpenNFa3NnY0dxWGU4VDJxeVRkcTRqb1NDTlVjOGhrWmFOZkNsTzdxRVlhcGZyM2IxcU0yblgyQkt0U2kwSEk5NEE?oc=5",
+   "source": "Mining.com",
+   "date": "2026-11-12",
+   "country": "UAE",
+   "type": "Law changes"
+  },
+  {
+   "title": "Analysts weigh renewable energy permitting, tax credit odds after Democratic sweep",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNnFjelMtamFvdDYxOUE1bE41TC1RTzFwSHNQek9JNlFhNzRNbExIODNLZDRGdG9ETllXWVhHZzdXY09Vdmk2NFdnNFhJbDl2TzY0S3RKOWxVakpiUzNxRlJ2M2xXTEpacjlhZDZ6elFqS1FidjgtdVJ2ZlExUGRCU3M4WDE3RDVQekJDdWlaaWtJa2w4cmN1TXZtYmVoak52aktJNHcxeWw1NU9Wek5xcHhDZEJiUWJQSGpOZjBoVlY?oc=5",
+   "source": "pv magazine USA",
+   "date": "2026-11-12",
+   "country": "USA",
+   "type": "Other"
+  },
+  {
+   "title": "Rethinking the compliance boundaries of overseas reinvestment rules | China",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBwbENZRUxfRUQzUS1VUEJTRkR4R3VwWC1TeDVub1hObXNZRThPSTI0dnMwb1l2dVJaQ0FONm9hN0QyQjJreEJKckh4ZW50UnZQRmo3bVM2QkZIUHBVNFJPajZTSFNoV2xvOHpWVm1hOW1ZWEpLYkE?oc=5",
+   "source": "Law.asia",
+   "date": "2026-11-12",
+   "country": "Singapore",
+   "type": "Law changes"
+  },
+  {
+   "title": "US Tightens Pesticide Rules on Tree Nuts, California Almond Export Risk",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVnoySWt6WEQ3dm9lM1ZxeVlFWVRRekFMTWUyUUNzcmw0Sk5HLUVVMEhNeGVCNE90TnRzREMzNlg4d3VRZEE0RVdIM0JUN1FXc1ItWmdpM0I1SVU1Q2haU2ZxZkthNEpUUWxxT2ZsaDd0ZEhFcV83bW5sWjlLYk9BcGo1QnFiUlNYbTJkQjJqNzhsTGxkanBRdENzQ3ZCM2NXYlZ0d0xtOE1lNGYwdHJRR2l0N2hiQUV0STRtR2hCNXBTbEQ4R3FEX0NWRnV5Y2MyUk5fV3JB?oc=5",
+   "source": "CMB News",
+   "date": "2026-11-12",
+   "country": "USA",
+   "type": "Law changes"
+  },
+  {
+   "title": "Why the ICC Still Matters: Sanctions, State Cooperation, and the Road Ahead",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcGRTc3Z0a1lzdVJzRnhaQVU5bkhYTC13WENqRWU5RVltcmVKU09wSUhHeG5MYVVoam1uU184aHdiZ2ZpUjZWTExzVnhNaV9KcDZGSkQyU0JtV2V5V2JiX1AzY3B2elFfVGZxbHgtSTYxZGJBNEdnZWo2UWVDUFNnTUFTVHFKSzdzS3FBZV9JaGI3cnU1RUtueXZvU19tYVczTVVod1lGSEVsS25VeHh4SDZR?oc=5",
+   "source": "Georgetown - Qatar",
+   "date": "2026-11-12",
+   "country": "Qatar",
+   "type": "Other"
+  },
+  {
+   "title": "Dr. Hassan Elhais Named Iconic Legal Consultant of the Year 2026",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQ2FrMzZzWUJxT3l2RUtkOGhud0ozMk9aek1OSnhPRUhkUWFkdUNwX015ZGNQbkJLZlVwSUExdENYRk84LUY4LTJRaWo4SFhlc3Z0NVpqcE1ESkxkOG9HTjhVYVlDQ0lXR1BwdHpiVXpibl9FWWpvcGxpNVFGZ3hPcC1EN21oMWVOZFZNeTFiZkpKNm1OSXhTcjFjREtqYkdFdjlONTJtMm9EaC05RHJvRE5fazRvSkw0emtDczBGc1E4QQ?oc=5",
+   "source": "StreetInsider",
+   "date": "2026-11-12",
+   "country": "UAE",
+   "type": "Other"
+  },
+  {
+   "title": "Bangladesh, UAE vow to strengthen police cooperation in security, crime prevention",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcXl1WnI1ZGlONG5Gc1JXWUktLURSR3ZXNTRQLTdJV1RtUEZFZ3dhY2NTc1BBb1licklZekUtR0RyVXY0NG1HY1VGcTV0cUp5VmxpaE5XRVpmazdSY3QwZkxnOFZMRDNlQ01VdmppYzhnSWl0V0h3NmlTZDBoTzNVQ1gwaHF6RVBvU09WWEdRNlgzSFo1VGg2VnJOdm1TX3lrc3JfZDRDQzJpazhJdl9GRnJZU2JocWlCS0d5NHNUWUg?oc=5",
+   "source": "Daily Sun",
+   "date": "2026-11-12",
+   "country": "UAE",
+   "type": "Other"
+  },
+  {
+   "title": "Former Chadha & Chadha lawyers launch Thea Law",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Ra3hibjA1T3dXR3hiZE9lVTRlWXI2emJTSVE2S3ppaU5kdW1WT2tEQTNSZ0pBYW1yUU9vU29uM0tuRGMyX2h4VkZLOEladDhJdlZKRg?oc=5",
+   "source": "Law.asia",
+   "date": "2026-11-12",
+   "country": "India",
+   "type": "Law changes"
+  },
+  {
+   "title": "CPI | Meta Fined $597,000 by UK Regulator Over WhatsApp Data Errors",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQY0wxTVBKWVloVjdza2JxVW9Ja01aR3lNdXlDYUxLN2dKNlU3TlRmSmQzc285YUhWWlBYOW5sVTV2eHNYZnNjRW4xLWNYdDd1b0xaZnZnVXF2TjkyWnZqSWhOZXVGOGpqc1BtRGlqZmRxRWxLR0lBazlnOHZwOGJxaEJzUHF1dWNfV1pNZ05QcmYyLU05ZDYybg?oc=5",
+   "source": "PYMNTS.com",
+   "date": "2026-11-12",
+   "country": "UK",
+   "type": "Fines"
+  },
+  {
+   "title": "Ruto seeks EU support on 2027 polls, debt reforms and Kenya's FATF grey list exit",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSkUxNW43VGxCdW53VTloSjNNSl9kcFAyRGFfdnlTVzZOd1k2VHRDRnhxenA5WGF3V2s4ZlhSSnlMRUJfZWFUSDUzV0F3ai1aeGdxejg3VmpJeXZnakN2SFZEdDktLXNEQVFJSkF3MDVoZjNTWW9tQnEwcmZIN3JNVkRzR00yZDJlZG9hV0FRdFdjbkZZdjZ4YjNGOGd5MTZ6YXZNZU0wRVA2c0FuRUdjS3JWQmk1NGN3dkJV?oc=5",
+   "source": "Citizen Digital",
+   "date": "2026-11-12",
+   "country": "Global",
+   "type": "Other"
+  },
+  {
+   "title": "IBBI amends insolvency rules for real estate projects",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84NmNGUW1iX1VYSUFuWDFHQkxyTTBGbDAyR2lCMkxpRWVocDEyNmF1UVh1d2xkcUNIbXlMRkRiUllHT05xME9BVC1qblRUWl9zM2RPSGFaMm5lQQ?oc=5",
+   "source": "Law.asia",
+   "date": "2026-11-12",
+   "country": "India",
+   "type": "Law changes"
+  },
+  {
+   "title": "The Price of Selling Out the Free World",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTkgtcW42bUJta0ZxUWR6THVBSjBXaXQ1ZlE2cUl1NHFMMldhS21RNEVPZW10anB0S2d1TGhJcTBFcWhJSUV1MXJ2REFvc0tPM2s1QkhBMWxCdW1BdkpUb2JtTy1wX2ZEMkp5am5SX094LVV2djRxdFprMm5yX0JKOXBsNDVfNGc?oc=5",
+   "source": "Robert Lansing Institute",
+   "date": "2026-11-12",
+   "country": "Saudi Arabia",
+   "type": "Other"
+  },
+  {
+   "title": "Open Finance: The Power Shift",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBvVGJja0tNNEVDSndveTZucExUbUFyWEtFZ3lsQUJlTWhTWVVzSWljQ3NRTS1zOVNjSHdDR0FVSk5jSGtDcElYUTJjcE9mVzR6WUowdw?oc=5",
+   "source": "Crowe",
+   "date": "2026-11-12",
+   "country": "UAE",
+   "type": "Other"
+  },
+  {
+   "title": "Latest Salvo in VK v. Apple Sanctions-Related Litigation",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPT0E1TWhMaUxOZzh5WGNYN0l0Y1ZyMHgycWVjS1dBWHp1bkFVRk1mREU4TS1HeGJRVk13Ym1ycUJZSTlRRkxwYTlOU2tCTnpHVVBQVVRleVJwUWliMzFuMWVFYUp2dzVJZFZZRHZvV3o4aXZab09tVnRuWGk3c1N3aw?oc=5",
+   "source": "Transnational Litigation Blog",
+   "date": "2026-11-12",
+   "country": "USA",
+   "type": "Other"
+  },
+  {
+   "title": "Alice Huang barred from re-entering Singapore after providing inaccurate information to police: MHA",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMlM1R2Y1WTAxTkFCU0lnaHV1aEdNenFYSDg3WEZPY1ByZmExRjlKNmFkT2lPRllja21wVjFqZVZ5OE9NeUFUWXlKNHM1Y2l6YVNub1BjTUp3T1RDVV9vYXlzTEdvQWhjVUh0dDd0OUk2cVd2MEdoTkI4bU1PcVNUX0JWdUlMSGtma2VUcTlZYzJJUVluZ3c4emxGQ1pZNUhTb3JaVHdMSjBlZGhFV2piWG5wT3A5eEZtT1lOU2JnSlZyaFRHS3l6SWh6WE1MVW8?oc=5",
+   "source": "The Straits Times",
    "date": "2026-11-12",
    "country": "Singapore",
    "type": "Other"
+  },
+  {
+   "title": "UAE targets overseas funding, affiliations in new religious rules",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVWdESVg4RmRieUl1V3ltZHlVSVZndEJabThYUDBBVjA3Mk41clh5V3NhRUJMTHhVUkpYOXhiOElTV0wxbzk3UjNtOE1ZU0lOLUdlNWk0bzdRSHZPODZqZk03Tkh4dHJrZjU4elFsLUFxVEhNc1B2T0liVGxpYkxGZ1lYeHF2bUh3cHhRSVlpUV9Nc1k4WlJjcWNKcw?oc=5",
+   "source": "Middle East Online",
+   "date": "2026-11-12",
+   "country": "UAE",
+   "type": "Law changes"
+  },
+  {
+   "title": "Israel’s strike on Nasser Hospital is a flagrant violation of international law and yet another assault on Gaza’s healthcare system: the UK Government must impose urgent sanctions",
+   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPbEMzZVBrMUx6Y05QaVJvNU1nUG8tTVZkeEFtX0xHdUpCRHRMdnZoM0hsY2lKXzRpZDUyT2tPUjJpUkR3MXQ4bkd5SHpOYWpHZUIwZ2s4V3dkR2d4a1drUUk5b0ExUDJ6YnhpUFlnV1oyV0NvVFJWeGFRUy1MVnZONlpYbW1qTGxqeXFsdzdRX3A2eDc3MFVnb1NIR0JhQ3N0VkhqYTlzR3pGMVBfTF9iUUFQQjhrWkVlVzl5cVY3Skh5ck1uOGpzb0ljeUJGOUJIb1hBSzJieGk4ZWpHRHJrT0FpY3dVVjJMcEtYUUVkUC1SZVVaN0E4Y0Rjb09LTVU?oc=5",
+   "source": "International Centre of Justice for Palestinians",
+   "date": "2026-11-12",
+   "country": "UK",
+   "type": "Law changes"
+  },
+  {
+   "title": "NVIDIA Customer Megaspeed Confirms BIS Factory Inspection, Hires U.S. Law Firm for Full GPU Inventory",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBWNndzUl9SazlvMDJmbkFTLW1PdE9UNEQ5NXRfR0lmVnI1WkhLTzY5SEhOcXRKZEkyX1ZvOE11TEtsYWMtZVdzRVJNVmtnZXFCV2hVOVRPRW1NZGlUd2NaTk9ldExhLWVTTzNoMW96aER6YkJxU0E?oc=5",
+   "source": "BigGo Finance",
+   "date": "2026-11-12",
+   "country": "Singapore",
+   "type": "Law changes"
+  },
+  {
+   "title": "Monaco celebrates FATF grey list exit, but EU restrictions remain. Why?",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdXE0UExtZVFGZWZRMW80RGh6aU5BcWVJV20zZUhFdEVQWkhPV3BqU1hCS190SGNjTm1PSTZ0S3VtUGtpTFNBN1o1clNWVnZRNFc5NHpUM2JOODY3X1QxanMtemNvejRKYV9CTG5oVW9vYWF2RzBmTVh2aEJuOGlxT2IzblFRZ2FZdmpzNEM1RWZpY1FBT3A0?oc=5",
+   "source": "Monaco Life",
+   "date": "2026-11-12",
+   "country": "Global",
+   "type": "Other"
+  },
+  {
+   "title": "India's Enforcement Directorate Raids CoinDCX, Delta Exchange Offices Over Offshore Trading",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5JTmFOMjlaNnVOdVkxQmhhYS04dVNPenc0M1FZRTJmRl9pblB1YTJJRFdxMnhtYXZuSVZ0dGM0MFpCRllNUHBYYU5jT2NsZWpHbWNmLXZsemRGMXREM2tPbW1fUkRfUC1XWGRweVNQcG1hVXkzMEE?oc=5",
+   "source": "BigGo Finance",
+   "date": "2026-11-12",
+   "country": "India",
+   "type": "Fines"
+  },
+  {
+   "title": "India’s Accessibility Rules are Forcing Software and App Design Rethink",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWFJSOGZDWjFCX1IyUjVWNFdabnNaVkw4bjlJR0RWbExjcjYtVVBXenFlSG0zcXdGam9OZGxxaVpzRDRfRC1oUzNheXZrWWNvcXFVTXc1SXlwU0lsaHZFZC1QZlgyMjZYckZLUjFRUkkxb0FBRGVBNmtXMUI2WFEwejdpZlpYV3V1S2xoelQwUDZJZldPdzVUZmREOGN1M3AySk5abGh2YmJrYUp6TnpZTFQyQ3NfbG8?oc=5",
+   "source": "Analytics India Magazine",
+   "date": "2026-11-12",
+   "country": "India",
+   "type": "Law changes"
+  },
+  {
+   "title": "UK student visa application numbers fall 31 per cent in October",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOY09FUXFoODVIZS1UaVRrVFdEaG5KVFRrU0FfLTRsTmRrbWlDeHBIeEpFdDZiM2NRUWlvRzFzQVlZdVJnVVkzeXREd0szVnB1RFdRUlVVU1RoSHV3Z0QzRG9Yc0hHVEJMR3FTb0RFa0oyUW1Yci1nalZFZ1pINDZjZGpHV293RkQyWnp5c3E1Y3lPMHZnN3dTNFJmaVRucWs?oc=5",
+   "source": "Times Higher Education",
+   "date": "2026-11-12",
+   "country": "UK",
+   "type": "Other"
+  },
+  {
+   "title": "India to ban private equity firms from controlling multiple non-bank lenders, sources say",
+   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOV0pfSHk3RGhlWDZwREp0eXpOVlAyNGw5YkRxWjlybHBtamdLaEFoMHZPZ2dWX3Z5QlZaalg4TDNvS09ZTVcxdTktaktoaHRick5aVUJab2xPUkdHNjRvQjBmVzQ5SVRsVU1xcHFnMG5CVlZlMGdwdlNCYjJaUEo1clJEY3NvNVN5bDZkRUJoQ1hYbkFpVWdKNXVONkg2aXd1YTRtREZjWUliX2luRml5TXE0SzVaU3NoeUVKNUJodVVVV1NFanp5ZGZTTWs0Ty1OR0ZvT1ktVE84TndrMVBTbnhkYi0xYnJ4TzFrN2dB0gHyAUFVX3lxTE5WNTFsdm1CekNXZW5Bcm1hSk5WWnJIdHlXNldqazNmTnJUdFFVMlhBRm1sVUJBN05wU3NkSElaWThlZjI5TkFjR3FMWXdmc0hOM19LRnNuYzAxaXV6bENDbGplZzlvZUZfTDVwVkZyNUU3Q2hZTXVSWEpUZ2pZU2w4V1hjMnFvNzNsd01uS2c3QVpCVlZTOFdIRndKUFhJTl9CR0JlSjhMOGxsLUI2VWxnbWdBTkI4b08taUlzQVVYSVVtU0JRUnFORWxtUDZzdzBRWG1Ob0t6eGUyQzVoV2VfZi1GNVFFVW9ac1NXaURaSVBR?oc=5",
+   "source": "ETLegalWorld.com",
+   "date": "2026-11-12",
+   "country": "India",
+   "type": "Other"
+  },
+  {
+   "title": "Dubai Arbitration Week 2026: Experts examine key reforms reshaping the DIFC arbitration and mediation framework",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVkFVZlItT1lzRjkyN1l6ZGxwaFFEUWl1TmFuc3FrMVVQMEkxVGRYWHdiSXc3R1ZHS1NRNGFfbVBISy14aFFSaGF3aFFxanJFMERrMVZ4RElpMnhCVFJWUF9Lc1BMaGpUWUFBTE9mdkwwczVCYzE0RlBYTWV1alV1VUdRN25Gbl8yeGR1enhrZE9wUW9jQ2hxZ0tTOG9BQVZtU2ZwbFN4Qlp1WmVldXZWRkhZaE4?oc=5",
+   "source": "SCC Online",
+   "date": "2026-11-12",
+   "country": "UAE",
+   "type": "Law changes"
+  },
+  {
+   "title": "DR Congo: UN adds Joseph Kabila's FRN to sanctions list after formally linking it to M23",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNdFZLOWRYd19xQnBMQVFOS0tPbGpfTzB4cmlIWUFLYWowNmtOUEdmdDh6MktHQjRLenpiWTdtRnluVjRSRWFGNkcwdVVfZ2pzNW84alhSbmRac2cyLW1rdEtzZXNnNEpIZXdjOEV6Rzc3eDNEckVHWnQweGdmRi1uN1pUT0ItdFJ2TlVkeHVUNng5cWVRREVOY2RCaUR5bnZnZG9VNE1TWElrNm5wSXdsX0VRZkdna1VPUzhPdzZoVTZLb1lJU2hsaThPQXhLRlpwOU1ZejNHcnppZG5INGhzX1UtRE1MUQ?oc=5",
+   "source": "The Eastleigh Voice",
+   "date": "2026-11-12",
+   "country": "Global",
+   "type": "Other"
+  },
+  {
+   "title": "More luxury goods from S$3b money laundering case up for auction",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVjZpRklVbWFUV2JXeHpITEhaZTRzTldhMFNzbjlNZHVYRnhydVZnVjdCN1JwQW5jNXZCVlNXd0pERllDZzVGTTJCS0RuTGR0TklzUm1rWkI3R2tZNEpweThfdnYxUmkwZk4wNlJfT2lkbTc0S0J4aXhPYS1Uc1VnVGFObXhnZTZQWnhsUEpGY3BIR3MtTHZXWVdvRFA1Z25oYTY2QnBFZTZpc1lWclBQeW1BWEltZjhwa1E?oc=5",
+   "source": "The Business Times",
+   "date": "2026-11-12",
+   "country": "Singapore",
+   "type": "Other"
+  },
+  {
+   "title": "FINMA tightens AML rules as FATF scrutiny looms",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQXzV3Yi10MFB3MWtXWnZqZEtXaHdYSTB1UzFEUk1vUEZBNzhTSkMteHZGZ2xRZ2VJQ21CYzVOSjFOY1hwd2FNaGJLVHlJdmpjNER3cVEzdDJvOG54RTBtOVJVaURGZ28xc1V0UTV0N0gzdGxsbF9Ybm5IaU5EY2owbUtOY2ZyNUwxX1E?oc=5",
+   "source": "FinTech Global",
+   "date": "2026-11-12",
+   "country": "Global",
+   "type": "Law changes"
   },
   {
    "title": "UK hosts global summit to combat financial crime",
@@ -21,14 +533,6 @@
    "title": "Megaspeed breaks silence, hires US law firm to review chip export control compliance",
    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQclBTWlFZOG1TdHpvV19QcHI3eXA4VW1vUDNoU2w4a3g3NFNhcG95ZlotZTEyX3I5VTg5eUVxWnI1V19ERXNDLXFTZlRLS2luMTQzaVR5Vkd5bHpWeGpnNktEUVpIS0VuRENPdFAwaE0yTGtlbGdFVTIxa09XQzE2MUxoN2JkekJqZjZ1V3pMQnhMdkszamtQR09PTDV5Y0hSRE9xdnhaQXctazg4YWJxSWVRYktmRVlHYUZwVWZPM1F3dDl4YUE?oc=5",
    "source": "联合早报",
-   "date": "2026-11-12",
-   "country": "Singapore",
-   "type": "Law changes"
-  },
-  {
-   "title": "Megaspeed has hired a US law firm to review export control compliance, says Singaporean director",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbzFPQ2JTSktiZFJiNGZRdnFDVFYyZkpwY0g0NFFiSEZEVGdhclV1czlObFp1RFZRUEk2d2dlY2NCem1HUUpnRFlhNDlQYWE1NERTUm95cDBWNlBFSEtpUkNmVWJvRTJkQkRsLW1SbnBTOXFXQzhBWjhaRC1rLVJYTG83VE9nUmdyZFhsV0I4VTdkT3RoazVRTDNyemU2dlpqM0kxX2xWQ0MtaXFXOTlsQTk1TGtoN1lOT2dkdmVkUXhzS0J0b0hxQTUyOGE5Zw?oc=5",
-   "source": "The Business Times",
    "date": "2026-11-12",
    "country": "Singapore",
    "type": "Law changes"
@@ -58,27 +562,27 @@
    "type": "Law changes"
   },
   {
-   "title": "Rethinking the compliance boundaries of overseas reinvestment rules | China",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBwbENZRUxfRUQzUS1VUEJTRkR4R3VwWC1TeDVub1hObXNZRThPSTI0dnMwb1l2dVJaQ0FONm9hN0QyQjJreEJKckh4ZW50UnZQRmo3bVM2QkZIUHBVNFJPajZTSFNoV2xvOHpWVm1hOW1ZWEpLYkE?oc=5",
-   "source": "Law.asia",
+   "title": "Megaspeed has hired a US law firm to review export control compliance, says Singaporean director",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObmVUUXowdUpuVThxRmxmQ21hc3AxUENIWWdyY0tMN0VjTFNrM0h6cEVhVW85eUZKUzlac1plSkxaNTF5YjNqNnBfcm9FTXFfbUdJZC03VXR2clp1aGhoRmxIeHY0Z1FYUGNHSFJ1NzlsTGMyY0c1Sl96b3hEQU5FUXgxZVJiaTA0QVRoNXFaS2pDWWE3TG1hUkp2UWZCNXo3cHdKZnVYWW1HNlA0WXFJbExILUJ3MWgtTmhaNGxVcUprYWg3ZzBWV0hpQQ?oc=5",
+   "source": "The Straits Times",
    "date": "2026-11-12",
    "country": "Singapore",
    "type": "Law changes"
   },
   {
-   "title": "Dubai overhauls 2026 visa rules: Expanded entry access, relaxed property criteria. Check details",
-   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOV0dEOWo4Mmp0ekFiRkFWMkctdk9TNXZycjFwVVAzZVVJTzlPVXozM0U1YTE5NWg0cWloS3B5ODJJRy05QzhMSVd3czR6VUx3bUdOU2ZFZHpOSnJ1anZRNUdmb1FteFNCWHk0Tl9JVjVGWm55YWtjTEJ2N2JFcW93cnRWS3Q4OXphcnQ1bF8wTUZvV2F5ZlYxd0dYMDZpMUZrT2pyaWMzeWtwWUU4ZFlYRTNVWmVzY3VCMWh1X3BMc1c0OXVZVVVnaTlDNEstVnQ4WDRqd003OHBXbnNxRUw5Vnk0cE5ndUF5dGdR0gHwAUFVX3lxTE5IVVlGWVlhRVRPS1VuOWs2aEItVno4OE5jX09vUWJBemFJb08yQXpaRjB0Q1lPVjg3aVMxMnM4Z20xR3YzN1Fpc29RMWtZSlJ2NUFzejVGMW1obVlKQWRuczhPSE1rTlhpdUh6QzAwb095OVNaT1RoT1paTkJQZEFnM1RkSnZ0bEZ6d3NLZHBqeUZpUldtMmJ1ZEpQREJuT2hlUmthQ2c5dkdXclJOMFU4NjM0Y29EUDF1R3F3RDhHdDBab2g4STB3QlByYlpvaHJzbGJ4UHlfbmFabzE4ZHpHTFZYeUFvUGotN2tIa2hvaA?oc=5",
-   "source": "Business Today",
+   "title": "Malta FIAU and UNODC Build goSENTINEL for AML Oversight",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBiNm5SODFBazhZOHEtbXZOODNvWXJxOFh0WWxoM29kV0U4eG8ySDliQzV3N0E5c3dRTGc3TlVyYm5VTkxjV0xyRDZqUG1fanR6blI2R1djeVh3OFYwTU82cmczbldaRUJUYVJfMnR3bWNUeTBLTlRqdzZoNUxsQQ?oc=5",
+   "source": "Fincrime Central",
    "date": "2026-11-12",
-   "country": "UAE",
-   "type": "Law changes"
+   "country": "Global",
+   "type": "Other"
   },
   {
-   "title": "Nigeria, Saudi Arabia Sign 2027 Hajj Deal On Quota, Pilgrim Welfare",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZHV0ZFpLMHNJbU1wOThFeXpETEdzS0FlR0tieDR2aWoxWndBM1JtdjFyZXpvcUFVT0k2aHBQNU02anZnRFJQZ2tUVzJYZ1JJUDRYeEpWWlRkdmY2VWVOdWpaLTdJdFFaZFBLd1p2NXUzTENQNXRab0h6RVZZb2F6ZUFBcDI5YnNsd0I1Q1RocHo?oc=5",
-   "source": "Arise News",
+   "title": "Kenya seeks EU support to exit financial crime watchlists",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM2R1cjRPZ1RNTzM1OEVPMWFYRFpua1c5Y0xOYzVTUXpVdHNNRFRiVGJ4a3JGVXJHSG02Qi1Fd1BZWjhWZUd0RHlJcFgteEV0SnYxVW9GUGVnUVlRcG5UbHRpOUxRVGtjZXlJTWdPVVlydU1kMWhJeElMTDJfTWZDM00wcVVXRVpkd1M1TWNsYjlTdzkyalF5TkcxbXlpZjAwMmRrRmNZeDN0dHlDMEVBeFlxWl8zMjd0?oc=5",
+   "source": "The Standard",
    "date": "2026-11-12",
-   "country": "Saudi Arabia",
+   "country": "Global",
    "type": "Other"
   },
   {
@@ -106,12 +610,12 @@
    "type": "Law changes"
   },
   {
-   "title": "Awaab’s Law: The compliance blind spot landlords may be missing",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRUdVNFVEd1hCQ1JVOUZDN3o3eDNVUjZaYkxDNVFJVnlSYWF3YVR2TWx4VTNhZGRXWTRBNDhHQ2o4elpQcXhkR0M0SVVuQWJ0NHgtRHdqNW1zM2pFa1VVdFJCSG5RNEhHXzZLZ3ExbmVudEJ4MU42c2lfY2psUnl4SVJNOWQwWFNRR3I3eWZLOHF2dEZhMFVvSFJqaWltLXNMYlE?oc=5",
-   "source": "Estates Gazette",
+   "title": "Singapore Opens Licensing Round for LNG Floating Storage Units for Bunkering",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPamgzMFg1SnpqZTdvMjltakdhMWtZcnJhTGUxbi1jQ05zUGhmMUR6MlZwMVV2dGRNOHJCYzlhMVZUdHRrZnVHYy1iZFI5aTlIMDU5TjRJVEJndThGbzZxeWo5OTV0Q1U3ZW9vOFpuODJaZ1lvczI2Y19TbktkbGw2VURoeGt4dUEwM2ZTcGJzYlVQanBGZ1ZKT3hPbDVlN0lJaGhkMXB0ZzlWNmxDd2NpYkhnTTl6VzJ4ckxV?oc=5",
+   "source": "Ship & Bunker",
    "date": "2026-11-12",
-   "country": "UK",
-   "type": "Law changes"
+   "country": "Singapore",
+   "type": "Other"
   },
   {
    "title": "Mohammed bin Rashid issues Law on Dubai Municipality",
@@ -119,22 +623,6 @@
    "source": "www.wam.ae",
    "date": "2026-11-12",
    "country": "UAE",
-   "type": "Law changes"
-  },
-  {
-   "title": "Waaree Energies denies fresh US trade violations, says no new liability from USITC findings",
-   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQeWNBX0QxUkdNZG9YNHBWSkc5VGhsdVFqR09QVmFmRG9Sb3lsU1NGeW5zQnJMTDVGbWZRQW5hb2diSGdMaXVlMklzc0xUZEJwWjFhZWZlcGYwS1V6dXQybFktWGNYclZNTDlkeXc4MFpCYTBnYVFPaUsxV0t6a0JhWXVReWxlQzRKYXlEajd1ZndmTXNteC16ckt2LVFvREVEX2w3ZXVRbzhVM1J6Y0gxYnRxUk9lN2p3b3NhbGRod3g3NHQ5NjVFSnZzekVWdFgxZTdWYzl0TGJjcGdaTFk4WTlpZGNaZ2NHWktpRWg2dHVFZHd3M1FnTGV3WdIB_wFBVV95cUxOV1ExVGVKclVRR2l2dXRsWWVlM1RtQ05EaEctdll5WDV4WGUtWGY5Z3AydHVoa2RpQk4zbHlvVlVRNlQ0czUza2kwTnJUVm55UXdNQ1JlcGhjNm9nOHdxNG1wemJnNjdQY1d0UldHX3hkQ0p4QlZOWXVnOXlhS2xieDZwSHdDdEtleHp4MWZPTW12cFJ4aTktV3p3SWVNd1ZFR29OUUV4TENnMTdDTVNjRGExcTBiZXhURXFURnZUWW9PUDlBazI4MjM1akZJd3dJYllsQTFFejNFZVBUYXA2a1RwelBGRXR0N2JqejktLUt1LTlMelN0NkdoZUY3RTA?oc=5",
-   "source": "ETLegalWorld.com",
-   "date": "2026-11-12",
-   "country": "India",
-   "type": "Other"
-  },
-  {
-   "title": "Former Chadha & Chadha lawyers launch Thea Law",
-   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Ra3hibjA1T3dXR3hiZE9lVTRlWXI2emJTSVE2S3ppaU5kdW1WT2tEQTNSZ0pBYW1yUU9vU29uM0tuRGMyX2h4VkZLOEladDhJdlZKRg?oc=5",
-   "source": "Law.asia",
-   "date": "2026-11-12",
-   "country": "India",
    "type": "Law changes"
   },
   {
@@ -146,499 +634,11 @@
    "type": "Law changes"
   },
   {
-   "title": "SEBI Tightens KYC Rules For Financial Firms, New Tax Reporting Framework Demands Major System Upgrades",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTVdPaXN2OExSYnBCemNjT09GbG10VjlPNjAtY3phb2VvY0lUcTk2dnpsZVdTZlJMREFHZzgwT0lnUjQ2SmU5WEkwWjJWeXpzMTVsOTRLckxrZGtCVld3V1ZrQlhwVkpXSHFySk13QXh2eDg5VUZfU3BHQlF6UDhsSkxXblAwMkVDQk9LYVU3aTlUbEdWYjJlaDBwS1hwN1FHaWhwdHhZNmpFTXQtX2JMb2hXNjZNeG5jNXloaWlJamMySjJrU2IyWTZhZ0R5MlQ0OFg1RjMxS0NXQdIB3wFBVV95cUxOWG5GTXdqYjZYdWp0dkRwSlpjanpBRlJxSXl4RnM2ZVhRNllRVzVLT2RaS2w4VnZUUnZKRXZyOTh0bGVpY1ZmZTNPcGx1N0t1Ujd6QWhoTHpJRXRmNzRFbzU4S19LNERDWnpjR1FjUDZqamw3bGUwN3YtOE85Zm1UbUo1OVNBVlFnZEVTSG1ranQwektJbGJZY2ZBVTA1WHVlcVdTNkJYRkkzTWRDdGZGUFkzckU3T1g4MkphOE1LRE81TlhQcWtqdDhFYXg4VzhZWnBGWDIydlllQmZLbXVz?oc=5",
-   "source": "Free Press Journal",
-   "date": "2026-11-12",
-   "country": "USA",
-   "type": "Law changes"
-  },
-  {
-   "title": "IBBI amends insolvency rules for real estate projects",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84NmNGUW1iX1VYSUFuWDFHQkxyTTBGbDAyR2lCMkxpRWVocDEyNmF1UVh1d2xkcUNIbXlMRkRiUllHT05xME9BVC1qblRUWl9zM2RPSGFaMm5lQQ?oc=5",
-   "source": "Law.asia",
-   "date": "2026-11-12",
-   "country": "India",
-   "type": "Law changes"
-  },
-  {
-   "title": "Dubai Arbitration Week 2026: Anti-suit injunctions, parallel proceedings and cross-border enforcement in focus",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQVVPNHFJOUpQeXN5UHVUX1lvUHAtWURiMTdqSlVTUW9HdXl3WXhLemNZTmpzMm03b3E1Ym1CMENqVnhILTZXZWN6N1VtMTZ1eXZmRWJpNEM5ZjlndllPSjJlU2JDRWltOHRZWEN3NW5iWTJzTzhJa29na2Rwa1dPRWhrNTg5eWlaai1KTHlwQVNKc0d5azdjRUZuRHc1eTdyZHlZa1BFeWo4Y0JaN0dQMGJn?oc=5",
-   "source": "SCC Online",
-   "date": "2026-11-12",
-   "country": "UAE",
-   "type": "Fines"
-  },
-  {
-   "title": "Solicitor fined £10,500 over AML and account breaches",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRC11ZVA2MWozaFV5RjdnaFlNQ3k3TkROWTFLN1RsY3RLNGFEeW5nM3JzeVZXaDZ0ZC11dDNlU3BMcExlOGpaQTNrR1g5YkxXVjFBWUF0VnN4aHRhSTVwWUpOMjNwLTlKbzhOMGJtRldYMTVRSmg4eEFnZFZuaU5xYXVlSnh2SFhoaVJ5UmR3?oc=5",
-   "source": "Today's Family Lawyer",
-   "date": "2026-11-12",
-   "country": "UK",
-   "type": "Fines"
-  },
-  {
-   "title": "No bank account? Check how much cash you can send or receive through ATM, NEFT under RBI domestic money transfer rules",
-   "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNM09rdloxaERqSTB3UjBkbFJ5ZU1vY29FZy1tN1pDOUV4a0I5SHRHVEZiMFhlMGpING40WmtGd2RMaEpmYXQ5STBVUGZGV3BoSXEwRFdIZGNQMUstVnp2dl8ya2RSdEtZcmNydWUxT19sMmxFZ2NrOUNvTUJhUlVmWm1ycjBXWnQtMC1sVmNxaWdRMGdYZm1VYWl3b3JTUlFFQnhSNGV4c1pnNkM0NXlUb2lIbERUcGJKb2gzWksxRHlmRUJfajNrcHhPeWlpalU4by1NN0tWSEZtWk5odjhMb3J0NGw2UUxzbTJka3pzSkxrRUhxNkJvOTFEQlVoRVYzTk9QV3J3dnhnMEJYQ2hWQWFB0gGXAkFVX3lxTE4zTHNld1o4UVlQWE5rZHVzdDdUaXU1Y1htbTUteXd5a3hEbi1DSG1CUlZKRlBPSGhqQ29lWXU5alhSM1ZMWVhJMTc2NGkwZC1BX2FNZDV5clhDVGo3dzcwVzZxa0FIWmRrcjNwWWVuWXA3cGtUTGJPM3RLQ0djNEx1c1FXWlhYUkFucGxrdVhKQmxFOEl4SDFjczJXdzFKTDlJN1llWFNubEY0QWpQNEFGSWFtcTJKeVQzZ3dnakpaZEZBM2V6RDl1RzNkSVR6ZkRpLW8tS0FQTFBvS2JvcmMzVU1EVWRWZ2dXX1MtNjY1ZWFGSmE3dTJUbldRdTByZFNncUhaQmQ1WHN1RGNiRXJfVzRGRkduNA?oc=5",
-   "source": "Livemint",
-   "date": "2026-11-12",
-   "country": "India",
-   "type": "Law changes"
-  },
-  {
-   "title": "ODPP registers 71 money laundering cases in FATF exit push",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZmdJZVRVaXlyR1ZVeElFcER1eHNJT1gtaTMzOWVPVEM2ajV5YThfb0s4TGtjLXg5cy01YzRvSEpZeXVUNUtJZHRIT3RyR1d0RUlkd3FMTjIycVJfVThBYjlrTzUyNWo3WDVDSU9BaEZCMUZxMmpTZ2dLTG01elBPWG1PRUFWeGFLemxzM1hZV2hVWUl6cGFWd2t3cUZGUzQ?oc=5",
-   "source": "Citizen Digital",
-   "date": "2026-11-12",
-   "country": "Global",
-   "type": "Other"
-  },
-  {
-   "title": "PNG releases key Financial Risk Assessment to tackle FATF Grey-List",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa1ZLNHo4cXI3Q21oc1FyWUx3UU1rQ1pEYnZONGc5ZkwtSkVwa1RoTmtVc29LV3h2Sm9qb2M0TUowc0t1eTlfZ2RyRHpSaTl3SUVBNlBmdHZFcWpmVldzamlyckxJSFdpUl9EY0xQeTNiQ0JZV3Rnam9vUFFhNERRZnZaSUpXZWtTX29pVFd2MmZRYWJwc0J6NWh0UnJYTk5I?oc=5",
-   "source": "Post Courier",
-   "date": "2026-11-12",
-   "country": "Global",
-   "type": "Other"
-  },
-  {
-   "title": "Tapping the UK market: standards compliance key to turning tariff relief into contracts",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPd0QzcTdhTE9OeE50VEJjdDl5ams5N1QyRmUtMmc0LXQ0a284T1JCdlZENENJVWdlNnNRcVRRRUF1emI5VmtKUnpQZjdoNHFmWm1VTjBXRGtzWXhSV19RUENhdDEtTkNjNWVxR0VsZU9rMkZhT2xyRm4zRmpzcFoxUDIwajJ1Q3JqZ1lRVU1SNklJZUpXaFFSd1VsYVJBeElwdElmV2JEY19hdVhOUmhZU0VDMVA?oc=5",
-   "source": "Vietnam Economic Times",
-   "date": "2026-11-12",
-   "country": "UK",
-   "type": "Other"
-  },
-  {
-   "title": "How US scrutiny is shifting Chinese firms’ Singapore operations strategy",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQTgzaUlKV2E1dmNheHUwVmhpNzRsb1BZa1pIRXJYREVzWm01S29oLXluaWhodzJzcGJ1Y0IyQzlXMVFPN3lDU0RFSE44dzE5V3VlU0Uxbk82YlhLbDQ4QUV1aU1BUmx2RTNpMkJoaDVLckVQTjk1dzktSTVXeVlMQ21POHE3dDNXVEZiYWZ4SEpFQkROT0xrXzlGVTlNaFpPSHp2dk5IelA5bm52alhSOWFaQkk3a1JPZjAyb1dQbEM2eXN5WUdIbWFydTVHajVMTGxReDN5SGHSAdgBQVVfeXFMT3BwVXc1NU9aVzFEWDZYT0pTalFDc1Q2WjUtZTNXVTFOd1AxeEpZYnFDRWsyZlVuSlp4OWxBWlJYVWVMVElMWGFsZzh5MTJpNFZfZTQyYUNENWVZZkt6c3lDanBGT1JPRDkxeENxQTROOXRwN25zSU9jZ1BjOGRqMXhQWnlEMTRCaFZJZUNTWVRRb3pjcV9YTy1XeUFfWjd5RlFkTnQ5RFRiRWZ6azNLZ3UxVkVHelZid0oxSWhCM0FmLXFKa2Mtd0huYTFoUW1jWFZjYVBtbUJK?oc=5",
-   "source": "South China Morning Post",
-   "date": "2026-11-11",
-   "country": "Singapore",
-   "type": "Other"
-  },
-  {
-   "title": "Saudi Arabia sick leave rules explained: Who qualifies and fines of up to $26,667",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObWZOUi1zUW85eUNPc1ZfVGJJYXc4YTkzQXJJa29GME13VkpuQktXUlRFQUdtbDc2dU10eEpaU1ZxUW1YdWRqelZFYUFCeVczZ3RJTVN6ZUhFVy1iV2p6R01pTl81OEdJMGNFdlZoZm1FSW5xMG4wVDFZcm9oU1QzVEJpS2lhQ19t?oc=5",
-   "source": "Arabian Business",
-   "date": "2026-11-11",
-   "country": "Saudi Arabia",
-   "type": "Fines"
-  },
-  {
-   "title": "Trade Deficit Stays High as Exports Grow Faster Than Imports",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWHI1UWhTN2ZxQWJMUE5JLUtZSkhjbTFtTnY5Z0lWVlZjMVJfNVZVRlpFTzBZNDN1c2hhamo4cV9JbkJUbFJGWmItbW5Zem83WmhSYTNxanhRY1RtMXpCUWdNcFZ2T1FpMHhmM05vcWRqZlJEdldCM1lwd1pMUGdFazlLWDMyeVNsVzZJZ1JhTnFPZWZudE95OV9lYjllWnloSDVLNjNKX2ZZM1NpWTBHa0RZSEx6X2xTd1lybEpObkhrQzhqU3d6eUhMYU4?oc=5",
-   "source": "Sandler, Travis & Rosenberg, P.A.",
-   "date": "2026-11-11",
-   "country": "Saudi Arabia",
-   "type": "Other"
-  },
-  {
-   "title": "Justice Min. underscores Egypt’s counter-terrorism, anti-money laundering efforts",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeXhMSTVrUGllUkdpYURhazE3aHhfZjFLekNJQUh2YkpfYW8ybzctZXJqeUF6SUVPQjZCdzBzZTJxVE1pVGJaZ0Fic212WHd2ZGF4ZEV3OXJkZ09YTEd1Y0lWaUg3d3FmTml5ekUxc0Y0RE90Wk14ZnBRSWVvSXlJcHhvUm5PRG5DNEwwS3lYYTN3WWgwOElXVmVMT2FDZkZaQzlHSmJiZHRkVGRsbjBENXVaQlQ?oc=5",
-   "source": "Egyptian Gazette",
-   "date": "2026-11-11",
-   "country": "Saudi Arabia",
-   "type": "Other"
-  },
-  {
-   "title": "US companies shunning Russian diesel as tanker carrying that fuel idles off East Coast",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQY3daRUlqRDl6MHVCYUhiS0tlUWV3d2xOX1BLWGtRazZCaVE1RWVqWDdoTENEX04yc3doSzhHM0wzQS1ibjd6cC1QZFoyaGNUVmY4bzlfcHdkX0dSVEpXVmQ4TTQ5RE1sWnVPbWkwb2ZWUE1fSWdVTkpTM1BjUFk5XzExLURsSUlQMjlvcERJQ2J0Vno5SlByRTBBMGFhd3RmdHRMTVBxMXV0b0pkOW1ZTXMxTVpLQnY4SHNSMW5Pd2ZFaUZZY29TdF93?oc=5",
-   "source": "Reuters",
-   "date": "2026-11-11",
-   "country": "USA",
-   "type": "Other"
-  },
-  {
-   "title": "India’s New Aircraft Rules Open the Door to Fractional Ownership in 2027",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNkFHVUlwOXQyQmRlMVdzNk52U19GYUhaMU16UEZmcmFkSDdEMjkwWTdibzhLbVN6cnQxWlVJUjlWTVpHSDVDS0dkMFJfaFJsdXZWbXpYa255bEhiY0VBd0t5c09fdVBfcUVNMWxEMkZQZFNnNVh3cEkwaW82UkZ4dlowcVFLWDFBSGRrTGJvczB0NlowNUtmNnF3NVhvMUZMRWtvSVBrUlpDUDlueGFRWkdaZ1oxZw?oc=5",
-   "source": "Aviation International News",
-   "date": "2026-11-11",
-   "country": "India",
-   "type": "Law changes"
-  },
-  {
-   "title": "Voluntary Sanctions Disclosures in the United States and United Kingdom: Similar Objectives, Differe",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVkotWGhtMlRscVVCeWZkVjhvMzdZYTBaUEczZXBCWDBjQ2RDOGdXVENtZzBqSFhRNl92LUtoS3dJQkF0cF9YazlUN0FWMzNxUEJKdXpXR2pxcVBHcm9uOWF0dlctenY4bVFDQ0xsT2lLeVpjLWpGR2p2RW5BQUJWVlhQT2dPb3hjeFd2Mk5fWjUwQzgwR3BzMWln?oc=5",
-   "source": "Clyde & Co",
-   "date": "2026-11-11",
-   "country": "USA",
-   "type": "Other"
-  },
-  {
-   "title": "SEBI directs market intermediaries to update KYC, tax-reporting systems under new income tax rules",
-   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQYlF3cjhMTEVCdnJ0dHZsUE1ZaWxEelg3TW5nMjRoeUxKSE14Qm5ZWV9KdTF3Ty1NZ2NkUzhPUG84SlVKSVhjUkJyUEVmaE5ub3RMbkR6UXdZbk5HcUZxRmM3VWU1aVJwU0RFLVM5S2lWLVN4dnBTa0JPb0xRV1kwZWUySXNfU2tyRGpzREhrZkl1ZjhhOW8tT0MyQUVPY3Y0dnhKc3BoeG9iazgyVXlWUUNfV01ZOUV3Slc2OUNhdUFpMUJUTUxmUkVZRDdTU1V5d01mMHk1RXBQbXhwSDFJMXNkLXB0eDA1M2VER3hicGRmS1pfS0NaRmpB0gH-AUFVX3lxTE5vN0c3UGxWYS1JV243NUdReVlQeDUwS3ZjZXdXSXhUNDJsdUNhOVVqb09oM0l6S1pZMlpjX3VxXzZfOHRGTjRQUXlCQkNGcVZ3MTBTYW9WSV8tSkJOS0pNWXFvdVVNMTlVTEtLTmNRYzBaSjQzS3NfQS1CeFB2UjhsRG1EeDZRZVE0Wjd4X2FfWmJqMUluT2xfQUw2NzdBOW11UGgzTWt1S0Z3SWM3VW1lMU1LaWN3aDVYSnFyZXFMQjcwX2hoWHlsdlB2X0VoSDFpVnc1bFFWeW5JbUlNYnZNRDhKMXFKRDJObUR0T2dhaTBPdkgxWDZvQWdXQldB?oc=5",
+   "title": "India's Yes Bank bondholders press for compliance with top court's AT-1 order",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOeHZSRS1vZ2pFODVzVl90ZnJuTHJFQkQwWFdnU1RVTHYwNVpzakNoeHBqRTBPc19nRmctRzNveXBXZXpZUUhCS0E3c1lCMWRlVUtkMHl1RW4xVDBNakJ3YkdfWl9LM1AyZzVOYjF5N3VvSHozajVoUHNzYXVDeVFIWUVNQzBtZkZUUUtsaW5wVUdKTmdxMFlhUU5QdkNLM1Qzcm5POXpoNnc3RGpvYmU1aUlTbkdtRkplVS1zQl95c1lTc3BQOG5RYUtWTjJtMkpvMkJDQkMtQXhlWU5abUlVUTFXZlBCenfSAesBQVVfeXFMTXZnaDhIVWw5SVZSS2MwODI4YWwxTHBQc3AwbDFBTzlzRFA2QkltcEh1V2tDaUhTNS1tZnFKclZVTEIyRnF6TTJmOGZqR2FLTjlucHhLQWk0Rkk0YXliUUJIam9oSFZQQVdWT05Ia3V0SnladkRWZXJPeldxUkdiZHladHg0WlZLOFU4YWhSaG5BTkZBYmlrMnJjMl9kV0hZMjVDdm5kSGpLcVpkVVBka2lfVVROSEQwQUN2RnRISDA3dzBHazl6NWdHTVg3bTV4NXhROHF1eVN2OXF2bG9YYzd3YkxuSnJTYU9scw?oc=5",
    "source": "ETLegalWorld.com",
-   "date": "2026-11-11",
+   "date": "2026-11-12",
    "country": "India",
-   "type": "Law changes"
-  },
-  {
-   "title": "Saudi Arabia's new sport and entertainment laws aim to boost investment certainty",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNGNCZGxUazhndU96enNiZV9La2FVc1FjX29JVjN2X1JqVGZfczB4MV9lS1JBSXBaS0huZFBuTjRuZ2ZPTThUWGhtOERsYmRqS25OamR1TmNLaE1OMkpyUkR1S1ptbEJJTmVPeDNFTzQwS282ZnlEZFdCY3REUG1iMUFRN2tFYkZiNmNXZ2tJSnp3di1QLWtFVg?oc=5",
-   "source": "Pinsent Masons",
-   "date": "2026-11-11",
-   "country": "Saudi Arabia",
-   "type": "Law changes"
-  },
-  {
-   "title": "Multi-agency operation leads to counterfeit goods being recovered",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWHhBamhINTVRMDhZd0U3cEIxX041ZFBvRFRaSEZlZk5wWDJNNEE3SlAxX0F1MHdEU0ROTFJfV1ZWc0xOZjJibHZxYlR3N0NRUU5BZnR3aTM2eWloNExCUHJBNUIzWU1FQUc1aG91QmZ6R2VidzRLUGU5NEc0SU1oYlBTOTd5d2R1NXpiMFBrNkNmZzhhWk5JTUFZMFNqSnNveWxHVUtSLTlrYjE2djJtNkFNejR6Vzhvd2JLcFREcTJZZ2RtLTNyYkh0ZnlsUQ?oc=5",
-   "source": "Leicestershire Police",
-   "date": "2026-11-11",
-   "country": "UK",
-   "type": "Other"
-  },
-  {
-   "title": "FATF plenary: India flags backsliding by Pakistan on counter-terror obligations",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNamF4d0FFamJDQUlFSF93Q25pUkV1RVVhUVpyVndFMDdJX25PdU5LNVhweF9xMTVRMVAxSjJPbEpIRnBsZjQ0dEF5UmJ2RXJOT3ZlTnYwbTEzOElhRzRtdU13UmtoMjJJRjdhbDZ3MFFVQlgwQ0FQZDE5RGw4Qy1fM0QxQUluTmM0YldrY2V5NzdhcXh4QUM2NjdSbVY3S0pIbVIybjVrRHJrdl84MW1TdHUyVllWNzNFVGRfZEV2Z9IBxAFBVV95cUxOUmFzWHdta2ttcFhhYXpPRjZiZHlqaFVYOFBYRTJxMVdwWDVLQ0NzZm9maVZRYzl2NFFMbkh2UXNIRlJ4SEtxUE1uelRFT19MUmM5amc0Q0wwVllNekI0UWVSTkp1Rl9JeUdPblQxSkoyWUNZTnV2eEZPdVBFLTJYQVRpNHRaaktnTEM4dDRtejFkckMwNTNadkRGS192ZHlfQVlvZzVNcGpidUo0UDJnWVctdVJZNy1GbzJmQ3Zyay1uaENS?oc=5",
-   "source": "WION",
-   "date": "2026-11-11",
-   "country": "Global",
-   "type": "Other"
-  },
-  {
-   "title": "EU envoys agree new Russia sanctions listings on banks, shadow fleet and misinformation",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTExnUWdCS2JtbHRoS2ZCa2JsQnpxYmNtOUFNRU9DekRldGU5cGFMdlJlLWZycno1WlZqREFzUXpCdkxkcGdwUTBKMUw3c2lGdThOa3ZNaXZpVEFOWTJOaE40UldVR0pjLTg1ZlpjNU9HcURyMkpuclpoSkZpUlR1RkdQQjV6OGxmVVptS3pURTdtckVpYzZEbE1Kb3U5SFpmVnFkZFlpLW5IZHJtdDN0b3EyaTZ3RWhfS3Zvem5jM05naWk5TGNn?oc=5",
-   "source": "The Straits Times",
-   "date": "2026-11-11",
-   "country": "Singapore",
-   "type": "Other"
-  },
-  {
-   "title": "BIS Extends Its Suspension of the “Affiliates Rule” Until January 2027 | Pillsbury - Global Trade & Sanctions Law",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNLTVvYndLZEp3UFBDWUtjYk5Ia1lEMG0tXzRzenJ3MGdpd3Bwei1pTktpcTZzazJhZENkTzRMbkpWdE1XWW9UbkxzcXphSldTNUVzLThXLWlWUnNSQzhPQWctUmFKN3VDM1dKNzFIQjBFNXlNNC12VHpCWFNqWnpHWGdn?oc=5",
-   "source": "JD Supra",
-   "date": "2026-11-11",
-   "country": "USA",
-   "type": "Law changes"
-  },
-  {
-   "title": "Health ‏ministry: Sick leave only after medical assessment; zero tolerance for misuse",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONC03MTl0NGEtUUhZRm1zeG04MDlwSEZMVV9JYVlTX2tWbFp1OHpqUnBVSi1DaXZnZjlhdndhcEkxZHV1UVMwN1phM3RvQmFYZXpldHRySGVhN3pqV0tKQ2JVOEg0bjJoMDgtbFk5NUZaV2VmNm9uekxHWm1qVGdmWTFDcm9fbzV6V3haUlJaMHlSYUo4T0RGdGNrWExaWmthd1pDSW9fSXpsNm1KR0RpV0VhTUZhWS1ENWFFTUYwTS1vRFZDMUFsSV9rSHc0MEdodGQ3OQ?oc=5",
-   "source": "Saudi Gazette",
-   "date": "2026-11-11",
-   "country": "Saudi Arabia",
-   "type": "Other"
-  },
-  {
-   "title": "RBI consolidates domestic money transfer rules, specifies transaction limits",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTEpFeGFsRFpOc3k0RDMzMWNWcXZlS1RSVWJTRUduM1ZzNTJmRm1WWDFfWmtIVGh4S1hjRDIxZFFSenkxdElOSFZJWlNNRnNhYTNWV1Fnd0FkaFIyVi1pRUJCM0R2eDMxb3dkcHMtS01KUmJOVWlkT2MwWkRZWE1PYnBuZjVEVm1Vd0VpREtPUnprQzRtQ0hSbU1QeERQbFhBTFhDVEFIYWZBVjlfX2dudzYyQkFqaEo2YjNweGVybUxCZlJCT2MwbWJmWGRsOGNBZ0HSAdcBQVVfeXFMT3Qza2h5UHlzd0FfcWFxakhlM0NPbEFTX2JyTlBrZ3ZQdEtjWk02OVZtMGt1SVp0NzJYX25CNFU5a1k2RjU5R3RaOTBocVg3VFRiVHYwX0xfcGJEOUtpOEhuUWRpbUJBd3dvWEZPOTJDTGlPLXNKcGJTS2tMbHgwVC16dFdpMmY2ZVM3LXBIamxsMFBxVHBIcGo5dFdPeDZzRTNWNHZuU1NtTXFGVWZRQzBQNXVqMEIwSXR1MzBtRERJUkFjU1dsbmx2b2hTR3Y3bXI1YkpELVk?oc=5",
-   "source": "bfsi.economictimes.indiatimes.com",
-   "date": "2026-11-11",
-   "country": "India",
-   "type": "Law changes"
-  },
-  {
-   "title": "“Dh750,000”: UAE sets 24 penalties for non-Muslim places of worship",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNd3NnMjRxRFNoZWplMzUtaUlSYWdycGNvWjBtSHVOaTNJYi1IdEpBQV9uRXJ4WWNrbXRwVHN4OUQ5SU9tOHhsSzc5QXRwQ2c0SHNVNG43QkpoZFB6cnRteWxjSlR0eGdRcjdZUktJVVRMQmdOYUIwcW1ZZ2JhcWl6MUFkdlhwQ2s1LWxB?oc=5",
-   "source": "Legit News",
-   "date": "2026-11-11",
-   "country": "UAE",
-   "type": "Fines"
-  },
-  {
-   "title": "UAE: FTA announces corporate tax, VAT, excise tax, tax compliance rate statistics",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaWZCMkFUNlRPMVR0ZUJKR1p2bS0zcUNBYko5YW9GQ3pqNk1aVGQxSGNNd19HM2syUHJ3aWZ6dVJuNVJvSnNHMVB3WUFDU1lqbzd3TTdTb25aWFJ2OHo3aXNIV2xvTkItaXFFYXgxMHZBUWVRek5BRFl6WnZJSEhLUUlnYTMwOFhuN2NCQ2dVQlZzVTlXU3FBeTRXb0RjdGdkWGVBYS0wWGltMjF0Ujd3Q0RRbkROcDVHbEdTMWNVbDJCemF0c0NxYUhR?oc=5",
-   "source": "Zawya",
-   "date": "2026-11-11",
-   "country": "UAE",
-   "type": "Other"
-  },
-  {
-   "title": "India Public Holidays 2027: Complete List and Employer Guidelines",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZ2hDZHE4TGRlUEdwaGVFUmpmSWlqc0s0M1FnVUF3X1FhR0hoMXZxS1V2NUluSldzSGdlVHRyT2NVRnBzNjk4eUJqdklOdW5yWmxtbUZLdk9IWHlCQ09tOU1xWjBPTWtHZHRGTkpiOUFsME5hYnRwMWNwaVZDaGp4ZEItejBNRDk3bVU5OWZ3bG9QVDQ1VG9BbGY0UQ?oc=5",
-   "source": "India Briefing",
-   "date": "2026-11-11",
-   "country": "India",
-   "type": "Other"
-  },
-  {
-   "title": "SEBI updates KYC and FATCA-CRS reporting requirements for intermediaries",
-   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQMWk3V3VZLV9qakVxTE9JcjROOUF1OWE1UXBpWHpHQWJ2dEtCRG5TV2g1WEZ6QVlpaWVDU0ZYZlFTbXh4YXdwNU9hSUhYQjZmVVl4eU5HQ3htdW9jaGh1NHo2QlZGT0h0VVBRVUY4amJRY0tJcDZRNG9QS0xpR2xpaDFwMGxPeWlCMTBId29Jczk0VkoySG1Cb0thZFRaMThDQl85R1Y2djFlUElDYU8yM2x0REZZUUE0LWh1NnFzVmRMUnBjTktxQjhSZ2JGTWZ1bkIydkx2ZFNEZklNZmppTjZCTEJDYW1SZHRF0gHyAUFVX3lxTFBQZUVDd09vTUxfNmZlUVdZVllCLWs0c1lsMERPMm53aTU0eHJ1N0d0aHhIVWpSV01lSlNFLURTVGxlNFdxUk5QRkkxSFlyWW53VF9jWXRTSkx3V0hVc09rMEtsMm5BakFudndDQ0hscTNiV0dldURld2ExcmR6R3hmSnQzZ0dqTklkUnEwd1U3Z0YxZ2dxdllMR3czbUVRNm1iTDBNRjFNVlZxS2dwTHRLckc4djlZeVNZMG5GMkgtLVExQ3MxX09CZDFkb0RKN0NVRWZuZHRCLU5zWjhhMVExb2hFXzFHZTRDOXhpM2lKWDRR?oc=5",
-   "source": "BusinessLine",
-   "date": "2026-11-11",
-   "country": "India",
-   "type": "Other"
-  },
-  {
-   "title": "NRIs can complete investment KYC from abroad starting Dec 3: What changes?",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaXhsSm1fZWE2dE12VUZYdTZKTnBnOEVFMURQZk5JWHk3OWh3Yy1VTWphb3pldzFjSHJCMnZlLVcxWDRqSXdyc2VPaXNnSWxtRGhaM2RnaTNZemJYbEl0R3hFdnE1V1hDSW5JbVlCdHBrYUhleUN4SUhsejBJUDdwTEFFNk9YTXc3UDRLTFlEUTRSMmVVN2JtUnZKaGpoc0xTVWRzOEJDMDNwMG0tRHZkZ3ZBTEFLeWlvOUlaMFRFT3dpaWdnN2NxTks0Zl8zcG1HcXExU1NB0gHbAUFVX3lxTE9obk9ZWTR4anNaMGJaSGJJbGJGMmRsSFkxd1VGaHpPT2V5ZTBjNm1rbS0yb01fN3NwenhnSXRlZFRiX3FJc25vY1Y0dkRxNDI4bF92aGpPOEZLRm1Rd3lBSU84NGotZ3BFYnViU1dmYjJsN1QxdnJTaWxRYnJfdl9wMGdjQ3FuanRZak04dUpOWXpMLVhvZzRreFdheW90WUZtY3dUb0RuRXgxZGNMMmdVdTY3SFBVdnNOVm9zeEZWVWJWNWMtZU50WmlxMkFmdVVyVDNpQkdydlZjVQ?oc=5",
-   "source": "Business Standard",
-   "date": "2026-11-11",
-   "country": "India",
-   "type": "Other"
-  },
-  {
-   "title": "After 20 years of playing, former UAE resident wins $1 million in Dubai Duty Free draw",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdDhIZkg5aGNiNEJoLTFRd2pZVlFZXzd2NHBOMWhtODNkVzBrdEZXTXFFTFR0M21JZjZ4M0ZkRVYxeFI0YlpITTJrRVJhakNqdkxmRXAxZkg0aHNSbkQ3NlFqT2E5Z0VyT2QyMkdhSWFzMjE3bE5MeElEVlBNVENLOGVXVmJRenZaWFFhanBkVGd3MXdrQm5GR0xSemdHUGQ2XzRQSDdpbFozMEpDVlNJRHI1R0t5Z1dYdDFhWTAxekhsZ2MzdGfSAdgBQVVfeXFMUFhodHBmZHJkSTg5QWE2TmNkNHY4RmlObm42VlhBc1ZyXzNNWURBZTlwbEE1UkUyUHdjblhlVHVvZm9NaDVMa1U0NGRKc3VJWW5mTUUyZzVTOVBMREoySmYwSlFOWF9zYUltbGVLOGk1UUZsbDRmdjlaM3VKNVRuWkpQMEJydXR4bEJ6WXlEZHFMVnNqNVJLbU44SE9GQ2ZTaHFIU3pUY3dBTDVjc0NTZHBGcERKQlcxb05LSlNUYkJudGpHWVRTeHdpakE3SzFfNE5kTHBRTEN4?oc=5",
-   "source": "Gulf News",
-   "date": "2026-11-11",
-   "country": "UAE",
-   "type": "Other"
-  },
-  {
-   "title": "‘Sharp boys’ targeted as MPs push to tighten anti-money laundering law",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQzJDcnY4Y1YtQnJacDdFcDhkQXRrTi1kdkNkbWhnbWE5ODJLaXN2Zzh6RDBVc1NNZlB6bzlvNHEzMk9DX2dqdFVtTHJOVUVUQTRNV28zOXh0TTkwS19POWhTbndtTW44RGY1SElSaUJmN0d3cG9BdVFKZUpGcTcydnl5VlJZVGRCWHo1VEYwTjFzTHV6YVJJQzFYOHQ0ZlJOZmc3YzJ3WWRYMC1yNkFqbQ?oc=5",
-   "source": "Daily Nation",
-   "date": "2026-11-11",
-   "country": "USA",
-   "type": "Law changes"
-  },
-  {
-   "title": "Marquez faces fierce pressure as Pernat calls for sanctions and Ezpeleta seeks calm after Qatar MotoGP",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPOHlSaDNyTk5KbG5lMFk4LWZkZkFKVmR1X3dZaTdGUXVFSUFSYlRzcEw0bEFxNDBlUmJocDlLT0RjbTdnYV9VR1lXSVY1RU10VkhjeGJ4MmY0UUxZUE5ZS0tDMkNwYW4zR281NmZBUDMzWFJCWThUVFVCaUM5OWVHTnRHRTFoelAwSDVJaDZCc3ozNFZSLVAtNmRQSnhUbHNUcFJLNTJCRjFnRW9kU3B3SDFLQUJfaUYxTTJzVDVnUklEc2s3c3BaeGswNEU?oc=5",
-   "source": "Motorcycle Sports",
-   "date": "2026-11-11",
-   "country": "Qatar",
-   "type": "Other"
-  },
-  {
-   "title": "Naresh Arora boosts Hammurabi & Solomon’s global desk",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9WYXdmbU8wM0owYkZoQzV2aXlGSG9nbFRwT2VkdlY4UkNZNXkwSWlBRG5IWV9Cb01sUDduNWs2VUQzN01uenFjNG5vWXljMVVhNmNydEM4MVpKNVp6dW1XSUhwVUE?oc=5",
-   "source": "Law.asia",
-   "date": "2026-11-11",
-   "country": "India",
-   "type": "Other"
-  },
-  {
-   "title": "UAE corporate tax collections jump 34% to Dh46.5 billion as more businesses file on time",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNkw3YUFfZHZ4TU13TXRhWlRBR0JvV2RCMFdpMnVLZjRwU2pEOFJtdWNoQmRZaWRIU0hpMXFHX3p0ZDg2QmFQOG9LU2dOMDI0eHNFbEJsZFlwcWY3SHNWQ0pvbzdId2Qwb1hjR0FhM1Q0MU51dmdKUkoySmdMMUpPOWRfa2RyT0l2cXBDYk1XdGRqSU5UX3cxMXJBOURLNVV3T2lyUEZmTVYzcS1XdGo0SWlrUnlIWkk5UXBCMXh1YlVOQk5fYzRWdGxQbml6dmNUNElxalpkZU5UZ9IB7AFBVV95cUxQUUJkbTFyZzBLTUxuZ0lQR2VOdHljQk1CN0ZwTmhmb0g5emd1dUljQ2tsZy1CZmljeFFkenJhdjFjV19jTDFObUEtY3IxZGxCRmRwTDdfaFlCa2loT0gtQWthWGxYTmIyTmtNdW9zOUY5bGdkRV9GNzhPVUlxa0ZnLWhaVFNMcGxDUVFDT0ZPak5tLTg2bDBCMEF4NzZwTHVoZml4Z1A5ejJCMmhmc2cza21EWkdhUGVTd2MzY0JDZndUclZSTEdfRzVLNUhjVWZwczlhNDhLcVE3TzBTVmtXck84bFFYbFZfMk1Ubw?oc=5",
-   "source": "Gulf News",
-   "date": "2026-11-11",
-   "country": "UAE",
-   "type": "Other"
-  },
-  {
-   "title": "IMF wants crypto platforms in Kenya to identify customers across transactions",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ycTFVVmRaLWd3b0pzRGpvRVYwMmFlZUpvTlZsaVlvd1ZEV2pjSDZRYUJjWFdCMklieHVrdWdDaENmb0c0OGlOM3dpZXQ4ZGRVaGhlX0ttemlwZm53NldYeGtOeUpodUdhLUFIMkk4Uk8?oc=5",
-   "source": "TechTrendsKE",
-   "date": "2026-11-11",
-   "country": "Global",
-   "type": "Other"
-  },
-  {
-   "title": "ODPP registers 71 money laundering cases in four months",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSUN1VWh4cjhiSkU1M2hEa0NfUnVUdkFreHFneVA4ZjB2bkE5RTFlcWM1R3lrelQ2MDlfZEVDRHA5bk81dUhoMHpRV1BtVlBKUHBZZ19PN1EtY3otdDJDOVcxTDZ1RjNuRVBBbUlJNVNqX2FxVXBZZDk2dURCbnJfZXNaa2NXb0E?oc=5",
-   "source": "Radiokaya",
-   "date": "2026-11-11",
-   "country": "Global",
-   "type": "Other"
-  },
-  {
-   "title": "Saudi Consumer Protection Law Sets Fines of Up to SAR 8 Mln for Violations",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jZ0JBVm1RUGRORTkyRVFuRW0zLWdnX2pJMGFRdVRfd25tckVMNm5nMnBFODdJd3VDdzQ0WEd5dW1kUlFfcGY5bXBnR0hUTXV0cU1IQ3Bxa1pFMXozSnpDcE1Ca0U4MGRwek5OSA?oc=5",
-   "source": "صحيفة مال",
-   "date": "2026-11-11",
-   "country": "Saudi Arabia",
-   "type": "Fines"
-  },
-  {
-   "title": "Swiss Regulator’s Revised Anti-Money Laundering Rules Take Effect in 2027",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTEZQYmoxd3hoZ29SNEh6UnI3R05BWENKM09JeVpXUjc3Nk83M3NlLVI5ZHBfX196RXlzci1YeHNlWjVYZWtiQ0ZPNEJ2cWRFeWMyUUtEUXpNVXNrR2RmSVgzTU9NMllCR0dsQ0QwOEhLUjNHLWpvRjZTVmlvWmNsTWFEc20weGM?oc=5",
-   "source": "FintechNews CH",
-   "date": "2026-11-11",
-   "country": "UAE",
-   "type": "Law changes"
-  },
-  {
-   "title": "India’s ZIGRAM Becomes a Member of FinTech Alliance.PH",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbGhHdGlETmhyNDZLdnZLeVdFMjN2d0hOc21za29pWHg5ZGtCZ3pPVXFySEtVWkZmcXRKeXBkSEU3QTN2NENUdDFqaHdBblk2MEtUcFhtMDJScWtFOHB0SnZucTFXV3ZYOHh3OGFJeERYQS14cDl5VkpmcmZVVFZ0QlBR?oc=5",
-   "source": "Fintech News Philippines",
-   "date": "2026-11-11",
-   "country": "Global",
-   "type": "Other"
-  },
-  {
-   "title": "Law Society warns of AML ‘double regulation’ ahead of oversight transfer to FCA",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMGRZazlHNjdvcmxHYzRTTmw4OXJhdDh2TksyLXZicmM2WHBGUk91VXB3MlhXejVYRDQ1dklaLUg3emFxc0NaZDJ6WW94am1uTUE1bEMwa2EtTkkzeXRUek1HeGlwSFBiNzRZVGJ0amdnY0l6UHFfdVFhcE9Xbmc0X3p3bGNKbW91RE5YUXdSY0pJWFF6MDlMVjNEZW9rR0I2emJxaElkd3hSNEpMRTJUMHhKRnM?oc=5",
-   "source": "Today's Wills and Probate",
-   "date": "2026-11-11",
-   "country": "UK",
-   "type": "Law changes"
-  },
-  {
-   "title": "Nordea (HLSE:NDA FI) Stock Could Be Undervalued On Money Laundering Case Fine",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9BWmFITnRtRW9fM3lpQWlfRHNhcXJGLXVoS1MxNmdSYko2Q0MxTmxxbTNNQkg4NmN5cTk0SUtnU2NkYkJob200TjdTRnYxSjVYd1ROdWFsZFlDNHJ4YWZEalZIODZnT0JXejBveV9DQ0VKVHpMTTNza3k0aDdsUQ?oc=5",
-   "source": "Yahoo Finance Singapore",
-   "date": "2026-11-11",
-   "country": "Singapore",
-   "type": "Fines"
-  },
-  {
-   "title": "Isle of Man updates gambling guidance on financial crime risks",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1Ka2tLWVlCdjRpV2ZoTGY2aENQV0JLZjBSell6RWcxLXZKZHJHVHAxN0hfSWZWT0IxLUd0S21iNGx6cHB5R0hVbUQzakpoVnRmcVRUaF9xWHY5Tm4wMXYzajh1djRLRzhBejF5N2hSY2ZiSWZQNk4xTEh1OA?oc=5",
-   "source": "sigma.world",
-   "date": "2026-11-11",
-   "country": "UAE",
-   "type": "Law changes"
-  },
-  {
-   "title": "KSA MHRSD Emphasizes Requirements for Job Advertisements and Recruitment Interviews",
-   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbDFKa3lmTEJ0M2xRMUY3VklOSEhUa3ZmNVBxcVdncElHVnpmVnBjdWQ3NDlfbTRFaG80VDdYamFJWjJhd2JrN3FhbUlhbTFaRFRzWkQ4SDUyV3AyMHJDdjNaMHBiSUdhcjdJcU1QVWp1d0F3N3JncWRXMFZIWW8tVUNYU1p1R0l2d3pvZ0dYUDZnNFlvWXhqZTNEb0haUXJyRF85X19sMXI5RmdwUUgxOEtqVzF1cjIzNTF0UGdxNnMxWDRaRl9JZGVmenc5ZDgxMzNTSlhsTldWeDV6VGNTNjRKOA?oc=5",
-   "source": "Morgan Lewis",
-   "date": "2026-11-11",
-   "country": "Saudi Arabia",
-   "type": "Other"
-  },
-  {
-   "title": "Cabinet approves new family court law to protect kids, streamline legal procedures",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbTRMdFlqOTI5bE5wSEJ3LW9Dd09mYlNGdEF2bU83ZWNzaWFxYm9wLXJLek9hNF9qRDJBMXJqSktCLTE3aWczMGt3VEpzenA2WTdzUVpSaERaR25nWDZHTE96YTlRcUg3Qk5GM0dTWmI4WTJiSTd4d2dIT2lfZElkbFJtUm1vcUNqUzR1dnduTmZnbThtSnRSU1FLeFgxZnF3cXR2dkhaNXJkMjhiT0U0YjI1LTgwbXVjTGMweUo2SzM2UXhZaGfSAcoBQVVfeXFMTnFlUERORk1pUlctNXBqRTJwajJNZklMQzNHMW1xSVVhem9lLVVaTmZXLWJIQnhyZmlYbkIyWVdaX0JtRVJQY01sWFB5aUpna2lQR1hZemJDeXJjYVBDSW9tSGhaR210Y2ppdlFSZkpYZ2MyWlNKbXIySlFMVl82cDItc3FmcWtYYUg4NzUxdklOa2lkaEl1ZlVWazFRQ2tDakQyc1pMSWhraEhMVDJTMmhUVURacmxlX25OQzRUQ3VuT05LLVpnM3lLdw?oc=5",
-   "source": "Kuwait Times",
-   "date": "2026-11-11",
-   "country": "Saudi Arabia",
-   "type": "Law changes"
-  },
-  {
-   "title": "Saudi Arabia warns of SR5,000 fine for selling tobacco to minors",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSTM2amxWc2dDMlZBSE9LdTVpRFBManl4MURNVUVja0NjeXVyaEVOSENoZzM1dEcwbFdnRExHYnRsSkUxWklWbVI3akJwMWJJNXlFbkp2U040d0xtV21EZkpkQWdnSU1KOWFqZ1lKVFNwNzlzbHNUR2lMWl95RmhldHFyb0VSZEk2Y256dHNudEUzRG0yamZjWUJzQk12T2tuYlI1VHA3UE8xWEEyaWN0aE1hUdIByAFBVV95cUxNdzNFNFZXUThiLVpqMm05aERhNWpTQWlYcndtNmtxLXpwMDEwb3dnSmk0ZlJ0RXhZVDRqTW1ISFJQQURRQ3U1SnNseEtFZ3FGTjVrZzN6SW1aNEtNLUxtN2tGaUYwbjVuNDYzSHhMeU0xTGpieGJSdjg1OHhQcWdWMTVuQkVMMzE2WTk2MEpJY1Rja0U0SVNHUWx6SHc2Qk9KQkZteVRYdlZrMUZqZXZBR0Z6MnhmbUotbC15bHhuR1ZUTzh0eEE5NA?oc=5",
-   "source": "Gulf News",
-   "date": "2026-11-11",
-   "country": "Saudi Arabia",
-   "type": "Fines"
-  },
-  {
-   "title": "US confident Russian diesel cargo off US coast will sell in global market",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOTVHaDJRSWZ6c2poODZlZEJlaWN0aWRuNU9aOEw5UDlUdUZCTTEtcVdxaE43NUN1NndlaVowSi1uZ0lFU01ncUxpY1V6MFhpYjB1eVptTlFianV3dUlpQ3c5bnZVUXM1cEhZNmtSQzRIajBLazZQRFNqMk1XcTNMR0RXSXRwdndDVGpmT0tYQ0s1VmpCRWlVRDVTMjVucGhfZkN3MFB2cS1TRjlyX3p0alhB?oc=5",
-   "source": "Arab News",
-   "date": "2026-11-11",
-   "country": "USA",
-   "type": "Other"
-  },
-  {
-   "title": "Written Down Or Left Out: Biodiversity Amendment And Northeast's Oral Knowledge",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWUYtdFNtbW9EeGlocDBrd2V0TWZyOUVuWGtzT0xoZDQyajFkbGJKOEtia0hvRVBGcWI5bGJuSng1UVhkUHp1dEUyTFFWbkYyZlB0bGV0OFY0RTJ6SHFGRV9iX09IQ0xVR2lmNHhNMUdSQ21CZlItYWktMlpxN2hvalNQaXNnaEFJQVJraUg0YmgyYzJkTXAzcFZyMmwxdTVTTDBEWXAxRURSSkxUa1FYMUFR0gGyAUFVX3lxTE5ZRi10U21tb0R4aWhwMGt3ZXRNZnI5RW5Ya3NPTGhkNDJqMWRsYko4S2JrSG9FUEZxYjlsYm5KeDVRWGRQenV0RTJMUVZuRjJmUHRsZXQ4VjRFMnpIcUZFX2JfT0hDTFVHaWY0eE0xR1JDbUJmUi1haS0yWnE3aG9qU1Bpc2doQUlBUmtpSDRiaDJjMmRNcDNwVnIybDF1NVNMMERZcDFFRFJKTFRrUVgxQVE?oc=5",
-   "source": "Live Law",
-   "date": "2026-11-11",
-   "country": "India",
-   "type": "Law changes"
-  },
-  {
-   "title": "Cypriot companies offered guidance on entering Saudi market",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZE16cU5ZWTBscEdNT0lRd0p4eEloSnFDZjFKWHlyWm1hSGRsM196WFlwdmlUaXZ1Tkp2N0tGVHZpRXBqbFRHdElfbmR6UjBXOW91RnRaZTlwOU9Rc2tQMlhXWi1uWW9UUHNJQ1RyZTh2d1EyM2swTW05S0pSODliYUNIdWZQQUtDZ2hCeTNicjRMS0ZtcHZrWmRn?oc=5",
-   "source": "Cyprus Mail",
-   "date": "2026-11-11",
-   "country": "Saudi Arabia",
-   "type": "Law changes"
-  },
-  {
-   "title": "Vietnam tightens anti-money laundering supervision from December 2026",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWnY4d1B1MjN0VFhhQTFoSXVYXy1Wczc5S0I5LTlKVDlrR0UwSUxoUWw3SWZLWTNrb0owU3piV2xFY18zeDJkbkhXYmxWZWRsWG5MZ0FHX0w1Mm5pQkthd2k4cWlHanhiUjJ1MzZFYlhOWXlVSnZPYV93TmNuajBWUlpjYVZBWTVCdXR3X1FvTGxXcDlGRmYwbS1IeHNpUnJlRkNnWl9TaDJ0akV0bzBn?oc=5",
-   "source": "Vietnam+ (VietnamPlus)",
-   "date": "2026-11-11",
-   "country": "Global",
-   "type": "Other"
-  },
-  {
-   "title": "Rubio: Iran suffers from US sanctions, rules out major military action",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa3pGVmtOTEJRRWQzanJZOHRIdWhLbDAwTnVjeEVZcHllYm1BYW1EZEFsV1BGRFFNZ09Qbk9xTV9INW9Ram1TeHBfbHdmZFpRRHdpM3pvMFZMc1F6NGlZVVlsdkZjQUR6WFFQdk5rT1JJckRSdjg4RzZVTGFEdVhZcEw3bEVGNHJ6UHE3RTdYTE1TSEc1TFpTSkhR?oc=5",
-   "source": "Udaipur Kiran",
-   "date": "2026-11-11",
-   "country": "USA",
-   "type": "Law changes"
-  },
-  {
-   "title": "Law Society of Singapore reappoints Senior Counsel Tan Cheng Han as president",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdTJDU2JBSlJJT1dmb1FfLUh5ckxoWHRGQmlaRWhCVnlCdWg1Y2ZsX0duQlZ4U0lnMFpxUkhxTlNXN1lFSWo1RW8zQ3ZObWJrQUs5b3hOZ3lpM1dzdzhaVXFjNkxhLXdUOTVVSzBFdGNmNjkzUjNfU2xKdXFwY19hVkg2UlZjMXhK?oc=5",
-   "source": "AsiaOne.com",
-   "date": "2026-11-11",
-   "country": "Singapore",
-   "type": "Law changes"
-  },
-  {
-   "title": "Transgender sports ban prompts Seattle schools to seek legal guidance on compliance",
-   "link": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxNMElBMnZJem9tTFYtSVh2bW5EcnJKMTBiektza2x1ZWNtYlJsUlgybnQ5c0dLMklXaXR4d3Y2cWNWa3FYcVJhUHl6N1ZYc0syc1ZxaTBrd0x5OXVhMkE4bmtNNV9zOFJISlhmaUlLMHd4LW1HNnJodkZBWE9fUjVGSG12Q3gteDFfLUVDM21FWFB2eVBudERCeEs3Z2M2UHlLQ1l3SDJsS0drR2RuSDVQZ0VoVUtoRG9uM1F0N21aUlZVQVhDamI2QVNDYk9FYktiMGJVU3ZnNzBsV3hhdi1GWXp2azZVb0RtaGtmYmpsY2Fnb3QtY1pFUmxqMEZnYlpkR0RTcXRUUlVqX25ZTGZ6X2t6Uk1KRW5pWmtSMHR1TTNRejZRWF9QRG0xVzBMM3dndE5CY19Qa1g5MzdGVW9zeFBIbFpuMWEtd2JqNTgzRmtrUGNsbjBiYUtPamtOQmZReHVKag?oc=5",
-   "source": "KOMO",
-   "date": "2026-11-10",
-   "country": "USA",
-   "type": "Law changes"
-  },
-  {
-   "title": "Agentic AI Raises New Questions for Financial Institutions",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWWtaMUZVTW5EOThQWjk2VXlIQlkyemR5dUFjOU1EZmVYbTRpRWdmbTF3N1Y1aDRIQWV5d0x1TUV3RlVjUDduelRSUy1JOGo1MUViN3czOEsxNzc4eW53RjdUb3RCb0QwU1g4RjA1YlVFZEdNYk1qbklwQXNFa3UtNkVJeXM?oc=5",
-   "source": "JD Supra",
-   "date": "2026-11-10",
-   "country": "UK",
-   "type": "Other"
-  },
-  {
-   "title": "Slow down to speed up: Guardrails are key to scaling agentic AI",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPeW9JYVFSbWQ5Q0NSMkNzei1PaXhhUExuRHMxY3NnamlhQTZxeGRveW9jdlI0LUxkOHlvOUVrZVJ1ZEstZEoycktwU05jaVlic2kta1BUUjVGRUQxd0o2eFFxWnZaWDFheHc1Q2RiWjM4OWtSYUdOendRdk4tVmlpVnJNdURCZ1luZVU5QUVPNkdNdi00UmlLdzkyLXIwQi00OWtCejF2em9GSUgwMFMwUGxBQlF4dHR0NlZfaXgxYlpveWdxVl9UeTFWY3QxcUVUVWc?oc=5",
-   "source": "The Business Times",
-   "date": "2026-11-10",
-   "country": "Singapore",
-   "type": "Other"
-  },
-  {
-   "title": "UAE regulator GCGRA puts financial crime prevention and early supervision at the centre of its agenda after IAGR 2026",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0zOE1sUzk3TDhxN09OdXFqcGZ5eG1UeVctNzFseGZPak96UTRSRklNcmtGdnpRZFFnM1FfWXBQRFJISmEtellIdzdkZVhUeTdpak1xbFVINGdRUEVMQTRwZGFfLWtiU1htNGEydE1FVHZmYWNk?oc=5",
-   "source": "Focus Gaming News",
-   "date": "2026-11-10",
-   "country": "UAE",
-   "type": "Other"
-  },
-  {
-   "title": "Tarique, Erdoğan discuss defence cooperation, trade, investment and Rohingya repatriation",
-   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBTZ3lPVmFiZjN3c0g2dWNPcHlTdDVGeG9kdE5EcGNhNFQ3SXYwVDdjbWE2NC0wdldTdk5fdkNuVnppS0xKWDBRM0dHWjIxWUU?oc=5",
-   "source": "The New Nation",
-   "date": "2026-11-10",
-   "country": "Global",
-   "type": "Other"
-  },
-  {
-   "title": "SEBI Proposes Mandatory Anti-Money Laundering Certification for Principal Officers of All Registered Intermediaries",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZFJILW9uakZKY3dLSmFaYzF2bGZqb0xHSFAwZzdxbmRrb0thZ0N0ZnNFZlU1Mk9ZVGpjaVhsUk1scmNuSFFESlppajRzT0d6THVlbUdTYm9nVERKeFpkbDg0bXVxZ29NRXp0Nzh2c0V3V3NBeXd6NGR2Uk5BcVVZSmtKQmpEczhPRGJINlJIMFBFX3UzMGVfcU1nTEhrODdZdV9ENTlNUHVSVGcyVVBoRk0tUmJiQTBSTEwzWm1hZmlsSXU3QWFwN2RJTkFzcGx1ZllOSlB0UXBQTlE?oc=5",
-   "source": "Hubbis",
-   "date": "2026-11-10",
-   "country": "India",
-   "type": "Other"
-  },
-  {
-   "title": "Money Laundering Charges in Alleged Jamaican J$110 Million Loan Fraud",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE81OXZvMWdmZ1J3QXFsQkwtRklxZzhraU5DaUdmYmtGbVpFQm5GU0g4b2tkUS1tdjgtRU9VTFhaN3Z0aFM2T1VFdnItX3JsX1BzY013dTJ1d0FlUkM3VTNvUGZZRGlxTk4wYXhsUHFndEFpMElSWWVMcjNCcDc?oc=5",
-   "source": "Fincrime Central",
-   "date": "2026-11-10",
-   "country": "Global",
-   "type": "Other"
-  },
-  {
-   "title": "NEWS: FINMA finalises revised anti-money laundering ordinance ahead of FATF review",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVHptMmVidDQwMy1PdmdQMjRKNzRFLVg3UThUTkppWENoOUgwcGRMWF9rTXl0RjlwMHRwaFBQODI1Uk1zRzFBYjdmWTY1N0FjQTdzTXlFc0RheFBTWFNfMzJ4RHNidmRWaEE0LXlLV0QxMHFUUVI0LTlYeXh3TU5GSUpwejBycnBETjVaSlRodS1HLVFuTlFWUk11WVh1WkRqSVZtS09US0w3U3NkbUg1Vkh1ZDlaaFlxX1hrQWpyWQ?oc=5",
-   "source": "AML Intelligence",
-   "date": "2026-11-10",
-   "country": "Global",
-   "type": "Other"
-  },
-  {
-   "title": "US says sanctions are working, rules out fresh major strikes on Iran for now",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVmVpU2NnMkR0d3JQcExvWmc0Qll2dGdYWUN0b1NrTi1jd25ZMnJHWGprdU83NzY3U29CcXpUNk5lM2JYMHB6VFlQbUlackxOakxLeGdQMWk3MFFuSlFxa25JclZSeFgwUlo3RGUtM3ZZZ1RnbDJsWjB0NzJUSHNweG1VdnpxNHdXQUl6ZkNhdHgyNHpwMlZhSlFKaEQ5TEJyS25CWllJTDhLd9IBrwFBVV95cUxPc0xUVHFMWmtSekZJUlpOU1hjdjlsOUZFTVFma2JnVHRtMUFDZ3ZnUjh6a0JjMTgxY21wUXVDUXA4NTRMR0FNZW9IQWkxcUpCVkYyX3hKa0ZhM0J1QmM0bHpfaU9qX3RQVE4xNV9Dclo0d0o2Rjg2bGZ4WGtnejF6akJYdjlJcTllUkRLM1VpaTdOZGFBM1VMZ3o1ZGtYRjBqT2pkbjlhcTRtSnVPMHJN?oc=5",
-   "source": "Mathrubhumi English",
-   "date": "2026-11-10",
-   "country": "USA",
-   "type": "Law changes"
-  },
-  {
-   "title": "Swiss Regulator Updates Money-Laundering Barriers",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRXpVZ0E5Y19yZ2tWVGNTQkFJQzlKcW1pUnBzaV80bjhTRUljVVpVM3FKaVhRSDJybDY2b1hSVjVicFFXTVBNYkw4WjZQS0N4cEJBaWx4WXczT3V6XzlPWVlrWjdSd2FKc1JZWmEyYjI2eS1UQzJhZ2tHcDB2TUI3dkVUWXR2MlVZUlAzZ1FWd09uWmJpT3ZnbS12bUF0d2JKMWfSAVZBVV95cUxQYjhrZzNSellKTDNTclFzRGRMUHJsQ2ZuVElRdzdWb3BEU2E3MS1QNDdET29tdnpQWEFsaFZRWThrQ08wOVNITnlBbGVFQmtVUHE2QkhQUQ?oc=5",
-   "source": "Law360",
-   "date": "2026-11-10",
-   "country": "UK",
-   "type": "Other"
-  },
-  {
-   "title": "UK legal sector shouldn't face overlapping money laundering rules, body says",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbm9hME5oM2dXRVhSWXZPdnE5SUJtVFhEdW1DZ081NVhmX3QxTHZjdEFaSktFckFrMGFtdFdwN21fUWJIVU5GV0p0cnNrX2FDR0JBQ1EtczV1b3ZPak1IdmNqTl80WE5OcGhPQjZqcHg3b0djbGx5U1JTblQ5V0hlUVlDdVRkRFd1eHc1eDhpSTBjZ01WSHUwaEQ3OVpObFdmbUFaNDZ4UnROTHdpeDE0ZXpLV1BmRzZDV0HSAVpBVV95cUxNYUVySEQ3S1ZRUG5Vdl9wcHFib0tuMGctZFZ4Nl96b0NMV2ZydGVzeFZERkFadExpMXRZVG1yVHluc2JjbklDb3ctVDhqelZPT25Pa2RNQVdwdHc?oc=5",
-   "source": "MLex",
-   "date": "2026-11-10",
-   "country": "UK",
-   "type": "Law changes"
-  },
-  {
-   "title": "Tinubu’s Reforms Benefiting Nigerians, Says Information Minister",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPLUxrVURWamRjSExXV1d4clpYVVZWTHgwYVE1ZlhHek1ka01wODZwM08yV1FjUEFxZzNZMXFVYXhGb1M0cFlxN3o4R3c3Zk9Kc3dielpqbDJCVWJEVWFwQjZWOEtoOWt2VTBkOHFHdU9KMlM3cTZBMlBNVVpOU2h0MUdJYmQ3NUh0RVQ1YUZOaw?oc=5",
-   "source": "TVC News",
-   "date": "2026-11-10",
-   "country": "Global",
    "type": "Other"
   }
  ]
